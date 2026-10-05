@@ -207,7 +207,7 @@ export default function Navigation({ design = 'clarity', contrast, setContrast }
     >
       <div className="ae-header-inner">
         <a className="ae-brand" href="#main" onClick={goHome} aria-label="AestheticEye home">
-          <BrandMark light={design === 'perspective' || design === 'modern'} />
+          <BrandMark />
         </a>
         <button
           ref={mobileTrigger}

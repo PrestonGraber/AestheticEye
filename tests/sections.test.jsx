@@ -164,25 +164,27 @@ describe('testimonials', () => {
 
 describe('design collection', () => {
   beforeEach(() => window.localStorage.clear());
-  it('filters the collection and persists a user shortlist', () => {
+  it('filters the collection and persists a user favorites', () => {
     const { container } = render(<Collection />);
-    expect(container.querySelectorAll('.design-card')).toHaveLength(6);
+    expect(container.querySelectorAll('.design-card')).toHaveLength(designs.length);
     fireEvent.click(screen.getByRole('button', { name: 'Dark', exact: true }));
     expect(container.querySelectorAll('.design-card')).toHaveLength(2);
-    fireEvent.click(screen.getByRole('button', { name: 'Add Perspective to shortlist' }));
-    expect(JSON.parse(window.localStorage.getItem('aestheticeye-design-shortlist-v1'))).toEqual([
+    fireEvent.click(screen.getByRole('button', { name: 'Add Perspective to favorites' }));
+    expect(JSON.parse(window.localStorage.getItem('aestheticeye-design-favorites-v1'))).toEqual([
+      'clarity',
       'perspective',
     ]);
-    fireEvent.click(screen.getByRole('button', { name: /Shortlist01/ }));
-    expect(container.querySelectorAll('.design-card')).toHaveLength(1);
+    fireEvent.click(screen.getByRole('button', { name: /Favorites02/ }));
+    expect(container.querySelectorAll('.design-card')).toHaveLength(2);
     expect(screen.getByRole('link', { name: 'Explore Perspective homepage' })).toBeTruthy();
-    fireEvent.click(screen.getByRole('button', { name: 'Remove Perspective from shortlist' }));
-    expect(screen.getByText('Your shortlist starts here.')).toBeTruthy();
+    fireEvent.click(screen.getByRole('button', { name: 'Remove Perspective from favorites' }));
+    fireEvent.click(screen.getByRole('button', { name: 'Remove Clarity from favorites' }));
+    expect(screen.getByText('Your favorites start here.')).toBeTruthy();
   });
   it('handles unavailable or corrupt saved preferences without losing the collection', () => {
-    window.localStorage.setItem('aestheticeye-design-shortlist-v1', '{broken');
+    window.localStorage.setItem('aestheticeye-design-favorites-v1', '{broken');
     const { container } = render(<Collection />);
-    expect(container.querySelectorAll('.design-card')).toHaveLength(6);
+    expect(container.querySelectorAll('.design-card')).toHaveLength(designs.length);
   });
 });
 
@@ -200,7 +202,16 @@ describe.each(designs.map((design) => design.id))('%s complete homepage', (desig
       expect(container.textContent).toContain(original.paragraphs[index]);
     expect(container.querySelectorAll('.art-articles article')).toHaveLength(3);
     expect(container.querySelectorAll('img:not([alt])')).toHaveLength(0);
-    expect(container.querySelectorAll('.art-hero img[fetchpriority="high"]')).toHaveLength(1);
+    if (design === 'still')
+      expect(container.querySelector('.quiet-hero video').getAttribute('poster')).toContain(
+        'header-image.jpg',
+      );
+    else
+      expect(
+        container.querySelectorAll(
+          '.art-hero img[fetchpriority="high"], .quiet-hero img[fetchpriority="high"]',
+        ),
+      ).toHaveLength(1);
   });
   it('has no detected semantic WCAG violations in the full initial page', async () => {
     const { container } = render(<Website design={design} />);

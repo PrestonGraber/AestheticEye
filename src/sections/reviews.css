@@ -141,8 +141,14 @@
 }
 @media (pointer: coarse), (max-width: 740px) {
   .review-dots > button,
-  .review-arrows > button { min-width: 44px; min-height: 44px; }
-  .review-carousel .review-read-all { min-height: 44px; font-size: 13px; }
+  .review-arrows > button {
+    min-width: 44px;
+    min-height: 44px;
+  }
+  .review-carousel .review-read-all {
+    min-height: 44px;
+    font-size: 13px;
+  }
 }
 .all-testimonials:not([hidden]) {
   display: grid;
@@ -387,4 +393,25 @@
   .site.art-site [data-design='modern'].review-carousel .review-story blockquote {
     font-size: 27px;
   }
+}
+
+/* Supporting information should remain readable without zooming. */
+.review-story figcaption,
+.review-heading .text-link,
+.review-read-all,
+.all-testimonials figcaption {
+  font-size: 13px;
+}
+.all-testimonials blockquote {
+  font-size: 15px;
+  line-height: 1.8;
+}
+.review-count {
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+.review-arrows > button,
+.review-dots > button {
+  min-width: 44px;
+  min-height: 44px;
 }

@@ -1,5 +1,33 @@
 export const designs = [
   {
+    id: 'still',
+    n: '07',
+    name: 'Still',
+    tone: 'light',
+    tag: 'Quiet presence. Lasting confidence.',
+    desc: 'A single, spacious headline over the original practice film. Simple navigation and a calm, cinematic first impression.',
+    navigation: 'Clarity-inspired treatment finder',
+    details: [
+      'Original practice film with pause control',
+      'Uncluttered hero with one primary action',
+      'Warm white and forest green',
+    ],
+  },
+  {
+    id: 'ease',
+    n: '08',
+    name: 'Ease',
+    tone: 'light',
+    tag: 'Room to breathe. A clearer beginning.',
+    desc: 'A restrained split composition pairs generous typography with one original portrait. Airy spacing keeps the focus on care.',
+    navigation: 'Clarity-inspired treatment finder',
+    details: [
+      'One portrait and a clear invitation',
+      'Quiet, spacious page layout',
+      'Soft sage and warm white',
+    ],
+  },
+  {
     id: 'clarity',
     n: '04',
     name: 'Clarity',
@@ -34,9 +62,9 @@ export const designs = [
     tone: 'dark',
     tag: 'Expressive, immersive, assured.',
     desc: 'A photographic poster, oversized type, and bold changes of scale create the most expressive direction.',
-    navigation: 'Quiet dark dropdowns',
+    navigation: 'Warm ivory dropdowns',
     details: [
-      'Compact dark navigation',
+      'Compact forest-green navigation',
       'Horizontal treatment stories',
       'Forest green and warm cream',
     ],
@@ -83,7 +111,7 @@ export const designs = [
       'High contrast and architectural forms',
     ],
   },
-];
+].sort((a, b) => Number(a.n) - Number(b.n));
 
 export function getDesign(id) {
   return designs.find((design) => design.id === id);

@@ -187,7 +187,7 @@
   min-height: 43px;
   padding: 10px 12px;
   border-radius: 5px;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 400;
   line-height: 1.5;
   color: var(--nav-muted);
@@ -236,8 +236,8 @@
   align-items: center;
   gap: 12px;
   padding: 10px 9px;
-  min-height: 40px;
-  font-size: 13px;
+  min-height: 44px;
+  font-size: 14px;
   line-height: 1.5;
   border-radius: 5px;
   transition:
@@ -385,8 +385,7 @@
 }
 /* Clarity: a compact product-style category rail. */
 .ae-header[data-design='clarity'] {
-  background: #fcfdf9ef;
-  backdrop-filter: blur(18px);
+  background: var(--nav-paper);
 }
 .ae-header[data-design='clarity'] .ae-header-book {
   border-radius: 7px;
@@ -1184,11 +1183,9 @@
 }
 @keyframes nav-arrive {
   from {
-    opacity: 0;
     transform: translateY(-4px);
   }
   to {
-    opacity: 1;
     transform: none;
   }
 }
@@ -1197,4 +1194,37 @@
     animation: none !important;
     transition: none !important;
   }
+}
+
+/* Warm, light navigation on the two dark homepage directions. */
+.ae-header[data-design='perspective'],
+.ae-header[data-design='modern'] {
+  --nav-paper: #f8f8ef;
+  --nav-ink: #29452c;
+  --nav-muted: #536747;
+  --nav-line: #c9d3ba;
+  --nav-accent: #e5ecd9;
+  border-color: var(--nav-line);
+}
+.ae-header[data-design='perspective'] .ae-header-book,
+.ae-header[data-design='modern'] .ae-header-book {
+  background: #314c2f;
+  color: #fff;
+}
+.menu-portrait .nav-links a,
+.menu-blueprint .nav-links a {
+  border-color: var(--nav-line);
+}
+.menu-portrait .nav-links a:hover,
+.menu-blueprint .nav-links a:hover {
+  color: var(--nav-ink);
+  background: var(--nav-accent);
+}
+.high-contrast .ae-header[data-design='perspective'],
+.high-contrast .ae-header[data-design='modern'] {
+  --nav-paper: #fff;
+  --nav-ink: #183019;
+  --nav-muted: #29442a;
+  --nav-line: #718566;
+  --nav-accent: #e5ecd9;
 }

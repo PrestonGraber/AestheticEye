@@ -68,7 +68,7 @@ export default function Website({ design: designId = 'clarity', reviewTools = fa
       <MotionLayer route={design.id} />
       <Navigation
         key={`nav-${design.id}`}
-        design={design.id}
+        design={['still', 'ease'].includes(design.id) ? 'clarity' : design.id}
         contrast={contrast}
         setContrast={setContrast}
       />

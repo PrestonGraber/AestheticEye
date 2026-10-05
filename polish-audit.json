@@ -1,0 +1,738 @@
+{
+  "checkedAt": "2026-10-05T17:11:13.5092617Z",
+  "scope": "Six homepage designs, typography, menus, responsive layout, original media preservation",
+  "layouts": [
+    {
+      "design": "clarity",
+      "width": 320,
+      "documentWidth": 320,
+      "headerDisplay": "flex",
+      "navDisplay": "none",
+      "toggleDisplay": "flex",
+      "mainHeadings": 1,
+      "headline": "You deserve to\nfeel confident\n.",
+      "fonts": "loaded",
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 9.59375,
+        "right": 310.390625,
+        "top": 150,
+        "bottom": 801,
+        "width": 300.796875
+      }
+    },
+    {
+      "design": "form",
+      "width": 320,
+      "documentWidth": 320,
+      "headerDisplay": "flex",
+      "navDisplay": "none",
+      "toggleDisplay": "flex",
+      "mainHeadings": 1,
+      "headline": "Established\nEyelid Experts.",
+      "fonts": "loaded",
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 9.59375,
+        "right": 310.390625,
+        "top": 150,
+        "bottom": 730,
+        "width": 300.796875
+      }
+    },
+    {
+      "design": "perspective",
+      "width": 320,
+      "documentWidth": 320,
+      "headerDisplay": "flex",
+      "navDisplay": "none",
+      "toggleDisplay": "flex",
+      "mainHeadings": 1,
+      "headline": "Your Eyes.\nDeserve Excellence.",
+      "fonts": "loaded",
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 9.59375,
+        "right": 310.390625,
+        "top": 150,
+        "bottom": 777,
+        "width": 300.796875
+      }
+    },
+    {
+      "design": "editorial",
+      "width": 320,
+      "documentWidth": 320,
+      "headerDisplay": "flex",
+      "navDisplay": "none",
+      "toggleDisplay": "flex",
+      "mainHeadings": 1,
+      "headline": "AestheticEye.",
+      "fonts": "loaded",
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 9.59375,
+        "right": 310.390625,
+        "top": 150,
+        "bottom": 801,
+        "width": 300.796875
+      }
+    },
+    {
+      "design": "serene",
+      "width": 320,
+      "documentWidth": 320,
+      "headerDisplay": "flex",
+      "navDisplay": "none",
+      "toggleDisplay": "flex",
+      "mainHeadings": 1,
+      "headline": "You deserve\nto feel confident.",
+      "fonts": "loaded",
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 9.59375,
+        "right": 310.390625,
+        "top": 154,
+        "bottom": 803,
+        "width": 300.796875
+      }
+    },
+    {
+      "design": "modern",
+      "width": 320,
+      "documentWidth": 320,
+      "headerDisplay": "flex",
+      "navDisplay": "none",
+      "toggleDisplay": "flex",
+      "mainHeadings": 1,
+      "headline": "Your Eyes.\nDeserve\nExcellence.",
+      "fonts": "loaded",
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 9.59375,
+        "right": 310.390625,
+        "top": 150,
+        "bottom": 817,
+        "width": 300.796875
+      }
+    },
+    {
+      "design": "clarity",
+      "width": 390,
+      "documentWidth": 390,
+      "headerDisplay": "flex",
+      "navDisplay": "none",
+      "toggleDisplay": "flex",
+      "mainHeadings": 1,
+      "headline": "You deserve to\nfeel confident\n.",
+      "fonts": "loaded",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 16
+          }
+        ]
+      },
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 11.6875,
+        "right": 378.28125,
+        "top": 150,
+        "bottom": 726,
+        "width": 366.59375
+      },
+      "menuAccessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "design": "form",
+      "width": 390,
+      "documentWidth": 390,
+      "headerDisplay": "flex",
+      "navDisplay": "none",
+      "toggleDisplay": "flex",
+      "mainHeadings": 1,
+      "headline": "Established\nEyelid Experts.",
+      "fonts": "loaded",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 6
+          }
+        ]
+      },
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 11.6875,
+        "right": 378.28125,
+        "top": 150,
+        "bottom": 737,
+        "width": 366.59375
+      },
+      "menuAccessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "design": "perspective",
+      "width": 390,
+      "documentWidth": 390,
+      "headerDisplay": "flex",
+      "navDisplay": "none",
+      "toggleDisplay": "flex",
+      "mainHeadings": 1,
+      "headline": "Your Eyes.\nDeserve Excellence.",
+      "fonts": "loaded",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 11
+          }
+        ]
+      },
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 11.6875,
+        "right": 378.28125,
+        "top": 150,
+        "bottom": 737,
+        "width": 366.59375
+      },
+      "menuAccessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "design": "editorial",
+      "width": 390,
+      "documentWidth": 390,
+      "headerDisplay": "flex",
+      "navDisplay": "none",
+      "toggleDisplay": "flex",
+      "mainHeadings": 1,
+      "headline": "AestheticEye.",
+      "fonts": "loaded",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 2
+          }
+        ]
+      },
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 11.6875,
+        "right": 378.28125,
+        "top": 150,
+        "bottom": 733,
+        "width": 366.59375
+      },
+      "menuAccessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "design": "serene",
+      "width": 390,
+      "documentWidth": 390,
+      "headerDisplay": "flex",
+      "navDisplay": "none",
+      "toggleDisplay": "flex",
+      "mainHeadings": 1,
+      "headline": "You deserve\nto feel confident.",
+      "fonts": "loaded",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 5
+          }
+        ]
+      },
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 11.6875,
+        "right": 378.28125,
+        "top": 154,
+        "bottom": 732,
+        "width": 366.59375
+      },
+      "menuAccessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "design": "modern",
+      "width": 390,
+      "documentWidth": 390,
+      "headerDisplay": "flex",
+      "navDisplay": "none",
+      "toggleDisplay": "flex",
+      "mainHeadings": 1,
+      "headline": "Your Eyes.\nDeserve\nExcellence.",
+      "fonts": "loaded",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 3
+          }
+        ]
+      },
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 11.6875,
+        "right": 378.28125,
+        "top": 150,
+        "bottom": 747,
+        "width": 366.59375
+      },
+      "menuAccessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "design": "clarity",
+      "width": 768,
+      "documentWidth": 768,
+      "headerDisplay": "flex",
+      "navDisplay": "none",
+      "toggleDisplay": "flex",
+      "mainHeadings": 1,
+      "headline": "You deserve to\nfeel confident\n.",
+      "fonts": "loaded",
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 23.03125,
+        "right": 744.9375,
+        "top": 150,
+        "bottom": 726,
+        "width": 721.90625
+      }
+    },
+    {
+      "design": "form",
+      "width": 768,
+      "documentWidth": 768,
+      "headerDisplay": "flex",
+      "navDisplay": "none",
+      "toggleDisplay": "flex",
+      "mainHeadings": 1,
+      "headline": "Established\nEyelid Experts.",
+      "fonts": "loaded",
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 23.03125,
+        "right": 744.9375,
+        "top": 150,
+        "bottom": 737,
+        "width": 721.90625
+      }
+    },
+    {
+      "design": "perspective",
+      "width": 768,
+      "documentWidth": 768,
+      "headerDisplay": "flex",
+      "navDisplay": "none",
+      "toggleDisplay": "flex",
+      "mainHeadings": 1,
+      "headline": "Your Eyes.\nDeserve Excellence.",
+      "fonts": "loaded",
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 23.03125,
+        "right": 744.9375,
+        "top": 150,
+        "bottom": 737,
+        "width": 721.90625
+      }
+    },
+    {
+      "design": "editorial",
+      "width": 768,
+      "documentWidth": 768,
+      "headerDisplay": "flex",
+      "navDisplay": "none",
+      "toggleDisplay": "flex",
+      "mainHeadings": 1,
+      "headline": "AestheticEye.",
+      "fonts": "loaded",
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 23.03125,
+        "right": 744.9375,
+        "top": 150,
+        "bottom": 733,
+        "width": 721.90625
+      }
+    },
+    {
+      "design": "serene",
+      "width": 768,
+      "documentWidth": 768,
+      "headerDisplay": "flex",
+      "navDisplay": "none",
+      "toggleDisplay": "flex",
+      "mainHeadings": 1,
+      "headline": "You deserve\nto feel\nconfident.",
+      "fonts": "loaded",
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 23.03125,
+        "right": 744.9375,
+        "top": 154,
+        "bottom": 732,
+        "width": 721.90625
+      }
+    },
+    {
+      "design": "modern",
+      "width": 768,
+      "documentWidth": 768,
+      "headerDisplay": "flex",
+      "navDisplay": "none",
+      "toggleDisplay": "flex",
+      "mainHeadings": 1,
+      "headline": "Your Eyes.\nDeserve\nExcellence.",
+      "fonts": "loaded",
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 23.03125,
+        "right": 744.9375,
+        "top": 150,
+        "bottom": 747,
+        "width": 721.90625
+      }
+    },
+    {
+      "design": "clarity",
+      "width": 1440,
+      "documentWidth": 1425,
+      "headerDisplay": "flex",
+      "navDisplay": "flex",
+      "toggleDisplay": "none",
+      "mainHeadings": 1,
+      "headline": "You deserve to\nfeel confident\n.",
+      "fonts": "loaded",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 17
+          }
+        ]
+      },
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 423.609375,
+        "right": 1013.609375,
+        "top": 116.81079864501953,
+        "bottom": 628.8107986450195,
+        "width": 590
+      },
+      "menuAccessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "design": "form",
+      "width": 1440,
+      "documentWidth": 1425,
+      "headerDisplay": "flex",
+      "navDisplay": "flex",
+      "toggleDisplay": "none",
+      "mainHeadings": 1,
+      "headline": "Established\nEyelid Experts.",
+      "fonts": "loaded",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 6
+          }
+        ]
+      },
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 402.609375,
+        "right": 1052.609375,
+        "top": 116.93383026123047,
+        "bottom": 510.43383026123047,
+        "width": 650
+      },
+      "menuAccessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "design": "perspective",
+      "width": 1440,
+      "documentWidth": 1425,
+      "headerDisplay": "flex",
+      "navDisplay": "flex",
+      "toggleDisplay": "none",
+      "mainHeadings": 1,
+      "headline": "Your Eyes.\nDeserve Excellence.",
+      "fonts": "loaded",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 11
+          }
+        ]
+      },
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 434.96875,
+        "right": 994.96875,
+        "top": 116.93383026123047,
+        "bottom": 580.9338302612305,
+        "width": 560
+      },
+      "menuAccessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "design": "editorial",
+      "width": 1440,
+      "documentWidth": 1425,
+      "headerDisplay": "flex",
+      "navDisplay": "flex",
+      "toggleDisplay": "none",
+      "mainHeadings": 1,
+      "headline": "AestheticEye.",
+      "fonts": "loaded",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 2
+          }
+        ]
+      },
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 420.46875,
+        "right": 1070.46875,
+        "top": 116.81149291992188,
+        "bottom": 606.8115234375,
+        "width": 650
+      },
+      "menuAccessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "design": "serene",
+      "width": 1440,
+      "documentWidth": 1425,
+      "headerDisplay": "flex",
+      "navDisplay": "flex",
+      "toggleDisplay": "none",
+      "mainHeadings": 1,
+      "headline": "You deserve\nto feel\nconfident.",
+      "fonts": "loaded",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 5
+          }
+        ]
+      },
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 454.3125,
+        "right": 1009.3125,
+        "top": 115.60568237304688,
+        "bottom": 565.605712890625,
+        "width": 555
+      },
+      "menuAccessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "design": "modern",
+      "width": 1440,
+      "documentWidth": 1425,
+      "headerDisplay": "flex",
+      "navDisplay": "flex",
+      "toggleDisplay": "none",
+      "mainHeadings": 1,
+      "headline": "Your Eyes.\nDeserve\nExcellence.",
+      "fonts": "loaded",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 3
+          }
+        ]
+      },
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 412.21875,
+        "right": 1037.21875,
+        "top": 116.8114242553711,
+        "bottom": 626.811393737793,
+        "width": 625
+      },
+      "menuAccessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "design": "clarity",
+      "width": 1920,
+      "documentWidth": 1905,
+      "headerDisplay": "flex",
+      "navDisplay": "flex",
+      "toggleDisplay": "none",
+      "mainHeadings": 1,
+      "headline": "You deserve to\nfeel confident\n.",
+      "fonts": "loaded",
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 663.609375,
+        "right": 1253.609375,
+        "top": 116.93413543701172,
+        "bottom": 628.9341354370117,
+        "width": 590
+      }
+    },
+    {
+      "design": "form",
+      "width": 1920,
+      "documentWidth": 1905,
+      "headerDisplay": "flex",
+      "navDisplay": "flex",
+      "toggleDisplay": "none",
+      "mainHeadings": 1,
+      "headline": "Established\nEyelid Experts.",
+      "fonts": "loaded",
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 642.609375,
+        "right": 1292.609375,
+        "top": 116.93401336669922,
+        "bottom": 510.4340133666992,
+        "width": 650
+      }
+    },
+    {
+      "design": "perspective",
+      "width": 1920,
+      "documentWidth": 1905,
+      "headerDisplay": "flex",
+      "navDisplay": "flex",
+      "toggleDisplay": "none",
+      "mainHeadings": 1,
+      "headline": "Your Eyes.\nDeserve Excellence.",
+      "fonts": "loaded",
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 674.96875,
+        "right": 1234.96875,
+        "top": 116.81155395507812,
+        "bottom": 580.8115234375,
+        "width": 560
+      }
+    },
+    {
+      "design": "editorial",
+      "width": 1920,
+      "documentWidth": 1905,
+      "headerDisplay": "flex",
+      "navDisplay": "flex",
+      "toggleDisplay": "none",
+      "mainHeadings": 1,
+      "headline": "AestheticEye.",
+      "fonts": "loaded",
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 660.46875,
+        "right": 1310.46875,
+        "top": 116.81139373779297,
+        "bottom": 606.811393737793,
+        "width": 650
+      }
+    },
+    {
+      "design": "serene",
+      "width": 1920,
+      "documentWidth": 1905,
+      "headerDisplay": "flex",
+      "navDisplay": "flex",
+      "toggleDisplay": "none",
+      "mainHeadings": 1,
+      "headline": "You deserve\nto feel\nconfident.",
+      "fonts": "loaded",
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 694.3125,
+        "right": 1249.3125,
+        "top": 115.93389129638672,
+        "bottom": 565.9338912963867,
+        "width": 555
+      }
+    },
+    {
+      "design": "modern",
+      "width": 1920,
+      "documentWidth": 1905,
+      "headerDisplay": "flex",
+      "navDisplay": "flex",
+      "toggleDisplay": "none",
+      "mainHeadings": 1,
+      "headline": "Your Eyes.\nDeserve\nExcellence.",
+      "fonts": "loaded",
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 652.21875,
+        "right": 1277.21875,
+        "top": 116.81143188476562,
+        "bottom": 626.8114013671875,
+        "width": 625
+      }
+    }
+  ],
+  "limitations": "Automated color-contrast checks are incomplete for some image-backed and layered content; these results do not constitute full accessibility certification."
+}

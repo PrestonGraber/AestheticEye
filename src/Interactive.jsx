@@ -13,6 +13,8 @@ export function MotionLayer({ route }) {
         const total = document.documentElement.scrollHeight - window.innerHeight;
         const progress = total > 0 ? Math.max(0, Math.min(1, window.scrollY / total)) : 0;
         bar.current?.style.setProperty('--progress', progress);
+        const site = bar.current?.closest('.site');
+        if (site) site.dataset.scrolled = String(window.scrollY > window.innerHeight * 0.6);
       });
     };
     const sections = [...document.querySelectorAll('.section')];

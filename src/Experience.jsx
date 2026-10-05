@@ -10,6 +10,7 @@ import Contact from './sections/Contact.jsx';
 import { usePointerDepth } from './ui/usePointerDepth.js';
 import PracticeFilm from './sections/PracticeFilm.jsx';
 import ExploreGuide from './sections/ExploreGuide.jsx';
+import QuietHero from './sections/QuietHero.jsx';
 
 const ROOT = 'https://www.aestheticeyemd.com';
 const BOOK = 'https://l.klara.com/G3yV4TBdY4dUMwAk';
@@ -80,6 +81,7 @@ function ServiceRail() {
 }
 function Hero({ design }) {
   const depth = usePointerDepth();
+  if (design === 'still' || design === 'ease') return <QuietHero design={design} />;
   if (design === 'clarity')
     return (
       <section className="art-hero clarity-v4">
@@ -253,8 +255,7 @@ function Hero({ design }) {
             AestheticEye<span>.</span>
           </h1>
           <p>
-            OCULOPLASTIC{' '}
-            <br />
+            OCULOPLASTIC <br />
             SURGEONS
           </p>
         </div>
@@ -641,9 +642,11 @@ function Articles() {
   );
 }
 export default function ArtDirectedHome({ design }) {
+  const heroDesign = design;
+  if (design === 'still' || design === 'ease') design = 'clarity';
   return (
     <main id="main" tabIndex={-1} className={'art-experience art-' + design}>
-      <Hero design={design} />
+      <Hero design={heroDesign} />
       <TrustBand design={design} />
       {design === 'form' || design === 'modern' ? (
         <>

@@ -582,3 +582,17 @@
     font-size: 41px;
   }
 }
+
+.contact-section .location-panel address,
+.site.art-site .art-experience .contact-section .location-hours p {
+  font-size: 15px;
+}
+.contact-section .location-tabs > button,
+.contact-section .contact-text-link {
+  font-size: 14px;
+  min-height: 44px;
+}
+.contact-section .location-hours small,
+.contact-section .location-hours > span {
+  font-size: 12px;
+}

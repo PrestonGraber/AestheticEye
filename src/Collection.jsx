@@ -1,21 +1,33 @@
 import React, { useState } from 'react';
+import FavoriteFeedback from './FavoriteFeedback.jsx';
 import ConceptPreview from './ConceptPreview.jsx';
 import BrandMark from './ui/BrandMark.jsx';
 import { designs } from './designs.js';
 import { Icon } from './ui/Icons.jsx';
 import './collection.css';
 
-const STORAGE_KEY = 'aestheticeye-design-shortlist-v1';
+const STORAGE_KEY = 'aestheticeye-design-favorites-v1';
 const asset = (file) => `${import.meta.env.BASE_URL}assets/${file}`;
 
-function readShortlist() {
+export function readFavorites() {
   try {
-    const value = JSON.parse(window.localStorage.getItem(STORAGE_KEY));
-    return Array.isArray(value)
-      ? value.filter((id) => designs.some((design) => design.id === id))
-      : [];
+    const saved = window.localStorage.getItem(STORAGE_KEY);
+    if (saved !== null) {
+      const value = JSON.parse(saved);
+      if (Array.isArray(value))
+        return [...new Set(value.filter((id) => designs.some((design) => design.id === id)))];
+    }
+    const legacy = JSON.parse(window.localStorage.getItem('aestheticeye-design-shortlist-v1'));
+    return [
+      ...new Set([
+        'clarity',
+        ...(Array.isArray(legacy)
+          ? legacy.filter((id) => designs.some((design) => design.id === id))
+          : []),
+      ]),
+    ];
   } catch {
-    return [];
+    return ['clarity'];
   }
 }
 
@@ -26,13 +38,13 @@ function DesignCard({ design, saved, toggle }) {
         <span>DIRECTION {design.n}</span>
         <button
           type="button"
-          className="shortlist-button"
+          className="favorites-button"
           aria-pressed={saved}
-          aria-label={`${saved ? 'Remove' : 'Add'} ${design.name} ${saved ? 'from' : 'to'} shortlist`}
+          aria-label={`${saved ? 'Remove' : 'Add'} ${design.name} ${saved ? 'from' : 'to'} favorites`}
           onClick={() => toggle(design.id)}
         >
           <Icon name={saved ? 'check' : 'plus'} />
-          <span>{saved ? 'Shortlisted' : 'Shortlist'}</span>
+          <span>{saved ? 'Favorited' : 'Favorite'}</span>
         </button>
       </div>
       <a
@@ -65,10 +77,10 @@ function DesignCard({ design, saved, toggle }) {
 }
 
 export default function Collection() {
-  const [shortlist, setShortlist] = useState(readShortlist);
+  const [favorites, setFavorites] = useState(readFavorites);
   const [filter, setFilter] = useState('all');
   function toggle(id) {
-    setShortlist((previous) => {
+    setFavorites((previous) => {
       const next = previous.includes(id)
         ? previous.filter((item) => item !== id)
         : [...previous, id];
@@ -83,7 +95,7 @@ export default function Collection() {
   const visible = designs.filter(
     (design) =>
       filter === 'all' ||
-      (filter === 'shortlist' ? shortlist.includes(design.id) : design.tone === filter),
+      (filter === 'favorites' ? favorites.includes(design.id) : design.tone === filter),
   );
 
   return (
@@ -93,7 +105,7 @@ export default function Collection() {
           <BrandMark />
         </a>
         <span className="collection-edition">DESIGN EXPLORATIONS</span>
-        <span className="collection-count">SIX DIRECTIONS / ONE PRACTICE</span>
+        <span className="collection-count">EIGHT DIRECTIONS / ONE PRACTICE</span>
       </header>
       <main id="main" tabIndex={-1}>
         <div className="collection-intro">
@@ -110,14 +122,14 @@ export default function Collection() {
               ↗
             </span>
             <p>
-              Six distinct directions.
+              Eight distinct directions.
               <br />
               One exceptional practice.
             </p>
             <span>
               Explore a homepage. Try the navigation.
               <br />
-              Shortlist the directions you want to keep.
+              Favorite the directions you want to keep.
             </span>
           </div>
         </div>
@@ -127,7 +139,7 @@ export default function Collection() {
               ['all', 'All directions'],
               ['light', 'Light'],
               ['dark', 'Dark'],
-              ['shortlist', 'Shortlist'],
+              ['favorites', 'Favorites'],
             ].map(([value, label]) => (
               <button
                 key={value}
@@ -136,8 +148,8 @@ export default function Collection() {
                 onClick={() => setFilter(value)}
               >
                 {label}
-                {value === 'shortlist' && (
-                  <span>{shortlist.length.toString().padStart(2, '0')}</span>
+                {value === 'favorites' && (
+                  <span>{favorites.length.toString().padStart(2, '0')}</span>
                 )}
               </button>
             ))}
@@ -146,30 +158,48 @@ export default function Collection() {
             {visible.length} {visible.length === 1 ? 'direction' : 'directions'}
           </span>
         </div>
+        <a
+          className="feedback-jump"
+          href="#design-feedback"
+          onClick={(event) => {
+            event.preventDefault();
+            document
+              .getElementById('design-feedback')
+              ?.scrollIntoView({
+                behavior: matchMedia('(prefers-reduced-motion: reduce)').matches
+                  ? 'instant'
+                  : 'smooth',
+              });
+            document.getElementById('feedback-heading')?.focus({ preventScroll: true });
+          }}
+        >
+          Review favorites & send feedback <Icon name="arrow" />
+        </a>
         {visible.length ? (
           <div className="design-grid">
             {visible.map((design) => (
               <DesignCard
                 key={design.id}
                 design={design}
-                saved={shortlist.includes(design.id)}
+                saved={favorites.includes(design.id)}
                 toggle={toggle}
               />
             ))}
           </div>
         ) : (
-          <div className="shortlist-empty">
+          <div className="favorites-empty">
             <Icon name="plus" />
-            <h2>Your shortlist starts here.</h2>
-            <p>Use the Shortlist button on a design to save it for comparison.</p>
+            <h2>Your favorites start here.</h2>
+            <p>Use the Favorite button on a design to save it for comparison.</p>
             <button type="button" onClick={() => setFilter('all')}>
               Explore all directions
               <Icon name="right" />
             </button>
           </div>
         )}
+        <FavoriteFeedback favorites={favorites} toggle={toggle} />
         <div className="collection-note">
-          <span>Original photography. Original content. Six new perspectives.</span>
+          <span>Original photography. Original content. Eight new perspectives.</span>
           <span>React / Vite / Tailwind CSS</span>
         </div>
       </main>

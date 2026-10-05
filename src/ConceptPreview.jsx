@@ -76,16 +76,14 @@ export default function ConceptPreview({ id }) {
       <rect
         width="900"
         height="65"
-        fill={
-          dark ? paper : id === 'serene' ? '#f0f1e5' : id === 'editorial' ? '#f2f2e7' : '#fafbf6'
-        }
+        fill={id === 'serene' ? '#f0f1e5' : id === 'editorial' ? '#f2f2e7' : '#fafbf6'}
       />
       {id === 'serene' && (
         <rect x="25" y="9" width="850" height="49" rx="25" fill="#f9faf2" stroke="#c8d5ba" />
       )}
-      <image href={asset(dark ? 'logo.png' : 'logo-grey.png')} x="45" y="19" width="19" height="27" />
-      <image href={asset(dark ? 'name.svg' : 'name-color.png')} x="73" y="25" width="200" height="19" />
-      {text('About     Treatments     Results     Resources     Contact', 310, 38, 11, ink)}
+      <image href={asset('logo-grey.png')} x="45" y="19" width="19" height="27" />
+      <image href={asset('name-color.png')} x="73" y="25" width="200" height="19" />
+      {text('About     Treatments     Results     Resources     Contact', 310, 38, 11, '#29452c')}
       <rect
         x="690"
         y="17"
@@ -111,6 +109,32 @@ export default function ConceptPreview({ id }) {
           {text('35+', 664, 532, 80)}
           {text('years of combined', 667, 567, 13)}
           {text('experience', 667, 587, 13)}
+        </>
+      )}
+      {id === 'still' && (
+        <>
+          {photo('header-image.jpg', 0, 65, 900, 645)}
+          <rect x="0" y="65" width="900" height="645" fill="#142b20" opacity=".8" />
+          {text('CINCINNATI & DAYTON’S ESTABLISHED EYELID EXPERTS', 65, 210, 10, '#fff')}
+          {text('You deserve to', 65, 315, 72, '#fff')}
+          {text('feel confident.', 65, 395, 72, '#e3eccf')}
+          {text('Your Eyes Deserve Excellence', 65, 448, 17, '#fff')}
+          {cta(65, 488)}
+          {text('About our practice  →', 65, 660, 13, '#fff')}
+          {text('Ⅱ  Pause film', 745, 660, 13, '#fff')}
+        </>
+      )}
+      {id === 'ease' && (
+        <>
+          <rect x="25" y="90" width="850" height="595" rx="18" fill="#eef1e6" />
+          {photo('schedule.jpg', 490, 90, 385, 595)}
+          {text('CINCINNATI & DAYTON', 65, 215, 11)}
+          {text('You deserve', 65, 307, 53)}
+          {text('to feel', 65, 366, 53)}
+          {text('confident.', 65, 425, 53, '#526c3d')}
+          {text('Your Eyes Deserve Excellence', 65, 477, 14)}
+          {cta(65, 510)}
+          {text('About our practice  →', 65, 635, 13)}
         </>
       )}
       {id === 'form' && (
