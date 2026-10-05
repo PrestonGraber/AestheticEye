@@ -1,0 +1,1012 @@
+.procedures-section {
+  --procedure-line: #b6c7a7;
+  --procedure-muted: #4f6741;
+  --procedure-paper: #edf2e4;
+  --procedure-ink: #203e31;
+  color: var(--procedure-ink);
+  background: var(--procedure-paper);
+}
+.procedures-intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 30px;
+  margin-bottom: 45px;
+}
+.procedures-intro > h2 {
+  width: 68%;
+  max-width: 820px;
+}
+.procedures-intro h2 > span {
+  color: var(--procedure-muted);
+}
+.site.art-site .procedures-section .procedure-text h3 {
+  font-size: clamp(27px, 3vw, 44px);
+  line-height: 1.1;
+  letter-spacing: -0.045em;
+  margin: 0 0 23px;
+}
+.site.art-site .procedures-section .procedure-text p {
+  font-size: 14px;
+  line-height: 1.85;
+  color: var(--procedure-muted);
+  margin: 0 0 25px;
+  max-width: 480px;
+}
+.procedure-text .art-more {
+  font-size: 12px;
+  gap: 25px;
+}
+.procedure-text .art-more .ae-icon {
+  width: 18px;
+  height: 18px;
+}
+.procedure-tabs {
+  display: flex;
+  gap: 0;
+  border: 1px solid var(--procedure-line);
+  border-radius: 12px 12px 0 0;
+  overflow: hidden;
+}
+.procedure-tabs > button {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex: 1;
+  text-align: left;
+  padding: 20px 22px;
+  font-size: 13px;
+  line-height: 1.4;
+  min-height: 73px;
+  border-right: 1px solid var(--procedure-line);
+  transition:
+    background 0.2s,
+    color 0.2s;
+}
+.procedure-tabs > button:last-child {
+  border-right: 0;
+}
+.procedure-tabs > button > .ae-icon {
+  width: 17px;
+  height: 17px;
+  margin-left: auto;
+}
+.procedure-tab-index {
+  font-size: 11px;
+  color: var(--procedure-muted);
+}
+.procedure-tabs > button[aria-selected='true'] {
+  background: #294f37;
+  color: #fff;
+}
+.procedure-tabs > button[aria-selected='true'] > .procedure-tab-index {
+  color: #d5e3bc;
+}
+.procedure-tabs > button:hover:not([aria-selected='true']) {
+  background: #dce8cc;
+}
+.procedure-panel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background: #f9fbf4;
+  border: 1px solid var(--procedure-line);
+  border-top: 0;
+  border-radius: 0 0 12px 12px;
+  overflow: hidden;
+  color: #203e31;
+  min-width: 0;
+}
+.procedure-visual {
+  height: 445px;
+  position: relative;
+  overflow: hidden;
+  animation: content-enter 0.4s ease;
+}
+.procedure-visual > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.procedure-visual-number {
+  position: absolute;
+  bottom: 18px;
+  left: 23px;
+  font-size: 100px;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: -0.075em;
+  color: #fff;
+  text-shadow: 0 2px 20px #23352525;
+}
+.procedure-visual-label {
+  position: absolute;
+  left: 24px;
+  right: 24px;
+  top: 22px;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  color: #1d3b2b;
+  background: #f8fbf0e8;
+  padding: 10px 13px;
+  width: fit-content;
+  max-width: calc(100% - 48px);
+  border-radius: 25px;
+}
+.procedure-panel-copy {
+  padding: 40px 12%;
+  animation: content-enter 0.3s ease;
+}
+.procedure-copy-index {
+  display: block;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  color: #4f6741;
+  margin-bottom: 35px;
+}
+.procedure-payment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--procedure-line);
+  padding-top: 22px;
+  margin-top: 30px;
+  gap: 25px;
+  font-size: 11px;
+}
+.procedure-payment > a {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  min-height: 35px;
+}
+.procedure-payment .ae-icon {
+  height: 17px;
+  width: 17px;
+}
+/* Form: opening a row reveals its detail within the directory. */
+.site.art-site .procedures-section[data-design='form'] {
+  --procedure-paper: #fafbf6;
+  --procedure-line: #b5c5a7;
+  background: var(--procedure-paper);
+}
+[data-design='form'].procedures-section .procedures-intro {
+  margin-bottom: 50px;
+}
+.directory-procedure {
+  border-top: 1px solid var(--procedure-line);
+}
+.directory-procedure:last-child {
+  border-bottom: 1px solid var(--procedure-line);
+}
+.site.art-site .directory-procedure > h3 {
+  font-size: clamp(26px, 3.7vw, 55px);
+  line-height: 1.2;
+  font-family: Manrope, sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+}
+.directory-procedure > h3 > button {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+  gap: 35px;
+  padding: 27px 0;
+  min-height: 105px;
+  transition: color 0.2s;
+}
+.directory-procedure-number {
+  font-size: 11px;
+  font-family: Inter, sans-serif;
+  letter-spacing: 0;
+  align-self: start;
+  padding-top: 12px;
+  color: var(--procedure-muted);
+  min-width: 8%;
+}
+.directory-procedure > h3 > button > .ae-icon {
+  margin-left: auto;
+  width: 26px;
+  height: 26px;
+  flex: none;
+}
+.directory-procedure > h3 > button:hover {
+  color: #647e50;
+}
+.directory-procedure.is-expanded > h3 > button {
+  color: #203e31;
+}
+.directory-procedure-panel:not([hidden]) {
+  display: grid;
+  grid-template-columns: 1fr 0.85fr;
+  gap: 12%;
+  align-items: start;
+  padding: 5px 0 35px 11%;
+}
+.directory-procedure-panel > img {
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+}
+.procedure-directory-label {
+  display: block;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  margin: 0 0 25px;
+  color: var(--procedure-muted);
+}
+.site.art-site .directory-procedure-panel .procedure-text p {
+  font-size: 14px;
+  max-width: 440px;
+  line-height: 1.9;
+}
+/* Perspective: a native horizontal filmstrip with deliberate next/previous controls. */
+.site.art-site .procedures-section[data-design='perspective'] {
+  --procedure-paper: #243e30;
+  --procedure-ink: #f4f4e5;
+  --procedure-muted: #d5dfc5;
+  --procedure-line: #70885e;
+  background: var(--procedure-paper);
+  color: var(--procedure-ink);
+}
+[data-design='perspective'].procedures-section .procedures-intro {
+  display: block;
+}
+[data-design='perspective'].procedures-section .procedures-intro > h2 {
+  width: 100%;
+  margin-top: 22px;
+}
+.filmstrip-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  margin-bottom: 22px;
+  font-size: 11px;
+}
+.filmstrip-toolbar > div {
+  display: flex;
+  gap: 9px;
+}
+.filmstrip-toolbar button {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #8da276;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+}
+.filmstrip-toolbar button > .ae-icon {
+  width: 17px;
+  height: 17px;
+}
+.filmstrip-toolbar button:hover {
+  background: #d4e2bb;
+  color: #203e31;
+}
+.filmstrip-track {
+  position: relative;
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+  min-width: 0;
+  border: 1px solid #70885e;
+}
+.filmstrip-track::-webkit-scrollbar {
+  display: none;
+}
+.filmstrip-card {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 0;
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  min-width: 0;
+  align-items: stretch;
+}
+.filmstrip-photo {
+  position: relative;
+  min-width: 0;
+  min-height: 470px;
+  overflow: hidden;
+}
+.filmstrip-photo > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.filmstrip-photo > span {
+  position: absolute;
+  bottom: 15px;
+  left: 25px;
+  font-size: 115px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.085em;
+  color: #fff;
+  text-shadow: 0 2px 20px #122b2150;
+}
+.filmstrip-copy {
+  padding: 45px 12%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #1d3528;
+}
+.site.art-site .filmstrip-copy .procedure-text h3 {
+  font-size: clamp(30px, 3.7vw, 58px);
+  font-weight: 400;
+}
+.site.art-site .filmstrip-copy .procedure-text p {
+  font-size: 14px;
+  line-height: 1.9;
+  color: #d5dfc5;
+}
+.filmstrip-pagination {
+  display: flex;
+  gap: 25px;
+  margin-top: 20px;
+}
+.filmstrip-pagination > button {
+  flex: 1;
+  display: flex;
+  align-items: start;
+  gap: 12px;
+  padding: 15px 0;
+  border-top: 1px solid #789466;
+  text-align: left;
+  font-size: 11px;
+  line-height: 1.5;
+  color: #d6e2c6;
+}
+.filmstrip-pagination > button > span:first-child {
+  font-size: 11px;
+  padding-top: 1px;
+}
+.filmstrip-pagination > button[aria-pressed='true'] {
+  border-top: 3px solid #d5e6b7;
+  color: #fff;
+  padding-top: 13px;
+  font-weight: 600;
+}
+/* Editorial: all three stories are on the page, with no hidden editorial content. */
+.site.art-site .procedures-section[data-design='editorial'] {
+  --procedure-paper: #f0f2e8;
+  background: var(--procedure-paper);
+}
+.procedure-stories {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 35px;
+}
+.procedure-stories > article {
+  display: flex;
+  flex-direction: column;
+}
+.procedure-story-photo {
+  position: relative;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.procedure-story-photo > img {
+  width: 100%;
+  aspect-ratio: 0.88;
+  object-fit: cover;
+  transition: transform 0.6s;
+}
+.procedure-story-photo > span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #eff2e4;
+  padding: 14px 18px;
+  font-size: 11px;
+  line-height: 1;
+}
+.procedure-stories > article:hover .procedure-story-photo > img {
+  transform: scale(1.025);
+}
+.site.art-site .procedure-stories .procedure-text h3 {
+  font-size: clamp(25px, 2.6vw, 39px);
+  line-height: 1.15;
+  margin-bottom: 20px;
+}
+.site.art-site .procedure-stories .procedure-text p {
+  font-size: 14px;
+  line-height: 1.85;
+  margin-bottom: 22px;
+}
+.procedure-stories .procedure-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.procedure-stories .procedure-text .art-more {
+  margin-top: auto;
+}
+/* Sanctuary: a curved image with quiet vertical choices. */
+.site.art-site .procedures-section[data-design='serene'] {
+  --procedure-paper: #e9eedf;
+  background: var(--procedure-paper);
+}
+.browser-serene {
+  display: grid;
+  grid-template-columns: 0.65fr 1.35fr;
+  gap: 6%;
+  align-items: center;
+}
+.browser-serene .procedure-tabs {
+  display: flex;
+  flex-direction: column;
+  border: 0;
+  border-radius: 0;
+  overflow: visible;
+}
+.browser-serene .procedure-tabs > button {
+  border: 0;
+  border-bottom: 1px solid #b4c5a1;
+  min-height: 90px;
+  padding: 22px 0;
+  gap: 16px;
+  font-size: 20px;
+  font-family: Manrope, sans-serif;
+  letter-spacing: -0.035em;
+  flex: none;
+}
+.browser-serene .procedure-tabs > button:first-child {
+  border-top: 1px solid #b4c5a1;
+}
+.browser-serene .procedure-tabs > button[aria-selected='true'] {
+  background: transparent;
+  color: #203e31;
+  font-weight: 600;
+}
+.browser-serene .procedure-tabs > button[aria-selected='true'] > .procedure-tab-index {
+  color: #48633a;
+}
+.browser-serene .procedure-tabs > button:hover {
+  background: #dce7cd;
+}
+.browser-serene .procedure-tab-index {
+  font-size: 11px;
+  letter-spacing: 0;
+}
+.browser-serene .procedure-tabs > button > .ae-icon {
+  width: 20px;
+  height: 20px;
+}
+.browser-serene .procedure-panel {
+  background: none;
+  border: 0;
+  border-radius: 0;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  overflow: visible;
+}
+.browser-serene .procedure-visual {
+  height: 360px;
+  border-radius: 150px 150px 15px 15px;
+}
+.browser-serene .procedure-visual-label {
+  display: none;
+}
+.browser-serene .procedure-visual-number {
+  font-size: 70px;
+  bottom: 20px;
+  left: 20px;
+}
+.browser-serene .procedure-panel-copy {
+  padding: 0;
+}
+.browser-serene .procedure-copy-index {
+  margin-bottom: 20px;
+}
+.site.art-site .browser-serene .procedure-text h3 {
+  font-size: 29px;
+}
+.site.art-site .browser-serene .procedure-text p {
+  font-size: 14px;
+  line-height: 1.8;
+}
+/* Modernist: numbered category blocks and a broad image/copy plane. */
+.site.art-site .procedures-section[data-design='modern'] {
+  --procedure-paper: #f0f3e8;
+  background: var(--procedure-paper);
+}
+[data-design='modern'].procedures-section .procedures-intro {
+  display: block;
+}
+[data-design='modern'].procedures-section .procedures-intro > h2 {
+  width: 100%;
+  margin-top: 22px;
+}
+.browser-modern {
+  display: grid;
+  grid-template-columns: 0.55fr 1.45fr;
+  gap: 0;
+  border: 1px solid #a6bb94;
+}
+.browser-modern .procedure-tabs {
+  flex-direction: column;
+  border: 0;
+  border-radius: 0;
+  background: #dce8c8;
+}
+.browser-modern .procedure-tabs > button {
+  border: 0;
+  border-bottom: 1px solid #a6bb94;
+  padding: 26px 22px;
+  min-height: 135px;
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 15px;
+}
+.browser-modern .procedure-tabs > button:last-child {
+  border: 0;
+}
+.browser-modern .procedure-tab-index {
+  grid-column: 1/-1;
+  font-size: 35px;
+  line-height: 1;
+  letter-spacing: -0.06em;
+}
+.browser-modern .procedure-tabs > button > span:nth-child(2) {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+}
+.browser-modern .procedure-tabs > button[aria-selected='true'] {
+  background: #213f2d;
+  color: #f5f5e4;
+}
+.browser-modern .procedure-panel {
+  border: 0;
+  border-radius: 0;
+  grid-template-columns: 1.05fr 1fr;
+  background: #f9fbf3;
+}
+.browser-modern .procedure-visual {
+  height: 100%;
+  min-height: 460px;
+}
+.browser-modern .procedure-visual-number {
+  display: none;
+}
+.browser-modern .procedure-visual-label {
+  font-size: 10px;
+  max-width: calc(100% - 30px);
+  left: 15px;
+  top: 15px;
+  border-radius: 0;
+  padding: 9px;
+}
+.browser-modern .procedure-panel-copy {
+  padding: 35px 10%;
+}
+.site.art-site .browser-modern .procedure-text h3 {
+  font-size: 31px;
+}
+.site.art-site .browser-modern .procedure-text p {
+  font-size: 14px;
+}
+@media (max-width: 1100px) {
+  .procedure-panel-copy {
+    padding: 35px 10%;
+  }
+  .procedure-visual {
+    height: 390px;
+  }
+  .procedure-tabs > button {
+    font-size: 12px;
+    padding: 18px 16px;
+    gap: 10px;
+  }
+  .site.art-site .procedures-section .procedure-text h3 {
+    font-size: 31px;
+  }
+  .site.art-site .procedures-section .procedure-text p {
+    font-size: 14px;
+  }
+  .browser-serene {
+    grid-template-columns: 0.7fr 1.3fr;
+    gap: 5%;
+  }
+  .browser-serene .procedure-panel {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  .browser-serene .procedure-visual {
+    height: 300px;
+    border-radius: 150px 150px 10px 10px;
+  }
+  .browser-serene .procedure-panel-copy {
+    padding: 0 10px;
+  }
+  .browser-serene .procedure-tabs > button {
+    font-size: 21px;
+    min-height: 115px;
+  }
+  .browser-serene .procedure-copy-index {
+    display: none;
+  }
+  .site.art-site .browser-serene .procedure-text h3 {
+    font-size: 27px;
+  }
+  .browser-modern {
+    grid-template-columns: 0.6fr 1.4fr;
+  }
+  .browser-modern .procedure-panel {
+    grid-template-columns: 1fr;
+  }
+  .browser-modern .procedure-visual {
+    height: 275px;
+    min-height: 0;
+  }
+  .browser-modern .procedure-panel-copy {
+    padding: 30px;
+  }
+  .browser-modern .procedure-copy-index {
+    display: none;
+  }
+  .site.art-site .browser-modern .procedure-text h3 {
+    font-size: 29px;
+  }
+  .browser-modern .procedure-tabs > button {
+    padding: 28px 25px;
+    gap: 30px;
+    align-content: center;
+  }
+  .browser-modern .procedure-tab-index {
+    font-size: 40px;
+  }
+  .browser-modern .procedure-tabs > button > span:nth-child(2) {
+    font-size: 18px;
+  }
+  .filmstrip-photo {
+    min-height: 450px;
+  }
+  .filmstrip-copy {
+    padding: 35px 10%;
+  }
+  .site.art-site .filmstrip-copy .procedure-text h3 {
+    font-size: 36px;
+  }
+  .procedure-stories {
+    gap: 25px;
+  }
+  .site.art-site .procedure-stories .procedure-text h3 {
+    font-size: 28px;
+  }
+  .site.art-site .procedure-stories .procedure-text p {
+    font-size: 14px;
+  }
+  .directory-procedure-panel:not([hidden]) {
+    gap: 8%;
+    padding-left: 10%;
+  }
+  .directory-procedure > h3 > button {
+    gap: 25px;
+  }
+  .directory-procedure-panel > img {
+    height: 250px;
+  }
+}
+@media (max-width: 740px) {
+  .procedures-intro {
+    display: block;
+    margin-bottom: 30px;
+  }
+  .procedures-intro > h2 {
+    width: 100%;
+    font-size: 37px !important;
+    margin-top: 20px !important;
+  }
+  .procedure-tabs {
+    flex-direction: column;
+    border-radius: 10px 10px 0 0;
+  }
+  .procedure-tabs > button {
+    flex: none;
+    border-right: 0;
+    border-bottom: 1px solid var(--procedure-line);
+    min-height: 61px;
+    padding: 17px 20px;
+    font-size: 13px;
+    gap: 14px;
+  }
+  .procedure-tabs > button:last-child {
+    border-bottom: 0;
+  }
+  .procedure-tab-index {
+    font-size: 11px;
+  }
+  .procedure-panel {
+    grid-template-columns: 1fr;
+  }
+  .procedure-visual {
+    height: 285px;
+  }
+  .procedure-visual-number {
+    font-size: 76px;
+    left: 20px;
+    bottom: 14px;
+  }
+  .procedure-visual-label {
+    font-size: 10px;
+    left: 18px;
+    top: 18px;
+    padding: 8px 12px;
+  }
+  .procedure-panel-copy {
+    padding: 27px 24px;
+  }
+  .procedure-copy-index {
+    margin-bottom: 18px;
+    font-size: 10px;
+  }
+  .site.art-site .procedures-section .procedure-text h3 {
+    font-size: 31px;
+    line-height: 1.12;
+    margin-bottom: 18px;
+  }
+  .site.art-site .procedures-section .procedure-text p {
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 23px;
+  }
+  .procedure-text .art-more {
+    font-size: 12px;
+  }
+  .procedure-payment {
+    margin-top: 25px;
+    padding-top: 18px;
+    gap: 15px;
+    font-size: 11px;
+    align-items: start;
+  }
+  .procedure-payment > span {
+    max-width: 120px;
+    line-height: 1.6;
+  }
+  .procedure-payment > a {
+    gap: 12px;
+    min-height: 30px;
+    font-size: 11px;
+  }
+  .procedure-payment .ae-icon {
+    width: 15px;
+    height: 15px;
+  }
+  [data-design='form'].procedures-section .procedures-intro {
+    margin-bottom: 30px;
+  }
+  .site.art-site .directory-procedure > h3 {
+    font-size: 27px;
+  }
+  .directory-procedure > h3 > button {
+    padding: 24px 0;
+    min-height: 93px;
+    gap: 18px;
+    align-items: center;
+  }
+  .directory-procedure-number {
+    font-size: 11px;
+    min-width: 15px;
+    padding-top: 5px;
+  }
+  .directory-procedure > h3 > button > .ae-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .directory-procedure-panel:not([hidden]) {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    padding: 0 0 30px 33px;
+  }
+  .directory-procedure-panel > img {
+    height: 235px;
+    order: -1;
+  }
+  .procedure-directory-label {
+    font-size: 10px;
+    margin-bottom: 15px;
+  }
+  .site.art-site .directory-procedure-panel .procedure-text p {
+    font-size: 14px;
+    line-height: 1.85;
+  }
+  .filmstrip-toolbar {
+    font-size: 11px;
+    gap: 18px;
+    margin-bottom: 18px;
+  }
+  .filmstrip-toolbar > span {
+    max-width: 190px;
+    line-height: 1.5;
+  }
+  .filmstrip-toolbar button {
+    height: 36px;
+    width: 36px;
+  }
+  .filmstrip-card {
+    grid-template-columns: 1fr;
+  }
+  .filmstrip-photo {
+    height: 300px;
+    min-height: 0;
+  }
+  .filmstrip-photo > span {
+    font-size: 85px;
+    left: 20px;
+    bottom: 12px;
+  }
+  .filmstrip-copy {
+    padding: 30px 25px;
+    justify-content: start;
+  }
+  .site.art-site .filmstrip-copy .procedure-text h3 {
+    font-size: 36px;
+  }
+  .site.art-site .filmstrip-copy .procedure-text p {
+    font-size: 14px;
+  }
+  .filmstrip-pagination {
+    gap: 12px;
+    margin-top: 15px;
+  }
+  .filmstrip-pagination > button {
+    font-size: 11px;
+    gap: 6px;
+    flex-direction: column;
+    padding-top: 13px;
+  }
+  .filmstrip-pagination > button[aria-pressed='true'] {
+    padding-top: 11px;
+  }
+  .filmstrip-pagination > button > span:first-child {
+    font-size: 11px;
+  }
+  .procedure-stories {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .procedure-story-photo {
+    margin-bottom: 22px;
+  }
+  .procedure-story-photo > img {
+    aspect-ratio: 1.1;
+  }
+  .procedure-story-photo > span {
+    padding: 12px 17px;
+    font-size: 11px;
+  }
+  .site.art-site .procedure-stories .procedure-text h3 {
+    font-size: 34px;
+  }
+  .site.art-site .procedure-stories .procedure-text p {
+    font-size: 14px;
+  }
+  .procedure-stories .procedure-text .art-more {
+    margin-top: 0;
+  }
+  .browser-serene {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .browser-serene .procedure-tabs > button {
+    font-size: 19px;
+    min-height: 72px;
+    padding: 20px 0;
+    gap: 20px;
+  }
+  .browser-serene .procedure-panel {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  .browser-serene .procedure-visual {
+    height: 355px;
+    width: 88%;
+    margin: auto;
+    border-radius: 160px 160px 12px 12px;
+  }
+  .browser-serene .procedure-panel-copy {
+    padding: 0;
+  }
+  .site.art-site .browser-serene .procedure-text h3 {
+    font-size: 32px;
+  }
+  .site.art-site .browser-serene .procedure-text p {
+    font-size: 14px;
+  }
+  .browser-modern {
+    grid-template-columns: 1fr;
+  }
+  .browser-modern .procedure-tabs {
+    flex-direction: row;
+  }
+  .browser-modern .procedure-tabs > button {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 14px;
+    padding: 18px 12px;
+    border-bottom: 0;
+    border-right: 1px solid #a6bb94;
+    min-height: 140px;
+    flex: 1;
+  }
+  .browser-modern .procedure-tabs > button:last-child {
+    border-right: 0;
+  }
+  .browser-modern .procedure-tab-index {
+    font-size: 29px;
+  }
+  .browser-modern .procedure-tabs > button > span:nth-child(2) {
+    font-size: 12px;
+    line-height: 1.4;
+    letter-spacing: -0.01em;
+  }
+  .browser-modern .procedure-tabs > button > .ae-icon {
+    display: none;
+  }
+  .browser-modern .procedure-panel {
+    grid-template-columns: 1fr;
+  }
+  .browser-modern .procedure-visual {
+    height: 300px;
+  }
+  .browser-modern .procedure-panel-copy {
+    padding: 28px 24px;
+  }
+  .site.art-site .browser-modern .procedure-text h3 {
+    font-size: 33px;
+  }
+  .site.art-site .browser-modern .procedure-text p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 370px) {
+  .procedures-intro > h2 {
+    font-size: 32px !important;
+  }
+  .directory-procedure-panel:not([hidden]) {
+    padding-left: 0;
+  }
+  .site.art-site .directory-procedure > h3 {
+    font-size: 24px;
+  }
+  .directory-procedure > h3 > button {
+    gap: 12px;
+  }
+  .browser-modern .procedure-tabs > button {
+    padding: 17px 10px;
+    min-height: 145px;
+  }
+  .browser-modern .procedure-tabs > button > span:nth-child(2) {
+    font-size: 12px;
+  }
+  .browser-serene .procedure-visual {
+    height: 310px;
+  }
+  .procedure-payment {
+    flex-direction: column;
+    gap: 6px;
+  }
+  .procedure-payment > span {
+    max-width: none;
+  }
+  .filmstrip-copy {
+    padding-inline: 22px;
+  }
+  .site.art-site .filmstrip-copy .procedure-text h3 {
+    font-size: 32px;
+  }
+}

@@ -1,0 +1,953 @@
+{
+  "checkedAt": "2026-10-05T02:17:46.299Z",
+  "method": "Isolated headless Edge with separate temporary profile. No user tabs, physical input or native UI controlled.",
+  "review": "Desktop heroes and six distinct hover dropdowns, supporting practice/treatment/journey/article layouts, galleries, reviews and consultation layouts; mobile section samples and shared footer. Additional header/overflow checks at 320, 768 and 1024px informed fixes.",
+  "limitations": "Axe incomplete color-contrast checks include photographs and layered backgrounds. Screenshots were reviewed, but this is not exhaustive accessibility certification or a Base44 deployment test.",
+  "desktop": [
+    {
+      "design": "clarity",
+      "width": 1440,
+      "documentWidth": 1425,
+      "headerDisplay": "flex",
+      "navDisplay": "flex",
+      "toggleDisplay": "none",
+      "mainHeadings": 1,
+      "headline": "You deserve to\nfeel confident\n.",
+      "fonts": "loaded",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 17
+          }
+        ]
+      },
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 423.609375,
+        "right": 1013.609375,
+        "top": 116.28951263427734,
+        "bottom": 600.2894821166992,
+        "width": 590
+      },
+      "menuAccessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "design": "form",
+      "width": 1440,
+      "documentWidth": 1425,
+      "headerDisplay": "flex",
+      "navDisplay": "flex",
+      "toggleDisplay": "none",
+      "mainHeadings": 1,
+      "headline": "Established\nEyelid Experts.",
+      "fonts": "loaded",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 6
+          }
+        ]
+      },
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 402.609375,
+        "right": 1052.609375,
+        "top": 116.93419647216797,
+        "bottom": 495.93419647216797,
+        "width": 650
+      },
+      "menuAccessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "design": "perspective",
+      "width": 1440,
+      "documentWidth": 1425,
+      "headerDisplay": "flex",
+      "navDisplay": "flex",
+      "toggleDisplay": "none",
+      "mainHeadings": 1,
+      "headline": "Your Eyes.\nDeserve Excellence.",
+      "fonts": "loaded",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 11
+          }
+        ]
+      },
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 434.96875,
+        "right": 994.96875,
+        "top": 116.81103515625,
+        "bottom": 577.81103515625,
+        "width": 560
+      },
+      "menuAccessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "design": "editorial",
+      "width": 1440,
+      "documentWidth": 1425,
+      "headerDisplay": "flex",
+      "navDisplay": "flex",
+      "toggleDisplay": "none",
+      "mainHeadings": 1,
+      "headline": "AestheticEye.",
+      "fonts": "loaded",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 2
+          }
+        ]
+      },
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 420.46875,
+        "right": 1070.46875,
+        "top": 116.93388366699219,
+        "bottom": 582.4338836669922,
+        "width": 650
+      },
+      "menuAccessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "design": "serene",
+      "width": 1440,
+      "documentWidth": 1425,
+      "headerDisplay": "flex",
+      "navDisplay": "flex",
+      "toggleDisplay": "none",
+      "mainHeadings": 1,
+      "headline": "You deserve\nto feel\nconfident.",
+      "fonts": "loaded",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 5
+          }
+        ]
+      },
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 454.3125,
+        "right": 1009.3125,
+        "top": 115.93424987792969,
+        "bottom": 562.9342498779297,
+        "width": 555
+      },
+      "menuAccessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "design": "modern",
+      "width": 1440,
+      "documentWidth": 1425,
+      "headerDisplay": "flex",
+      "navDisplay": "flex",
+      "toggleDisplay": "none",
+      "mainHeadings": 1,
+      "headline": "Your Eyes.\nDeserve\nExcellence.",
+      "fonts": "loaded",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 3
+          }
+        ]
+      },
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 412.21875,
+        "right": 1037.21875,
+        "top": 116.93395233154297,
+        "bottom": 602.433952331543,
+        "width": 625
+      },
+      "menuAccessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    }
+  ],
+  "mobile": [
+    {
+      "design": "clarity",
+      "width": 390,
+      "documentWidth": 390,
+      "headerDisplay": "flex",
+      "navDisplay": "none",
+      "toggleDisplay": "flex",
+      "mainHeadings": 1,
+      "headline": "You deserve to\nfeel confident\n.",
+      "fonts": "loaded",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 16
+          }
+        ]
+      },
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 11.6875,
+        "right": 378.28125,
+        "top": 150,
+        "bottom": 726,
+        "width": 366.59375
+      },
+      "menuAccessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "design": "form",
+      "width": 390,
+      "documentWidth": 390,
+      "headerDisplay": "flex",
+      "navDisplay": "none",
+      "toggleDisplay": "flex",
+      "mainHeadings": 1,
+      "headline": "Established\nEyelid Experts.",
+      "fonts": "loaded",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 6
+          }
+        ]
+      },
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 11.6875,
+        "right": 378.28125,
+        "top": 150,
+        "bottom": 737,
+        "width": 366.59375
+      },
+      "menuAccessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "design": "perspective",
+      "width": 390,
+      "documentWidth": 390,
+      "headerDisplay": "flex",
+      "navDisplay": "none",
+      "toggleDisplay": "flex",
+      "mainHeadings": 1,
+      "headline": "Your Eyes.\nDeserve Excellence.",
+      "fonts": "loaded",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 11
+          }
+        ]
+      },
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 11.6875,
+        "right": 378.28125,
+        "top": 150,
+        "bottom": 737,
+        "width": 366.59375
+      },
+      "menuAccessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "design": "editorial",
+      "width": 390,
+      "documentWidth": 390,
+      "headerDisplay": "flex",
+      "navDisplay": "none",
+      "toggleDisplay": "flex",
+      "mainHeadings": 1,
+      "headline": "AestheticEye.",
+      "fonts": "loaded",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 2
+          }
+        ]
+      },
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 11.6875,
+        "right": 378.28125,
+        "top": 150,
+        "bottom": 733,
+        "width": 366.59375
+      },
+      "menuAccessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "design": "serene",
+      "width": 390,
+      "documentWidth": 390,
+      "headerDisplay": "flex",
+      "navDisplay": "none",
+      "toggleDisplay": "flex",
+      "mainHeadings": 1,
+      "headline": "You deserve\nto feel confident.",
+      "fonts": "loaded",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 5
+          }
+        ]
+      },
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 11.6875,
+        "right": 378.28125,
+        "top": 154,
+        "bottom": 732,
+        "width": 366.59375
+      },
+      "menuAccessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "design": "modern",
+      "width": 390,
+      "documentWidth": 390,
+      "headerDisplay": "flex",
+      "navDisplay": "none",
+      "toggleDisplay": "flex",
+      "mainHeadings": 1,
+      "headline": "Your Eyes.\nDeserve\nExcellence.",
+      "fonts": "loaded",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 3
+          }
+        ]
+      },
+      "menuOpen": true,
+      "menuBounds": {
+        "left": 11.6875,
+        "right": 378.28125,
+        "top": 150,
+        "bottom": 747,
+        "width": 366.59375
+      },
+      "menuAccessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    }
+  ],
+  "guideFollowUp": "Guide refinement complete; detailed results are recorded in interactionEnhancements.",
+  "interactionEnhancements": {
+    "checkedAt": "2026-10-05T02:57:40.7557067Z",
+    "guideStates": [
+      {
+        "design": "clarity",
+        "width": 390,
+        "step": 0,
+        "client": 350,
+        "scroll": 350,
+        "focused": "explore-guide-title",
+        "open": true,
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      {
+        "design": "clarity",
+        "width": 390,
+        "step": 1,
+        "client": 350,
+        "scroll": 350,
+        "focused": "explore-guide-title",
+        "open": true,
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      {
+        "design": "clarity",
+        "width": 390,
+        "step": 2,
+        "client": 350,
+        "scroll": 350,
+        "focused": "explore-guide-title",
+        "open": true,
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      {
+        "design": "form",
+        "width": 390,
+        "step": 0,
+        "client": 350,
+        "scroll": 350,
+        "focused": "explore-guide-title",
+        "open": true,
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      {
+        "design": "form",
+        "width": 390,
+        "step": 1,
+        "client": 350,
+        "scroll": 350,
+        "focused": "explore-guide-title",
+        "open": true,
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      {
+        "design": "form",
+        "width": 390,
+        "step": 2,
+        "client": 350,
+        "scroll": 350,
+        "focused": "explore-guide-title",
+        "open": true,
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      {
+        "design": "perspective",
+        "width": 390,
+        "step": 0,
+        "client": 350,
+        "scroll": 350,
+        "focused": "explore-guide-title",
+        "open": true,
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      {
+        "design": "perspective",
+        "width": 390,
+        "step": 1,
+        "client": 350,
+        "scroll": 350,
+        "focused": "explore-guide-title",
+        "open": true,
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      {
+        "design": "perspective",
+        "width": 390,
+        "step": 2,
+        "client": 350,
+        "scroll": 350,
+        "focused": "explore-guide-title",
+        "open": true,
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      {
+        "design": "editorial",
+        "width": 390,
+        "step": 0,
+        "client": 350,
+        "scroll": 350,
+        "focused": "explore-guide-title",
+        "open": true,
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      {
+        "design": "editorial",
+        "width": 390,
+        "step": 1,
+        "client": 350,
+        "scroll": 350,
+        "focused": "explore-guide-title",
+        "open": true,
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      {
+        "design": "editorial",
+        "width": 390,
+        "step": 2,
+        "client": 350,
+        "scroll": 350,
+        "focused": "explore-guide-title",
+        "open": true,
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      {
+        "design": "serene",
+        "width": 390,
+        "step": 0,
+        "client": 350,
+        "scroll": 350,
+        "focused": "explore-guide-title",
+        "open": true,
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      {
+        "design": "serene",
+        "width": 390,
+        "step": 1,
+        "client": 350,
+        "scroll": 350,
+        "focused": "explore-guide-title",
+        "open": true,
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      {
+        "design": "serene",
+        "width": 390,
+        "step": 2,
+        "client": 350,
+        "scroll": 350,
+        "focused": "explore-guide-title",
+        "open": true,
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      {
+        "design": "modern",
+        "width": 390,
+        "step": 0,
+        "client": 350,
+        "scroll": 350,
+        "focused": "explore-guide-title",
+        "open": true,
+        "violations": [],
+        "incomplete": []
+      },
+      {
+        "design": "modern",
+        "width": 390,
+        "step": 1,
+        "client": 350,
+        "scroll": 350,
+        "focused": "explore-guide-title",
+        "open": true,
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      {
+        "design": "modern",
+        "width": 390,
+        "step": 2,
+        "client": 350,
+        "scroll": 350,
+        "focused": "explore-guide-title",
+        "open": true,
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      {
+        "design": "clarity",
+        "width": 320,
+        "step": 0,
+        "client": 280,
+        "scroll": 280,
+        "focused": "explore-guide-title",
+        "open": true,
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      {
+        "design": "clarity",
+        "width": 320,
+        "step": 1,
+        "client": 280,
+        "scroll": 280,
+        "focused": "explore-guide-title",
+        "open": true,
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      {
+        "design": "clarity",
+        "width": 320,
+        "step": 2,
+        "client": 280,
+        "scroll": 280,
+        "focused": "explore-guide-title",
+        "open": true,
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      {
+        "design": "modern",
+        "width": 768,
+        "step": 0,
+        "client": 598,
+        "scroll": 598,
+        "focused": "explore-guide-title",
+        "open": true,
+        "violations": [],
+        "incomplete": []
+      },
+      {
+        "design": "modern",
+        "width": 768,
+        "step": 1,
+        "client": 598,
+        "scroll": 598,
+        "focused": "explore-guide-title",
+        "open": true,
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      {
+        "design": "modern",
+        "width": 768,
+        "step": 2,
+        "client": 598,
+        "scroll": 598,
+        "focused": "explore-guide-title",
+        "open": true,
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      {
+        "design": "serene",
+        "width": 1440,
+        "step": 0,
+        "client": 598,
+        "scroll": 598,
+        "focused": "explore-guide-title",
+        "open": true,
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      {
+        "design": "serene",
+        "width": 1440,
+        "step": 1,
+        "client": 598,
+        "scroll": 598,
+        "focused": "explore-guide-title",
+        "open": true,
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      {
+        "design": "serene",
+        "width": 1440,
+        "step": 2,
+        "client": 598,
+        "scroll": 598,
+        "focused": "explore-guide-title",
+        "open": true,
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      }
+    ],
+    "gallerySwipeStates": [
+      {
+        "design": "clarity",
+        "swipe": {
+          "selected": "02 / 04",
+          "dialog": false
+        },
+        "bounds": {
+          "width": 390,
+          "document": 390,
+          "buttons": [
+            {
+              "width": 62.578125,
+              "height": 44,
+              "right": 85.96875
+            },
+            {
+              "width": 65.828125,
+              "height": 44,
+              "right": 157.796875
+            },
+            {
+              "width": 51.9375,
+              "height": 44,
+              "right": 215.734375
+            },
+            {
+              "width": 125.4375,
+              "height": 44,
+              "right": 366.609375
+            }
+          ]
+        }
+      },
+      {
+        "design": "form",
+        "swipe": {
+          "selected": "02 / 04",
+          "dialog": false
+        },
+        "bounds": {
+          "width": 390,
+          "document": 390,
+          "buttons": [
+            {
+              "width": 62.578125,
+              "height": 44,
+              "right": 85.96875
+            },
+            {
+              "width": 65.828125,
+              "height": 44,
+              "right": 157.796875
+            },
+            {
+              "width": 51.9375,
+              "height": 44,
+              "right": 215.734375
+            },
+            {
+              "width": 125.4375,
+              "height": 44,
+              "right": 366.609375
+            }
+          ]
+        }
+      },
+      {
+        "design": "perspective",
+        "swipe": {
+          "selected": "02 / 04",
+          "dialog": false
+        },
+        "bounds": {
+          "width": 390,
+          "document": 390,
+          "buttons": [
+            {
+              "width": 62.578125,
+              "height": 44,
+              "right": 85.96875
+            },
+            {
+              "width": 65.828125,
+              "height": 44,
+              "right": 157.796875
+            },
+            {
+              "width": 51.9375,
+              "height": 44,
+              "right": 215.734375
+            },
+            {
+              "width": 125.4375,
+              "height": 44,
+              "right": 366.609375
+            }
+          ]
+        }
+      },
+      {
+        "design": "editorial",
+        "swipe": {
+          "selected": "02 / 04",
+          "dialog": false
+        },
+        "bounds": {
+          "width": 390,
+          "document": 390,
+          "buttons": [
+            {
+              "width": 62.578125,
+              "height": 44,
+              "right": 85.96875
+            },
+            {
+              "width": 65.828125,
+              "height": 44,
+              "right": 157.796875
+            },
+            {
+              "width": 51.9375,
+              "height": 44,
+              "right": 215.734375
+            },
+            {
+              "width": 125.4375,
+              "height": 44,
+              "right": 366.609375
+            }
+          ]
+        }
+      },
+      {
+        "design": "serene",
+        "swipe": {
+          "selected": "02 / 04",
+          "dialog": false
+        },
+        "bounds": {
+          "width": 390,
+          "document": 390,
+          "buttons": [
+            {
+              "width": 62.578125,
+              "height": 44,
+              "right": 85.96875
+            },
+            {
+              "width": 65.828125,
+              "height": 44,
+              "right": 157.796875
+            },
+            {
+              "width": 51.9375,
+              "height": 44,
+              "right": 215.734375
+            },
+            {
+              "width": 125.4375,
+              "height": 44,
+              "right": 366.609375
+            }
+          ]
+        }
+      },
+      {
+        "design": "modern",
+        "swipe": {
+          "selected": "02 / 04",
+          "dialog": false
+        },
+        "bounds": {
+          "width": 390,
+          "document": 390,
+          "buttons": [
+            {
+              "width": 62.578125,
+              "height": 44,
+              "right": 85.96875
+            },
+            {
+              "width": 65.828125,
+              "height": 44,
+              "right": 157.796875
+            },
+            {
+              "width": 51.9375,
+              "height": 44,
+              "right": 215.734375
+            },
+            {
+              "width": 125.4375,
+              "height": 44,
+              "right": 366.609375
+            }
+          ]
+        }
+      }
+    ],
+    "description": "Optional guide and gallery reviewed in isolated renderer. Guide tests cover all themes at 390px, plus 320px, 768px and 1440px samples. Gallery swipes checked across all six themes at 390px."
+  }
+}

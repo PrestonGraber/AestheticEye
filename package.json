@@ -1,0 +1,34 @@
+{
+  "name": "aestheticeye-design-collection",
+  "version": "1.0.0",
+  "description": "Six art-directed AestheticEye homepage concepts in React, Vite and Tailwind",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "type": "module",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^6.1.1",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.2"
+  },
+  "private": true,
+  "devDependencies": {
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.7",
+    "axe-core": "^4.13.0",
+    "image-size": "^2.0.4",
+    "jsdom": "^30.1.2",
+    "postcss": "^8.5.28",
+    "prettier": "^3.9.9",
+    "vitest": "^5.0.3"
+  }
+}

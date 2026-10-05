@@ -1,0 +1,528 @@
+{
+  "nav": [
+    {
+      "label": "About",
+      "links": [
+        {
+          "label": "Meet the Team",
+          "href": "https://www.aestheticeyemd.com/meet-the-team/"
+        },
+        {
+          "label": "Locations",
+          "href": "https://www.aestheticeyemd.com/contact/"
+        },
+        {
+          "label": "Your First Visit",
+          "href": "https://www.aestheticeyemd.com/your-first-visit/"
+        },
+        {
+          "label": "Testimonials",
+          "href": "https://www.aestheticeyemd.com/testimonials/"
+        },
+        {
+          "label": "Blog",
+          "href": "https://www.aestheticeyemd.com/blog/"
+        },
+        {
+          "label": "Blepharoplasty Quiz",
+          "href": "https://www.aestheticeyemd.com/blepahroplasty-quiz/"
+        }
+      ]
+    },
+    {
+      "label": "Cosmetic",
+      "links": [
+        {
+          "label": "Blepharoplasty (Lower Eyelid Surgery)",
+          "href": "https://www.aestheticeyemd.com/blepharoplasty-lower-eyelid-surgery/"
+        },
+        {
+          "label": "Blepharoplasty (Upper Eyelid Surgery)",
+          "href": "https://www.aestheticeyemd.com/blepharoplasty-upper-eyelid-surgery/"
+        },
+        {
+          "label": "Brow Lift & Forehead Lift",
+          "href": "https://www.aestheticeyemd.com/brow-lift-forehead-lift/"
+        },
+        {
+          "label": "Cosmetic Eyelid Surgery",
+          "href": "https://www.aestheticeyemd.com/cosmetic-eyelid-surgery/"
+        },
+        {
+          "label": "Fat Transfer Surgery",
+          "href": "https://www.aestheticeyemd.com/fat-transfer-surgery/"
+        },
+        {
+          "label": "Lower Eyelid Bags",
+          "href": "https://www.aestheticeyemd.com/lower-eyelid-bags/"
+        },
+        {
+          "label": "Male Blepharoplasty",
+          "href": "https://www.aestheticeyemd.com/male-blepharoplasty/"
+        }
+      ]
+    },
+    {
+      "label": "Reconstructive",
+      "links": [
+        {
+          "label": "Anophthalmos/Loss of an Eye",
+          "href": "https://www.aestheticeyemd.com/anophthalmos-loss-of-an-eye/"
+        },
+        {
+          "label": "Dacryocystorhinostomy",
+          "href": "https://www.aestheticeyemd.com/dacryocystorhinostomy/"
+        },
+        {
+          "label": "Ectropion Repair",
+          "href": "https://www.aestheticeyemd.com/ectropion-repair/"
+        },
+        {
+          "label": "Entropion Repair",
+          "href": "https://www.aestheticeyemd.com/entropion-repair/"
+        },
+        {
+          "label": "Enucleation / Evisceration",
+          "href": "https://www.aestheticeyemd.com/enucleation-evisceration/"
+        },
+        {
+          "label": "Eyelid Malposition",
+          "href": "https://www.aestheticeyemd.com/eyelid-malposition-repair/"
+        },
+        {
+          "label": "Eye Twitching | Blepharospasm",
+          "href": "https://www.aestheticeyemd.com/eye-twitching-blepharospasm/"
+        },
+        {
+          "label": "Eyelid Reconstruction",
+          "href": "https://www.aestheticeyemd.com/eyelid-reconstruction/"
+        },
+        {
+          "label": "Eyelid Retraction Surgery",
+          "href": "https://www.aestheticeyemd.com/eyelid-retraction-surgery/"
+        },
+        {
+          "label": "Facial Paralysis and Bell’s Palsy",
+          "href": "https://www.aestheticeyemd.com/facial-paralysis-and-bells-palsy/"
+        },
+        {
+          "label": "Orbital Decompression",
+          "href": "https://www.aestheticeyemd.com/orbital-decompression/"
+        },
+        {
+          "label": "Orbital Tumors",
+          "href": "https://www.aestheticeyemd.com/orbital-tumor-surgery/"
+        },
+        {
+          "label": "Ptosis or Droopy Eyelids",
+          "href": "https://www.aestheticeyemd.com/ptosis-or-droopy-eyelids/"
+        },
+        {
+          "label": "Punctoplasty",
+          "href": "https://www.aestheticeyemd.com/punctoplasty/"
+        },
+        {
+          "label": "Reconstructive Surgery After Eyelid Skin Cancer",
+          "href": "https://www.aestheticeyemd.com/reconstructive-surgery-after-eyelid-skin-cancer/"
+        },
+        {
+          "label": "Removal of Eyelid Lesion",
+          "href": "https://www.aestheticeyemd.com/removal-of-eyelid-lesion/"
+        },
+        {
+          "label": "Revisional Eyelid Surgery",
+          "href": "https://www.aestheticeyemd.com/revisional-eyelid-surgery/"
+        },
+        {
+          "label": "Surgical Treatment of Tearing",
+          "href": "https://www.aestheticeyemd.com/surgical-treatment-of-tearing/"
+        },
+        {
+          "label": "Stye or Chalazion Drainage",
+          "href": "https://www.aestheticeyemd.com/stye-chalazion-drainage/"
+        },
+        {
+          "label": "Thyroid Eye Disease/Bulging Eyes",
+          "href": "https://www.aestheticeyemd.com/thyroid-eye-disease/"
+        }
+      ]
+    },
+    {
+      "label": "Gallery",
+      "links": [
+        {
+          "label": "Brow Lift Surgery",
+          "href": "https://aestheticeyemd.com/gallery/brow-lift-surgery/"
+        },
+        {
+          "label": "Lower Eyelid Surgery",
+          "href": "https://aestheticeyemd.com/gallery/lower-eyelid-surgery/"
+        },
+        {
+          "label": "Ptosis Surgery",
+          "href": "https://aestheticeyemd.com/gallery/ptosis-surgery/"
+        },
+        {
+          "label": "Skin Cancer Reconstructions",
+          "href": "https://aestheticeyemd.com/gallery/skin-cancer-reconstructions/"
+        },
+        {
+          "label": "Upper Eyelid Surgery",
+          "href": "https://aestheticeyemd.com/gallery/upper-eyelid-surgery/"
+        }
+      ]
+    },
+    {
+      "label": "Non-Surgical",
+      "links": [
+        {
+          "label": "Sofwave™",
+          "href": "https://www.aestheticeyemd.com/sofwave/"
+        },
+        {
+          "label": "UltraClear®",
+          "href": "https://www.aestheticeyemd.com/ultraclear/"
+        },
+        {
+          "label": "Advanced Skin Rejuvenation",
+          "href": "https://www.aestheticeyemd.com/advanced-skin-rejuvenation/"
+        },
+        {
+          "label": "SkinPen® Microneedling",
+          "href": "https://www.aestheticeyemd.com/skinpen-microneedling/"
+        },
+        {
+          "label": "Chemical Peel with Dermaplane",
+          "href": "https://www.aestheticeyemd.com/chemical-peel-with-dermaplane/"
+        },
+        {
+          "label": "VI Peel",
+          "href": "https://www.aestheticeyemd.com/vi-peel/"
+        },
+        {
+          "label": "Dermaplane",
+          "href": "https://www.aestheticeyemd.com/dermaplaning/"
+        },
+        {
+          "label": "HydraFacial™ Treatments",
+          "href": "https://www.aestheticeyemd.com/hydrafacial/"
+        },
+        {
+          "label": "Brow & Lash Enhancements",
+          "href": "https://www.aestheticeyemd.com/brow-lash-enhancements/"
+        },
+        {
+          "label": "Dark Circle Treatment (Eye Bags)",
+          "href": "https://www.aestheticeyemd.com/dark-circle-under-eye-treatment/"
+        },
+        {
+          "label": "Eyelid Scar Treatments",
+          "href": "https://www.aestheticeyemd.com/eyelid-scar-treatments/"
+        },
+        {
+          "label": "Non-surgical Eyelid Lift",
+          "href": "https://www.aestheticeyemd.com/non-surgical-eyelid-lift/"
+        },
+        {
+          "label": "Skin Conditions",
+          "href": "https://www.aestheticeyemd.com/cosmetic-skin-treatments/"
+        },
+        {
+          "label": "Aging Face",
+          "href": "https://www.aestheticeyemd.com/aging-face-treatment/"
+        },
+        {
+          "label": "Jowling",
+          "href": "https://www.aestheticeyemd.com/jowling-treatment/"
+        },
+        {
+          "label": "Scars",
+          "href": "https://www.aestheticeyemd.com/scars-treatment/"
+        },
+        {
+          "label": "Skin Laxity",
+          "href": "https://www.aestheticeyemd.com/skin-laxity-treatment/"
+        },
+        {
+          "label": "Volume Loss",
+          "href": "https://www.aestheticeyemd.com/facial-volume-loss-treatment/"
+        },
+        {
+          "label": "Injectables",
+          "href": "https://www.aestheticeyemd.com/injectables/"
+        },
+        {
+          "label": "Neurotoxins",
+          "href": "https://www.aestheticeyemd.com/neurotoxins-injections/"
+        },
+        {
+          "label": "BOTOX®",
+          "href": "https://www.aestheticeyemd.com/botox-injections/"
+        },
+        {
+          "label": "Dysport",
+          "href": "https://www.aestheticeyemd.com/dysport-injections/"
+        },
+        {
+          "label": "Medical-Grade Skincare Products",
+          "href": "https://www.aestheticeyemd.com/medical-grade-skincare-products/"
+        }
+      ]
+    },
+    {
+      "label": "Resources",
+      "links": [
+        {
+          "label": "Patient Portal",
+          "href": "https://sso.ema.md/auth/realms/Modmed/protocol/openid-connect/auth?response_type=code&client_id=ema&redirect_uri=https%3A%2F%2Faestheticeyemd.ema.md%2Fema%2Fsso%2Flogin&state=beeb8255-2fd4-4e74-830d-70392bdd7a5d&login=true&login_hint=UkVWSVNJT049MjdlMDU2ZmE1MDtET01BSU49YWVzdGhldGljZXllbWQuZW1hLm1kO0ZJUk1fTE9HTz1udWxsO0ZJUk1fTkFNRT1BZXN0aGV0aWNFeWU6IE9jdWxvcGxhc3RpYyBTdXJnZW9ucztPRkZMSU5FX0FDQ0VTUz1GQUxTRTtNRURJQ0FMX0RPTUFJTj1vcGh0aGFsbW9sb2d5O0dEUFJfQ09PS0lFPTtTU09fUEFUSUVOVF9MT0dJTl9GT1JNX1dJVEhfQ09ERT1GQUxTRTtPUklHSU49L2VtYS9QYXRpZW50TG9naW4uYWN0aW9uO01BUktFVElOR19CQU5ORVI9VFJVRTtTU09fUEFUSUVOVF9MT0dJTl9GT1JNX1dJVEhfQ09ERV9CQVNJQ19BVVRIPUZBTFNFO1ZFUlNJT049Ny45LjEuMztTU09fUEFUSUVOVF9MT0dJTl9GT1JNX1dJVEhfQ09ERV9NT0JJTEU9RkFMU0U7RklSTV9HTE9CQUxfSUQ9MTE5OTU0O0dEUFI9VFJVRTtNT0JJTEU9RkFMU0U%3D&scope=openid"
+        },
+        {
+          "label": "Payment Plans",
+          "href": "https://www.aestheticeyemd.com/payment-plans/"
+        },
+        {
+          "label": "Quick Pay",
+          "href": "https://aestheticeyemd.ema.md/ema/pay/onlinepayments"
+        },
+        {
+          "label": "Pre and Post Surgical Resources",
+          "href": "https://www.aestheticeyemd.com/pre-and-post-surgical-resources/"
+        },
+        {
+          "label": "Mental and Emotional",
+          "href": "https://www.aestheticeyemd.com/mental-and-emotional-well-being-in-your-recovery/"
+        },
+        {
+          "label": "Pre-Operative Instructions",
+          "href": "https://www.aestheticeyemd.com/pre-operative-instructions-general/"
+        },
+        {
+          "label": "Post-Operative Instructions",
+          "href": "https://www.aestheticeyemd.com/post-operative-instructions/"
+        },
+        {
+          "label": "Aesthetic and Laser Resources",
+          "href": "https://www.aestheticeyemd.com/aesthetic-and-laser-resources/"
+        },
+        {
+          "label": "3DMIRACL Non-Ablative Laser Resurfacing Pre & Post Care Instructions",
+          "href": "https://www.aestheticeyemd.com/3dmiracl-non-ablative-laser-resurfacing-pre-post-care-instructions/"
+        },
+        {
+          "label": "UltraClear Ablative Laser Resurfacing Pre and Post Care Instructions",
+          "href": "https://www.aestheticeyemd.com/ultraclear-ablative-laser-resurfacing-pre-and-post-care-instructions/"
+        },
+        {
+          "label": "Pigmented Lesion Pre and Post",
+          "href": "https://www.aestheticeyemd.com/pigmented-lesion-pre-and-post-care-instructions/"
+        },
+        {
+          "label": "Chemical Peel Pre & Post",
+          "href": "https://www.aestheticeyemd.com/chemical-peel-pre-post-treatment-care-instructions/"
+        },
+        {
+          "label": "Dermal Filler Pre & Post",
+          "href": "https://www.aestheticeyemd.com/dermal-filler-pre-post-care-instructions/"
+        },
+        {
+          "label": "SkinPen Microneedling Pre & Post",
+          "href": "https://www.aestheticeyemd.com/skinpen-microneedling-pre-post-care-instructions/"
+        },
+        {
+          "label": "Botox and Dysport Pre & Post",
+          "href": "https://www.aestheticeyemd.com/botox-and-dysport-pre-post-care-instructions/"
+        },
+        {
+          "label": "Dermaplaning Pre & Post",
+          "href": "https://www.aestheticeyemd.com/dermaplaning-pre-post-care-instructions/"
+        },
+        {
+          "label": "Brow Wax and Brow Tint Pre & Post",
+          "href": "https://www.aestheticeyemd.com/brow-wax-and-brow-tint-pre-post-care-instructions/"
+        },
+        {
+          "label": "HydraFacial Pre & Post",
+          "href": "https://www.aestheticeyemd.com/hydrafacial-pre-post-care-instructions/"
+        },
+        {
+          "label": "Sofwave Pre and Post Care Instructions",
+          "href": "https://www.aestheticeyemd.com/sofwave-ultrasound-treatment-pre-and-post-care-instructions/"
+        }
+      ]
+    },
+    {
+      "label": "Specials",
+      "links": [
+        {
+          "label": "New Services Specials",
+          "href": "https://www.aestheticeyemd.com/new-services-specials/"
+        },
+        {
+          "label": "It’s Laser Season!",
+          "href": "https://www.aestheticeyemd.com/specials/"
+        },
+        {
+          "label": "Bundle & SAVE!",
+          "href": "https://www.aestheticeyemd.com/bundle-save/"
+        },
+        {
+          "label": "Upper Bleph Special Offer",
+          "href": "https://www.aestheticeyemd.com/oculoplastics-consultation/"
+        }
+      ]
+    },
+    {
+      "label": "Contact",
+      "links": [
+        {
+          "label": "Contact Us",
+          "href": "https://www.aestheticeyemd.com/contact/"
+        },
+        {
+          "label": "Referring Providers",
+          "href": "https://www.aestheticeyemd.com/referring-providers/"
+        }
+      ]
+    }
+  ],
+  "paragraphs": [
+    "Cincinnati and Dayton’s Established Eyelid Experts",
+    "35+ years of combined experience",
+    "25,000 + eyelid and brow surgeries performed",
+    "You Deserve to feel confident",
+    "At AestheticEye, we are committed to excellence, focusing on oculofacial plastic surgery to deliver the highest quality of care. Our comprehensive services in Cincinnati and Dayton, include cosmetic and reconstructive eyelid surgeries, as well as non-surgical treatments designed to enhance your natural beauty and improve your vision and comfort.",
+    "About our practice",
+    "Welcome to AestheticEye, the premier oculoplastic surgery practice in Cincinnati and Dayton, OH, led by the highly skilled Dr. Ginger Henson and Dr. Jonathan Pargament. As board-certified and nationally recognized oculoplastic surgeons, Dr. Henson and Dr. Pargament bring unparalleled expertise and specialized training to performing both aesthetic and reconstructive surgery for the eyelids and face.",
+    "Correcting drooping upper eyelids is one of our specialties. This procedure, known as blepharoplasty, can significantly improve your field of vision and provide a more youthful and alert appearance.",
+    "We offer advanced techniques to address lower eyelid bags and puffiness, rejuvenating your under-eye area and creating a refreshed look.",
+    "Our brow and forehead lift procedures elevate sagging brows and smooth out deep forehaed lines, offering a rejuvenated and more youthful appearance.",
+    "View Our Gallery",
+    "Regain control over your impressions",
+    "Dr. Ginger Henson and Dr. Jonathan Pargament have distinguished backgrounds, with extensive training and experience in oculoplastic surgery. Their commitment to patient-centered care and use of the latest surgical techniques ensure that you receive the highest standard of care at AestheticEye.",
+    "Improving your vision",
+    "At AestheticEye, we understand the importance of your eyes in expressing your individuality and enhancing your overall appearance. Our personalized approach to care, state-of-the-art facilities, and compassionate team make us the leading choice for oculoplastic surgery in Cincinnati and Dayton.",
+    "Reconstructive Surgery Procedures",
+    "Looking as happy as you feel",
+    "In addition to surgical options, AestheticEye offers a range of non-surgical treatments to rejuvenate your appearance. These include chemical peels, injectables, and fillers for upper eyelid hollows, designed to enhance your look with minimal downtime.",
+    "Non-Surgical Treatments",
+    "Begin Your Transormation",
+    "Take the first step towards rejuvenating your eyes and enhancing your natural beauty. Contact AestheticEye today to schedule a consultation with Dr. Henson or Dr. Pargament and discover the possibilities of our specialized oculoplastic procedures.",
+    "Oct 01, 2026",
+    "A bulging eye, new double vision, eye-socket pressure, or unexplained vision changes can be orbital tumor symptoms, but they can also result from thyroid eye disease, inflammation, infection, vascular disorders,… Continue reading about Are a Bulging Eye or Double Vision Possible Orbital Tumor Symptoms?",
+    "Sep 15, 2026",
+    "Most eyelid bumps aren’t serious, but if you notice a lump that keeps coming back, changes, bleeds, affects your lashes, or makes it harder to move your eyelid, it’s time… Continue reading about When Should an Eyelid Bump Be Checked by an Oculoplastic Surgeon?",
+    "Aug 11, 2026",
+    "Revision eyelid surgery may be worth considering when problems from a previous eyelid procedure remain after healing or interfere with eye comfort, closure, vision, or appearance. A second operation isn’t… Continue reading about When Should You Consider Revision Eyelid Surgery?"
+  ],
+  "imgs": [
+    {
+      "src": "/assets/name.svg",
+      "alt": "AestheticEye"
+    },
+    {
+      "src": "/assets/Top-Docs-Logo-2021-2025-1-300x230.jpg",
+      "alt": "2021-2025 Top Doctors Cincinnati Magazine"
+    },
+    {
+      "src": "/assets/2025-CC-TD-license-confirmed-1-198x300.webp",
+      "alt": "Castle Connolly Top Doctors 2025 badge"
+    },
+    {
+      "src": "/assets/Jon-Pargament-Ginger-Henson-license-confirmed.jpg",
+      "alt": "Dr. Pargament and Dr. Ginger Henson"
+    },
+    {
+      "src": "/assets/name-color.png",
+      "alt": "AestheticEye"
+    },
+    {
+      "src": "/assets/1521114.jpg",
+      "alt": "presentation"
+    },
+    {
+      "src": "/assets/392657.jpg",
+      "alt": "presentation"
+    },
+    {
+      "src": "/assets/1193219OS.jpg",
+      "alt": "presentation"
+    },
+    {
+      "src": "/assets/1524824.jpg",
+      "alt": "presentation"
+    },
+    {
+      "src": "/assets/logo-uc-1.png",
+      "alt": "University of Cincinnati"
+    },
+    {
+      "src": "/assets/aao_logo_2x-1.png",
+      "alt": "American Academy Of Ophthalmology"
+    },
+    {
+      "src": "/assets/asoprs_2022_logo-1.png",
+      "alt": "Asoprs"
+    },
+    {
+      "src": "/assets/logo-asc-1.png",
+      "alt": "ACS American College Of Surgeons"
+    },
+    {
+      "src": "/assets/3-3.png",
+      "alt": "American Board of Ophthalmology"
+    },
+    {
+      "src": "/assets/JAN24_Cover-1.png",
+      "alt": "Cincinnati Top Doctors 2024"
+    },
+    {
+      "src": "/assets/logo-grey.png",
+      "alt": "AestheticEye logo"
+    },
+    {
+      "src": "/assets/logo-grey.png",
+      "alt": "AestheticEye logo"
+    },
+    {
+      "src": "/assets/name-color.png",
+      "alt": "AestheticEye"
+    },
+    {
+      "src": "/assets/Sofwave-Logo-White.license-confirmed-300x98.png",
+      "alt": "Sofwave"
+    },
+    {
+      "src": "/assets/schedule.jpg",
+      "alt": "beautiful woman"
+    },
+    {
+      "src": "/assets/blog-2-1.jpg",
+      "alt": "beautiful woman"
+    }
+  ],
+  "articles": [
+    {
+      "title": "Are a Bulging Eye or Double Vision Possible Orbital Tumor Symptoms?",
+      "href": "https://www.aestheticeyemd.com/blog/are-a-bulging-eye-or-double-vision-possible-orbital-tumor-symptoms/",
+      "date": "Oct 01, 2026",
+      "body": "A bulging eye, new double vision, eye-socket pressure, or unexplained vision changes can be orbital tumor symptoms, but they can also result from thyroid eye disease, inflammation, infection, vascular disorders,…"
+    },
+    {
+      "title": "When Should an Eyelid Bump Be Checked by an Oculoplastic Surgeon?",
+      "href": "https://www.aestheticeyemd.com/blog/when-should-an-eyelid-bump-be-checked-by-an-oculoplastic-surgeon/",
+      "date": "Sep 15, 2026",
+      "body": "Most eyelid bumps aren’t serious, but if you notice a lump that keeps coming back, changes, bleeds, affects your lashes, or makes it harder to move your eyelid, it’s time…"
+    },
+    {
+      "title": "When Should You Consider Revision Eyelid Surgery?",
+      "href": "https://www.aestheticeyemd.com/blog/when-should-you-consider-revision-eyelid-surgery/",
+      "date": "Aug 11, 2026",
+      "body": "Revision eyelid surgery may be worth considering when problems from a previous eyelid procedure remain after healing or interfere with eye comfort, closure, vision, or appearance. A second operation isn’t…"
+    }
+  ],
+  "reviews": [
+    "\"Dr. Ginger Henson was a perfect choice for me! She did an excellent job. I had no pain and healed up better than ever! I'm so happy with the job she did for me!\"",
+    "\"My initial appointment with Dr. Pargament was in April 2022. He seemed very concerned that my eyelids hung so low overall my eye and my left eyelid was swollen. He explained to me that they would take tissue from my eyelid and stitch it together. I was impressed with Dr. Pargament because of his concern and the way he explained to me how the surgery would enhance my vision.\"",
+    "\"Dr. Henson did a great job with my eye surgery. She is friendly, professional and explains everything up front. I would definitely recommend her.\""
+  ]
+}

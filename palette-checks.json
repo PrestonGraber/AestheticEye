@@ -1,0 +1,597 @@
+{
+  "checkedAt": "2026-10-05T02:17:50.781Z",
+  "method": "WCAG relative-luminance formula applied to explicit source palette tokens. This is not rendered-browser contrast testing; text on images and state-specific CSS require visual review.",
+  "checks": 67,
+  "failures": 0,
+  "results": [
+    {
+      "section": "nav",
+      "design": "clarity",
+      "text": "ink",
+      "foreground": "#203e31",
+      "background": "#fcfdf9",
+      "ratio": 11.45,
+      "passesNormalText": true
+    },
+    {
+      "section": "nav",
+      "design": "clarity",
+      "text": "muted",
+      "foreground": "#53694c",
+      "background": "#fcfdf9",
+      "ratio": 5.89,
+      "passesNormalText": true
+    },
+    {
+      "section": "nav",
+      "design": "form",
+      "text": "ink",
+      "foreground": "#203e31",
+      "background": "#fcfdf9",
+      "ratio": 11.45,
+      "passesNormalText": true
+    },
+    {
+      "section": "nav",
+      "design": "form",
+      "text": "muted",
+      "foreground": "#53694c",
+      "background": "#fcfdf9",
+      "ratio": 5.89,
+      "passesNormalText": true
+    },
+    {
+      "section": "nav",
+      "design": "perspective",
+      "text": "ink",
+      "foreground": "#f2f3df",
+      "background": "#213d30",
+      "ratio": 10.51,
+      "passesNormalText": true
+    },
+    {
+      "section": "nav",
+      "design": "perspective",
+      "text": "muted",
+      "foreground": "#c3d1b2",
+      "background": "#213d30",
+      "ratio": 7.37,
+      "passesNormalText": true
+    },
+    {
+      "section": "nav",
+      "design": "editorial",
+      "text": "ink",
+      "foreground": "#203e31",
+      "background": "#f2f2e7",
+      "ratio": 10.38,
+      "passesNormalText": true
+    },
+    {
+      "section": "nav",
+      "design": "editorial",
+      "text": "muted",
+      "foreground": "#53694c",
+      "background": "#f2f2e7",
+      "ratio": 5.33,
+      "passesNormalText": true
+    },
+    {
+      "section": "nav",
+      "design": "serene",
+      "text": "ink",
+      "foreground": "#203e31",
+      "background": "#f6f7ed",
+      "ratio": 10.83,
+      "passesNormalText": true
+    },
+    {
+      "section": "nav",
+      "design": "serene",
+      "text": "muted",
+      "foreground": "#53694c",
+      "background": "#f6f7ed",
+      "ratio": 5.57,
+      "passesNormalText": true
+    },
+    {
+      "section": "nav",
+      "design": "modern",
+      "text": "ink",
+      "foreground": "#f1f3df",
+      "background": "#18382c",
+      "ratio": 11.35,
+      "passesNormalText": true
+    },
+    {
+      "section": "nav",
+      "design": "modern",
+      "text": "muted",
+      "foreground": "#c0d0ad",
+      "background": "#18382c",
+      "ratio": 7.84,
+      "passesNormalText": true
+    },
+    {
+      "section": "procedure",
+      "design": "clarity",
+      "text": "ink",
+      "foreground": "#203e31",
+      "background": "#edf2e4",
+      "ratio": 10.26,
+      "passesNormalText": true
+    },
+    {
+      "section": "procedure",
+      "design": "clarity",
+      "text": "muted",
+      "foreground": "#4f6741",
+      "background": "#edf2e4",
+      "ratio": 5.5,
+      "passesNormalText": true
+    },
+    {
+      "section": "procedure",
+      "design": "form",
+      "text": "ink",
+      "foreground": "#203e31",
+      "background": "#fafbf6",
+      "ratio": 11.25,
+      "passesNormalText": true
+    },
+    {
+      "section": "procedure",
+      "design": "form",
+      "text": "muted",
+      "foreground": "#4f6741",
+      "background": "#fafbf6",
+      "ratio": 6.03,
+      "passesNormalText": true
+    },
+    {
+      "section": "procedure",
+      "design": "perspective",
+      "text": "ink",
+      "foreground": "#f4f4e5",
+      "background": "#243e30",
+      "ratio": 10.47,
+      "passesNormalText": true
+    },
+    {
+      "section": "procedure",
+      "design": "perspective",
+      "text": "muted",
+      "foreground": "#d5dfc5",
+      "background": "#243e30",
+      "ratio": 8.41,
+      "passesNormalText": true
+    },
+    {
+      "section": "procedure",
+      "design": "editorial",
+      "text": "ink",
+      "foreground": "#203e31",
+      "background": "#f0f2e8",
+      "ratio": 10.35,
+      "passesNormalText": true
+    },
+    {
+      "section": "procedure",
+      "design": "editorial",
+      "text": "muted",
+      "foreground": "#4f6741",
+      "background": "#f0f2e8",
+      "ratio": 5.55,
+      "passesNormalText": true
+    },
+    {
+      "section": "procedure",
+      "design": "serene",
+      "text": "ink",
+      "foreground": "#203e31",
+      "background": "#e9eedf",
+      "ratio": 9.9,
+      "passesNormalText": true
+    },
+    {
+      "section": "procedure",
+      "design": "serene",
+      "text": "muted",
+      "foreground": "#4f6741",
+      "background": "#e9eedf",
+      "ratio": 5.3,
+      "passesNormalText": true
+    },
+    {
+      "section": "procedure",
+      "design": "modern",
+      "text": "ink",
+      "foreground": "#203e31",
+      "background": "#f0f3e8",
+      "ratio": 10.41,
+      "passesNormalText": true
+    },
+    {
+      "section": "procedure",
+      "design": "modern",
+      "text": "muted",
+      "foreground": "#4f6741",
+      "background": "#f0f3e8",
+      "ratio": 5.58,
+      "passesNormalText": true
+    },
+    {
+      "section": "gallery",
+      "design": "clarity",
+      "text": "ink",
+      "foreground": "#203e31",
+      "background": "#fafbf6",
+      "ratio": 11.25,
+      "passesNormalText": true
+    },
+    {
+      "section": "gallery",
+      "design": "clarity",
+      "text": "muted",
+      "foreground": "#526e42",
+      "background": "#fafbf6",
+      "ratio": 5.51,
+      "passesNormalText": true
+    },
+    {
+      "section": "gallery",
+      "design": "form",
+      "text": "ink",
+      "foreground": "#203e31",
+      "background": "#edf1e5",
+      "ratio": 10.2,
+      "passesNormalText": true
+    },
+    {
+      "section": "gallery",
+      "design": "form",
+      "text": "muted",
+      "foreground": "#526e42",
+      "background": "#edf1e5",
+      "ratio": 4.99,
+      "passesNormalText": true
+    },
+    {
+      "section": "gallery",
+      "design": "perspective",
+      "text": "ink",
+      "foreground": "#203e31",
+      "background": "#eeeee0",
+      "ratio": 10,
+      "passesNormalText": true
+    },
+    {
+      "section": "gallery",
+      "design": "perspective",
+      "text": "muted",
+      "foreground": "#4f6a40",
+      "background": "#eeeee0",
+      "ratio": 5.17,
+      "passesNormalText": true
+    },
+    {
+      "section": "gallery",
+      "design": "editorial",
+      "text": "ink",
+      "foreground": "#203e31",
+      "background": "#e9eee0",
+      "ratio": 9.9,
+      "passesNormalText": true
+    },
+    {
+      "section": "gallery",
+      "design": "editorial",
+      "text": "muted",
+      "foreground": "#526e42",
+      "background": "#e9eee0",
+      "ratio": 4.85,
+      "passesNormalText": true
+    },
+    {
+      "section": "gallery",
+      "design": "serene",
+      "text": "ink",
+      "foreground": "#203e31",
+      "background": "#fafbf3",
+      "ratio": 11.23,
+      "passesNormalText": true
+    },
+    {
+      "section": "gallery",
+      "design": "serene",
+      "text": "muted",
+      "foreground": "#526e42",
+      "background": "#fafbf3",
+      "ratio": 5.5,
+      "passesNormalText": true
+    },
+    {
+      "section": "gallery",
+      "design": "modern",
+      "text": "ink",
+      "foreground": "#f0f3df",
+      "background": "#1c3829",
+      "ratio": 11.29,
+      "passesNormalText": true
+    },
+    {
+      "section": "gallery",
+      "design": "modern",
+      "text": "muted",
+      "foreground": "#bdcfa8",
+      "background": "#1c3829",
+      "ratio": 7.68,
+      "passesNormalText": true
+    },
+    {
+      "section": "review",
+      "design": "clarity",
+      "text": "ink",
+      "foreground": "#f0f3e1",
+      "background": "#294b35",
+      "ratio": 8.65,
+      "passesNormalText": true
+    },
+    {
+      "section": "review",
+      "design": "clarity",
+      "text": "soft",
+      "foreground": "#c5d6ab",
+      "background": "#294b35",
+      "ratio": 6.31,
+      "passesNormalText": true
+    },
+    {
+      "section": "review",
+      "design": "form",
+      "text": "ink",
+      "foreground": "#203e31",
+      "background": "#e3ead9",
+      "ratio": 9.49,
+      "passesNormalText": true
+    },
+    {
+      "section": "review",
+      "design": "form",
+      "text": "soft",
+      "foreground": "#4c683d",
+      "background": "#e3ead9",
+      "ratio": 5.08,
+      "passesNormalText": true
+    },
+    {
+      "section": "review",
+      "design": "perspective",
+      "text": "ink",
+      "foreground": "#f0f3e1",
+      "background": "#223d2f",
+      "ratio": 10.48,
+      "passesNormalText": true
+    },
+    {
+      "section": "review",
+      "design": "perspective",
+      "text": "soft",
+      "foreground": "#c9dbb0",
+      "background": "#223d2f",
+      "ratio": 8.02,
+      "passesNormalText": true
+    },
+    {
+      "section": "review",
+      "design": "editorial",
+      "text": "ink",
+      "foreground": "#243f30",
+      "background": "#fafaf3",
+      "ratio": 10.95,
+      "passesNormalText": true
+    },
+    {
+      "section": "review",
+      "design": "editorial",
+      "text": "soft",
+      "foreground": "#4f6b3e",
+      "background": "#fafaf3",
+      "ratio": 5.72,
+      "passesNormalText": true
+    },
+    {
+      "section": "review",
+      "design": "serene",
+      "text": "ink",
+      "foreground": "#28422f",
+      "background": "#e5ecd7",
+      "ratio": 9.06,
+      "passesNormalText": true
+    },
+    {
+      "section": "review",
+      "design": "serene",
+      "text": "soft",
+      "foreground": "#516c3f",
+      "background": "#e5ecd7",
+      "ratio": 4.85,
+      "passesNormalText": true
+    },
+    {
+      "section": "review",
+      "design": "modern",
+      "text": "ink",
+      "foreground": "#183525",
+      "background": "#d4e1bf",
+      "ratio": 9.73,
+      "passesNormalText": true
+    },
+    {
+      "section": "review",
+      "design": "modern",
+      "text": "soft",
+      "foreground": "#3b5730",
+      "background": "#d4e1bf",
+      "ratio": 5.91,
+      "passesNormalText": true
+    },
+    {
+      "section": "contact",
+      "design": "clarity",
+      "text": "ink",
+      "foreground": "#f1f4e0",
+      "background": "#203e31",
+      "ratio": 10.45,
+      "passesNormalText": true
+    },
+    {
+      "section": "contact",
+      "design": "clarity",
+      "text": "soft",
+      "foreground": "#d3dfbf",
+      "background": "#203e31",
+      "ratio": 8.4,
+      "passesNormalText": true
+    },
+    {
+      "section": "contact",
+      "design": "form",
+      "text": "ink",
+      "foreground": "#203e31",
+      "background": "#f9faf3",
+      "ratio": 11.14,
+      "passesNormalText": true
+    },
+    {
+      "section": "contact",
+      "design": "form",
+      "text": "soft",
+      "foreground": "#526d40",
+      "background": "#f9faf3",
+      "ratio": 5.52,
+      "passesNormalText": true
+    },
+    {
+      "section": "contact",
+      "design": "perspective",
+      "text": "ink",
+      "foreground": "#f4f4e0",
+      "background": "#253e2f",
+      "ratio": 10.43,
+      "passesNormalText": true
+    },
+    {
+      "section": "contact",
+      "design": "perspective",
+      "text": "soft",
+      "foreground": "#d9e5be",
+      "background": "#253e2f",
+      "ratio": 8.79,
+      "passesNormalText": true
+    },
+    {
+      "section": "contact",
+      "design": "editorial",
+      "text": "ink",
+      "foreground": "#203e31",
+      "background": "#eeeee0",
+      "ratio": 10,
+      "passesNormalText": true
+    },
+    {
+      "section": "contact",
+      "design": "editorial",
+      "text": "soft",
+      "foreground": "#526c41",
+      "background": "#eeeee0",
+      "ratio": 5.01,
+      "passesNormalText": true
+    },
+    {
+      "section": "contact",
+      "design": "serene",
+      "text": "ink",
+      "foreground": "#28412d",
+      "background": "#e4ebd5",
+      "ratio": 9.1,
+      "passesNormalText": true
+    },
+    {
+      "section": "contact",
+      "design": "serene",
+      "text": "soft",
+      "foreground": "#506b3f",
+      "background": "#e4ebd5",
+      "ratio": 4.88,
+      "passesNormalText": true
+    },
+    {
+      "section": "contact",
+      "design": "modern",
+      "text": "ink",
+      "foreground": "#193726",
+      "background": "#dce7c8",
+      "ratio": 10.09,
+      "passesNormalText": true
+    },
+    {
+      "section": "contact",
+      "design": "modern",
+      "text": "soft",
+      "foreground": "#435e34",
+      "background": "#dce7c8",
+      "ratio": 5.64,
+      "passesNormalText": true
+    },
+    {
+      "surface": "Modernist category rail",
+      "foreground": "#4e6740",
+      "background": "#dce7c9",
+      "ratio": 4.89,
+      "passesNormalText": true
+    },
+    {
+      "surface": "Modernist location card",
+      "foreground": "#d2e3b6",
+      "background": "#173725",
+      "ratio": 9.57,
+      "passesNormalText": true
+    },
+    {
+      "surface": "Clarity location card",
+      "foreground": "#d3dfbf",
+      "background": "#294936",
+      "ratio": 7.18,
+      "passesNormalText": true
+    },
+    {
+      "surface": "Form location card",
+      "foreground": "#526d40",
+      "background": "#e4edd5",
+      "ratio": 4.8,
+      "passesNormalText": true
+    },
+    {
+      "surface": "Sanctuary location card",
+      "foreground": "#506b3f",
+      "background": "#f9fbf0",
+      "ratio": 5.71,
+      "passesNormalText": true
+    },
+    {
+      "surface": "Primary booking button",
+      "foreground": "#ffffff",
+      "background": "#294b35",
+      "ratio": 9.76,
+      "passesNormalText": true
+    },
+    {
+      "surface": "Dark header booking button",
+      "foreground": "#213d30",
+      "background": "#dce7c6",
+      "ratio": 9.18,
+      "passesNormalText": true
+    }
+  ]
+}

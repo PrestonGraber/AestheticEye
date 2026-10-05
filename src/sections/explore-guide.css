@@ -1,0 +1,235 @@
+.explore-guide-invitation {
+  margin: 0 6%;
+  padding: 30px 0;
+  border-top: 1px solid #b7c8a9;
+  border-bottom: 1px solid #b7c8a9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  color: #203e31;
+}
+.explore-guide-invitation p {
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  margin-bottom: 10px !important;
+}
+.site.art-site .explore-guide-invitation h2 {
+  font-size: clamp(25px, 2.5vw, 36px);
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+}
+.explore-guide-invitation > button {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  min-height: 48px;
+  font-size: 15px;
+  border-bottom: 1px solid currentColor;
+  text-align: left;
+}
+.explore-guide-invitation > button .ae-icon {
+  transition: transform 0.2s;
+}
+.explore-guide-invitation > button:hover .ae-icon {
+  transform: translate(3px, -3px);
+}
+.explore-guide-dialog {
+  padding: 0;
+  border: 1px solid #b7c8a9;
+  border-radius: 18px;
+  width: min(600px, calc(100% - 32px));
+  max-height: calc(100dvh - 32px);
+  margin: auto;
+  overflow: auto;
+  background: #fafbf6;
+  color: #203e31;
+  box-shadow: 0 24px 100px #102b3440;
+}
+.explore-guide-dialog::backdrop {
+  background: #10291f99;
+  backdrop-filter: blur(5px);
+}
+.explore-guide-dialog[data-design='form'],
+.explore-guide-dialog[data-design='modern'],
+.explore-guide-dialog[data-design='editorial'] {
+  border-radius: 3px;
+}
+.explore-guide-shell {
+  padding: 32px;
+}
+.explore-guide-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+}
+.explore-guide-top button {
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  border: 1px solid #b7c8a9;
+  border-radius: 50%;
+}
+.explore-guide-progress {
+  height: 2px;
+  background: #dce7cb;
+  margin: 22px 0 30px;
+}
+.explore-guide-progress span {
+  display: block;
+  height: 100%;
+  background: #294f37;
+  transition: width 0.25s;
+}
+.site.art-site .explore-guide-dialog h2 {
+  font-size: clamp(27px, 4vw, 36px);
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+  margin: 0 0 26px;
+}
+.explore-guide-dialog h2:focus {
+  outline: none;
+}
+.explore-guide-dialog fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: grid;
+  gap: 10px;
+}
+.explore-guide-option {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 17px;
+  border: 1px solid #b7c8a9;
+  border-radius: 7px;
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 1.4;
+}
+.explore-guide-option:has(input:checked) {
+  background: #e4edd7;
+  border-color: #294f37;
+}
+.explore-guide-option input {
+  accent-color: #294f37;
+  width: 18px;
+  height: 18px;
+  flex: none;
+}
+.explore-guide-topic label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.explore-guide-topic select {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  padding: 16px 12px;
+  border: 1px solid #718762;
+  border-radius: 5px;
+  background: white;
+  color: #203e31;
+  font-size: 16px;
+}
+.site.art-site .explore-guide-dialog p {
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 18px 0;
+}
+.explore-guide-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  margin-top: 28px;
+}
+.explore-guide-actions button {
+  min-height: 48px;
+  padding: 12px 18px;
+  font-size: 15px;
+}
+.explore-guide-actions .explore-guide-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  background: #294f37;
+  color: white;
+  border-radius: 5px;
+  margin-left: auto;
+}
+.explore-guide-primary:disabled {
+  background: #dce7cb;
+  color: #52664a;
+  cursor: not-allowed;
+  opacity: 1;
+}
+.explore-guide-result-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 22px;
+  padding: 22px;
+  background: #e4edd7;
+  border: 1px solid #b7c8a9;
+  border-radius: 7px;
+  font-size: 20px;
+  line-height: 1.4;
+}
+.explore-guide-book {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: fit-content;
+  min-height: 48px;
+  border-bottom: 1px solid currentColor;
+  font-size: 15px;
+}
+.explore-guide-restart {
+  display: block;
+  margin-top: 24px;
+  padding: 12px 0;
+  font-size: 14px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.site.art-site .explore-guide-dialog .explore-guide-note {
+  border-top: 1px solid #c9d4c0;
+  padding-top: 18px;
+  margin-top: 26px;
+  font-size: 12px;
+  color: #52664a;
+}
+@media (max-width: 740px) {
+  .explore-guide-invitation {
+    margin-inline: 6%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .explore-guide-shell {
+    padding: 22px;
+  }
+  .explore-guide-actions .explore-guide-primary {
+    gap: 10px;
+    padding-inline: 13px;
+  }
+}
+@media (max-width: 380px) {
+  .explore-guide-actions {
+    flex-direction: column-reverse;
+    align-items: stretch;
+    gap: 8px;
+  }
+  .explore-guide-actions .explore-guide-primary {
+    margin-left: 0;
+    width: 100%;
+  }
+}

@@ -1,0 +1,1163 @@
+{
+  "checkedAt": "2026-10-05T02:57:41.668Z",
+  "productionBuild": "passed",
+  "navigationStylesInHtmlLinkedBundle": true,
+  "isolatedDomTests": {
+    "checkedAt": "2026-10-05T02:56:54.094Z",
+    "passed": 106,
+    "failed": 0,
+    "files": 4
+  },
+  "semanticAxe": {
+    "initialHomepages": 6,
+    "openTreatmentMenus": 6,
+    "detectedViolations": 0,
+    "renderedColorContrastTested": false
+  },
+  "sourcePalettePairs": {
+    "checked": 67,
+    "below4_5to1": 0
+  },
+  "buildResourceReferences": [
+    "assets/index-7ionfDV0.js",
+    "assets/index-CTgeTV3p.css",
+    "assets/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc-BOeWTOD4.woff2",
+    "assets/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc-DqGufNeO.woff2",
+    "assets/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7SUc-DlzME5K_.woff2",
+    "assets/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc-CkhJZR-_.woff2",
+    "assets/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7SUc-CBcvBZtf.woff2",
+    "assets/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7SUc-DO1Apj_S.woff2",
+    "assets/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7-Dx4kXJAl.woff2",
+    "assets/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxhTg-CB7WfZ8W.ttf",
+    "assets/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAkJxhTg-DCQhiIS7.ttf",
+    "assets/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAfJthTg-CYvJJk-g.ttf",
+    "assets/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwARZthTg-BQ0abr9c.ttf",
+    "assets/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk79FO_F-BEIO-tX3.ttf",
+    "assets/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk7PFO_F-C3q1kWH5.ttf",
+    "assets/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4jE-_F-DBphNC1-.ttf",
+    "assets/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4aE-_F-DbNN7f-K.ttf",
+    "assets/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk59E-_F-CNT0ON31.ttf"
+  ],
+  "imageDimensions": 30,
+  "mediaCopiedWithoutChanges": [
+    {
+      "file": "1.webp",
+      "bytes": 9300,
+      "sha256": "f8dafbe97470329808590597fa2c03fb2f2198d179e8cfe41d6f2b80df02b242"
+    },
+    {
+      "file": "1193219OS.jpg",
+      "bytes": 233238,
+      "sha256": "05fb04c5778cc4b841d64204ab4135bf175016af8649cabfa06e9e92a31821ed"
+    },
+    {
+      "file": "1521114.jpg",
+      "bytes": 320031,
+      "sha256": "eb48abfaf1b6d629869e0d9ca615a71e1188a69ea832d877df300061c4549aaa"
+    },
+    {
+      "file": "1524824.jpg",
+      "bytes": 199981,
+      "sha256": "e1d1780ffca129e58243897808729d97784c82fcb3076a32f7a5f659637bc144"
+    },
+    {
+      "file": "2.webp",
+      "bytes": 9686,
+      "sha256": "fefbf4fdc69e0573ef6ab9b710746279fcdc45f06cee79fa8809e65cb14257de"
+    },
+    {
+      "file": "2025-CC-TD-license-confirmed-1-198x300.webp",
+      "bytes": 9462,
+      "sha256": "14b10ae80d2056b1e78f35c1f085133b71f56d33c1aad701b639f042de096d05"
+    },
+    {
+      "file": "3-3.png",
+      "bytes": 5832,
+      "sha256": "1ecd22455a7f458f8ab7e11f79c737e30201d9b97376d7ca9f680b947d70ae1b"
+    },
+    {
+      "file": "3.webp",
+      "bytes": 6592,
+      "sha256": "bf750d37ad3f84f217a600358ad03850f66768b5b26eeff20c699d567d9b49d0"
+    },
+    {
+      "file": "392657.jpg",
+      "bytes": 240359,
+      "sha256": "5fb19ca3b7014d7e37d973a1e2840036c7e12f5f663fb1d71eb180f33253be48"
+    },
+    {
+      "file": "aao_logo_2x-1.png",
+      "bytes": 5579,
+      "sha256": "d0bb2421495e29b7abf4460ce1e22fc86f04225ad27df9aabff8a21ec320a787"
+    },
+    {
+      "file": "asoprs_2022_logo-1.png",
+      "bytes": 3761,
+      "sha256": "6574e88caeeb2ba48ca016375f9db589ceee1b3fcbf5dae43937b7f24b3841cf"
+    },
+    {
+      "file": "blog-2-1.jpg",
+      "bytes": 49287,
+      "sha256": "5de74d02d6ca44f25aefd0bfebf3299a41039bdc4119afc4d6e6738ad91c036d"
+    },
+    {
+      "file": "CTA.jpg",
+      "bytes": 92931,
+      "sha256": "e3731a37c4b55761c9e5d4cc36c246ca9236b4705c9367ee2441d9b2316cf27b"
+    },
+    {
+      "file": "Frame-61.jpg",
+      "bytes": 11045,
+      "sha256": "28d8a278f001cfecac17a5f15be21ec49239de5a5df31c88d3c9bed4905fa15c"
+    },
+    {
+      "file": "Frame-63.jpg",
+      "bytes": 12092,
+      "sha256": "f091acbd0064796346016e2cb3a9ef22707dabf701ddaf20e1c94a01af3c1c99"
+    },
+    {
+      "file": "Frame-64.jpg",
+      "bytes": 11550,
+      "sha256": "0339c61a61679aa14dde7199dd16d6099b5ca13b41952ec891d24594dac29f2c"
+    },
+    {
+      "file": "Frame-65.jpg",
+      "bytes": 11082,
+      "sha256": "5403a9e568c11da76caf422c44733e7107f02949f10ee2271c179161fd5ef861"
+    },
+    {
+      "file": "header-image.jpg",
+      "bytes": 84972,
+      "sha256": "506eb35e4b6bffe87ad5900e1a2f5b55994a2824586fd1560775fb993a02c797"
+    },
+    {
+      "file": "JAN24_Cover-1.png",
+      "bytes": 11790,
+      "sha256": "c1736ec88c17be02d329dd7d4d7e5fa2fdf669b5e60ab21db9f84fe5a2f2b00f"
+    },
+    {
+      "file": "Jon-Pargament-Ginger-Henson-license-confirmed.jpg",
+      "bytes": 64736,
+      "sha256": "2da27a264cdb4fabebbbc53734beb5f63996a7833cab3fb55fbc8af12edd05b6"
+    },
+    {
+      "file": "logo-asc-1.png",
+      "bytes": 2260,
+      "sha256": "11e7b775b83bb2488bb535641b0af8ab88da1e942e3cb06f3e8455f3e8dd3b15"
+    },
+    {
+      "file": "logo-grey.png",
+      "bytes": 1492,
+      "sha256": "a8d04e09555e9e9ec5f4b341e03fb5930779da7604ea3f3406e5c65fde56c956"
+    },
+    {
+      "file": "logo-uc-1.png",
+      "bytes": 1694,
+      "sha256": "5f6d3f6a8de9d8fcf4cca8086309cfd3544b83c3e147e607714430e8a61f4f8b"
+    },
+    {
+      "file": "logo.png",
+      "bytes": 672,
+      "sha256": "30bde1c3330ff6bd0bc086ea97b758c4f3d6451352f006d574084f67324a7e74"
+    },
+    {
+      "file": "name-color.png",
+      "bytes": 22794,
+      "sha256": "ee1482da38ad94449fd43b294f45878abfbe2498173da78c0ecd3e6d17147922"
+    },
+    {
+      "file": "name.svg",
+      "bytes": 4841,
+      "sha256": "597a9d67444cd2f88f3a34bd9cecebd5cda6ad3b94880029ca7b53f68bff70b2"
+    },
+    {
+      "file": "REAL-ESTATE-1.mp4",
+      "bytes": 9309422,
+      "sha256": "23d3191dc38997477ffa97cba0f2bdf0a287e3d6f30956ca1231af057c104364"
+    },
+    {
+      "file": "schedule.jpg",
+      "bytes": 60423,
+      "sha256": "4f4640b4f85d1d12f2c5fc3d3a3831aaf43553d66ac07a1f843d8f42f2d2ff9a"
+    },
+    {
+      "file": "Services.jpg",
+      "bytes": 107976,
+      "sha256": "edba2aeb3d56ac6d1a6d8cabb358a174ce6f25d3dd2b41e38756d7dc83a55c4b"
+    },
+    {
+      "file": "Sofwave-Logo-White.license-confirmed-300x98.png",
+      "bytes": 4320,
+      "sha256": "0893e519e32e4e118f811ace6e1ed33dc55e9d115f5e49c37f2ed722760fe43b"
+    },
+    {
+      "file": "Text-Section-1.jpg",
+      "bytes": 77309,
+      "sha256": "f3dd5441350d4b13c688701363bb017ac02bf6a8e4ffad13304dbdced9d34b49"
+    },
+    {
+      "file": "Top-Docs-Logo-2021-2025-1-300x230.jpg",
+      "bytes": 11770,
+      "sha256": "c972010e4f0c3b125f60cd36940e8138e0183a8ff7f510d7d41c883483c13243"
+    }
+  ],
+  "userBrowserOrNativeUiControlled": false,
+  "isolatedHeadlessReview": {
+    "checkedAt": "2026-10-05T02:17:46.299Z",
+    "method": "Isolated headless Edge with separate temporary profile. No user tabs, physical input or native UI controlled.",
+    "review": "Desktop heroes and six distinct hover dropdowns, supporting practice/treatment/journey/article layouts, galleries, reviews and consultation layouts; mobile section samples and shared footer. Additional header/overflow checks at 320, 768 and 1024px informed fixes.",
+    "limitations": "Axe incomplete color-contrast checks include photographs and layered backgrounds. Screenshots were reviewed, but this is not exhaustive accessibility certification or a Base44 deployment test.",
+    "desktop": [
+      {
+        "design": "clarity",
+        "width": 1440,
+        "documentWidth": 1425,
+        "headerDisplay": "flex",
+        "navDisplay": "flex",
+        "toggleDisplay": "none",
+        "mainHeadings": 1,
+        "headline": "You deserve to\nfeel confident\n.",
+        "fonts": "loaded",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 17
+            }
+          ]
+        },
+        "menuOpen": true,
+        "menuBounds": {
+          "left": 423.609375,
+          "right": 1013.609375,
+          "top": 116.28951263427734,
+          "bottom": 600.2894821166992,
+          "width": 590
+        },
+        "menuAccessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "design": "form",
+        "width": 1440,
+        "documentWidth": 1425,
+        "headerDisplay": "flex",
+        "navDisplay": "flex",
+        "toggleDisplay": "none",
+        "mainHeadings": 1,
+        "headline": "Established\nEyelid Experts.",
+        "fonts": "loaded",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 6
+            }
+          ]
+        },
+        "menuOpen": true,
+        "menuBounds": {
+          "left": 402.609375,
+          "right": 1052.609375,
+          "top": 116.93419647216797,
+          "bottom": 495.93419647216797,
+          "width": 650
+        },
+        "menuAccessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "design": "perspective",
+        "width": 1440,
+        "documentWidth": 1425,
+        "headerDisplay": "flex",
+        "navDisplay": "flex",
+        "toggleDisplay": "none",
+        "mainHeadings": 1,
+        "headline": "Your Eyes.\nDeserve Excellence.",
+        "fonts": "loaded",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 11
+            }
+          ]
+        },
+        "menuOpen": true,
+        "menuBounds": {
+          "left": 434.96875,
+          "right": 994.96875,
+          "top": 116.81103515625,
+          "bottom": 577.81103515625,
+          "width": 560
+        },
+        "menuAccessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "design": "editorial",
+        "width": 1440,
+        "documentWidth": 1425,
+        "headerDisplay": "flex",
+        "navDisplay": "flex",
+        "toggleDisplay": "none",
+        "mainHeadings": 1,
+        "headline": "AestheticEye.",
+        "fonts": "loaded",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 2
+            }
+          ]
+        },
+        "menuOpen": true,
+        "menuBounds": {
+          "left": 420.46875,
+          "right": 1070.46875,
+          "top": 116.93388366699219,
+          "bottom": 582.4338836669922,
+          "width": 650
+        },
+        "menuAccessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "design": "serene",
+        "width": 1440,
+        "documentWidth": 1425,
+        "headerDisplay": "flex",
+        "navDisplay": "flex",
+        "toggleDisplay": "none",
+        "mainHeadings": 1,
+        "headline": "You deserve\nto feel\nconfident.",
+        "fonts": "loaded",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 5
+            }
+          ]
+        },
+        "menuOpen": true,
+        "menuBounds": {
+          "left": 454.3125,
+          "right": 1009.3125,
+          "top": 115.93424987792969,
+          "bottom": 562.9342498779297,
+          "width": 555
+        },
+        "menuAccessibility": {
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 1
+            }
+          ]
+        }
+      },
+      {
+        "design": "modern",
+        "width": 1440,
+        "documentWidth": 1425,
+        "headerDisplay": "flex",
+        "navDisplay": "flex",
+        "toggleDisplay": "none",
+        "mainHeadings": 1,
+        "headline": "Your Eyes.\nDeserve\nExcellence.",
+        "fonts": "loaded",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 3
+            }
+          ]
+        },
+        "menuOpen": true,
+        "menuBounds": {
+          "left": 412.21875,
+          "right": 1037.21875,
+          "top": 116.93395233154297,
+          "bottom": 602.433952331543,
+          "width": 625
+        },
+        "menuAccessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      }
+    ],
+    "mobile": [
+      {
+        "design": "clarity",
+        "width": 390,
+        "documentWidth": 390,
+        "headerDisplay": "flex",
+        "navDisplay": "none",
+        "toggleDisplay": "flex",
+        "mainHeadings": 1,
+        "headline": "You deserve to\nfeel confident\n.",
+        "fonts": "loaded",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 16
+            }
+          ]
+        },
+        "menuOpen": true,
+        "menuBounds": {
+          "left": 11.6875,
+          "right": 378.28125,
+          "top": 150,
+          "bottom": 726,
+          "width": 366.59375
+        },
+        "menuAccessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "design": "form",
+        "width": 390,
+        "documentWidth": 390,
+        "headerDisplay": "flex",
+        "navDisplay": "none",
+        "toggleDisplay": "flex",
+        "mainHeadings": 1,
+        "headline": "Established\nEyelid Experts.",
+        "fonts": "loaded",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 6
+            }
+          ]
+        },
+        "menuOpen": true,
+        "menuBounds": {
+          "left": 11.6875,
+          "right": 378.28125,
+          "top": 150,
+          "bottom": 737,
+          "width": 366.59375
+        },
+        "menuAccessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "design": "perspective",
+        "width": 390,
+        "documentWidth": 390,
+        "headerDisplay": "flex",
+        "navDisplay": "none",
+        "toggleDisplay": "flex",
+        "mainHeadings": 1,
+        "headline": "Your Eyes.\nDeserve Excellence.",
+        "fonts": "loaded",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 11
+            }
+          ]
+        },
+        "menuOpen": true,
+        "menuBounds": {
+          "left": 11.6875,
+          "right": 378.28125,
+          "top": 150,
+          "bottom": 737,
+          "width": 366.59375
+        },
+        "menuAccessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "design": "editorial",
+        "width": 390,
+        "documentWidth": 390,
+        "headerDisplay": "flex",
+        "navDisplay": "none",
+        "toggleDisplay": "flex",
+        "mainHeadings": 1,
+        "headline": "AestheticEye.",
+        "fonts": "loaded",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 2
+            }
+          ]
+        },
+        "menuOpen": true,
+        "menuBounds": {
+          "left": 11.6875,
+          "right": 378.28125,
+          "top": 150,
+          "bottom": 733,
+          "width": 366.59375
+        },
+        "menuAccessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "design": "serene",
+        "width": 390,
+        "documentWidth": 390,
+        "headerDisplay": "flex",
+        "navDisplay": "none",
+        "toggleDisplay": "flex",
+        "mainHeadings": 1,
+        "headline": "You deserve\nto feel confident.",
+        "fonts": "loaded",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 5
+            }
+          ]
+        },
+        "menuOpen": true,
+        "menuBounds": {
+          "left": 11.6875,
+          "right": 378.28125,
+          "top": 154,
+          "bottom": 732,
+          "width": 366.59375
+        },
+        "menuAccessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "design": "modern",
+        "width": 390,
+        "documentWidth": 390,
+        "headerDisplay": "flex",
+        "navDisplay": "none",
+        "toggleDisplay": "flex",
+        "mainHeadings": 1,
+        "headline": "Your Eyes.\nDeserve\nExcellence.",
+        "fonts": "loaded",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 3
+            }
+          ]
+        },
+        "menuOpen": true,
+        "menuBounds": {
+          "left": 11.6875,
+          "right": 378.28125,
+          "top": 150,
+          "bottom": 747,
+          "width": 366.59375
+        },
+        "menuAccessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      }
+    ],
+    "guideFollowUp": "Guide refinement complete; detailed results are recorded in interactionEnhancements.",
+    "interactionEnhancements": {
+      "checkedAt": "2026-10-05T02:57:40.7557067Z",
+      "guideStates": [
+        {
+          "design": "clarity",
+          "width": 390,
+          "step": 0,
+          "client": 350,
+          "scroll": 350,
+          "focused": "explore-guide-title",
+          "open": true,
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        {
+          "design": "clarity",
+          "width": 390,
+          "step": 1,
+          "client": 350,
+          "scroll": 350,
+          "focused": "explore-guide-title",
+          "open": true,
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        {
+          "design": "clarity",
+          "width": 390,
+          "step": 2,
+          "client": 350,
+          "scroll": 350,
+          "focused": "explore-guide-title",
+          "open": true,
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        {
+          "design": "form",
+          "width": 390,
+          "step": 0,
+          "client": 350,
+          "scroll": 350,
+          "focused": "explore-guide-title",
+          "open": true,
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        {
+          "design": "form",
+          "width": 390,
+          "step": 1,
+          "client": 350,
+          "scroll": 350,
+          "focused": "explore-guide-title",
+          "open": true,
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        {
+          "design": "form",
+          "width": 390,
+          "step": 2,
+          "client": 350,
+          "scroll": 350,
+          "focused": "explore-guide-title",
+          "open": true,
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        {
+          "design": "perspective",
+          "width": 390,
+          "step": 0,
+          "client": 350,
+          "scroll": 350,
+          "focused": "explore-guide-title",
+          "open": true,
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        {
+          "design": "perspective",
+          "width": 390,
+          "step": 1,
+          "client": 350,
+          "scroll": 350,
+          "focused": "explore-guide-title",
+          "open": true,
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        {
+          "design": "perspective",
+          "width": 390,
+          "step": 2,
+          "client": 350,
+          "scroll": 350,
+          "focused": "explore-guide-title",
+          "open": true,
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        {
+          "design": "editorial",
+          "width": 390,
+          "step": 0,
+          "client": 350,
+          "scroll": 350,
+          "focused": "explore-guide-title",
+          "open": true,
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        {
+          "design": "editorial",
+          "width": 390,
+          "step": 1,
+          "client": 350,
+          "scroll": 350,
+          "focused": "explore-guide-title",
+          "open": true,
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        {
+          "design": "editorial",
+          "width": 390,
+          "step": 2,
+          "client": 350,
+          "scroll": 350,
+          "focused": "explore-guide-title",
+          "open": true,
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        {
+          "design": "serene",
+          "width": 390,
+          "step": 0,
+          "client": 350,
+          "scroll": 350,
+          "focused": "explore-guide-title",
+          "open": true,
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        {
+          "design": "serene",
+          "width": 390,
+          "step": 1,
+          "client": 350,
+          "scroll": 350,
+          "focused": "explore-guide-title",
+          "open": true,
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        {
+          "design": "serene",
+          "width": 390,
+          "step": 2,
+          "client": 350,
+          "scroll": 350,
+          "focused": "explore-guide-title",
+          "open": true,
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        {
+          "design": "modern",
+          "width": 390,
+          "step": 0,
+          "client": 350,
+          "scroll": 350,
+          "focused": "explore-guide-title",
+          "open": true,
+          "violations": [],
+          "incomplete": []
+        },
+        {
+          "design": "modern",
+          "width": 390,
+          "step": 1,
+          "client": 350,
+          "scroll": 350,
+          "focused": "explore-guide-title",
+          "open": true,
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        {
+          "design": "modern",
+          "width": 390,
+          "step": 2,
+          "client": 350,
+          "scroll": 350,
+          "focused": "explore-guide-title",
+          "open": true,
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        {
+          "design": "clarity",
+          "width": 320,
+          "step": 0,
+          "client": 280,
+          "scroll": 280,
+          "focused": "explore-guide-title",
+          "open": true,
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        {
+          "design": "clarity",
+          "width": 320,
+          "step": 1,
+          "client": 280,
+          "scroll": 280,
+          "focused": "explore-guide-title",
+          "open": true,
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        {
+          "design": "clarity",
+          "width": 320,
+          "step": 2,
+          "client": 280,
+          "scroll": 280,
+          "focused": "explore-guide-title",
+          "open": true,
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        {
+          "design": "modern",
+          "width": 768,
+          "step": 0,
+          "client": 598,
+          "scroll": 598,
+          "focused": "explore-guide-title",
+          "open": true,
+          "violations": [],
+          "incomplete": []
+        },
+        {
+          "design": "modern",
+          "width": 768,
+          "step": 1,
+          "client": 598,
+          "scroll": 598,
+          "focused": "explore-guide-title",
+          "open": true,
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        {
+          "design": "modern",
+          "width": 768,
+          "step": 2,
+          "client": 598,
+          "scroll": 598,
+          "focused": "explore-guide-title",
+          "open": true,
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        {
+          "design": "serene",
+          "width": 1440,
+          "step": 0,
+          "client": 598,
+          "scroll": 598,
+          "focused": "explore-guide-title",
+          "open": true,
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        {
+          "design": "serene",
+          "width": 1440,
+          "step": 1,
+          "client": 598,
+          "scroll": 598,
+          "focused": "explore-guide-title",
+          "open": true,
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        {
+          "design": "serene",
+          "width": 1440,
+          "step": 2,
+          "client": 598,
+          "scroll": 598,
+          "focused": "explore-guide-title",
+          "open": true,
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        }
+      ],
+      "gallerySwipeStates": [
+        {
+          "design": "clarity",
+          "swipe": {
+            "selected": "02 / 04",
+            "dialog": false
+          },
+          "bounds": {
+            "width": 390,
+            "document": 390,
+            "buttons": [
+              {
+                "width": 62.578125,
+                "height": 44,
+                "right": 85.96875
+              },
+              {
+                "width": 65.828125,
+                "height": 44,
+                "right": 157.796875
+              },
+              {
+                "width": 51.9375,
+                "height": 44,
+                "right": 215.734375
+              },
+              {
+                "width": 125.4375,
+                "height": 44,
+                "right": 366.609375
+              }
+            ]
+          }
+        },
+        {
+          "design": "form",
+          "swipe": {
+            "selected": "02 / 04",
+            "dialog": false
+          },
+          "bounds": {
+            "width": 390,
+            "document": 390,
+            "buttons": [
+              {
+                "width": 62.578125,
+                "height": 44,
+                "right": 85.96875
+              },
+              {
+                "width": 65.828125,
+                "height": 44,
+                "right": 157.796875
+              },
+              {
+                "width": 51.9375,
+                "height": 44,
+                "right": 215.734375
+              },
+              {
+                "width": 125.4375,
+                "height": 44,
+                "right": 366.609375
+              }
+            ]
+          }
+        },
+        {
+          "design": "perspective",
+          "swipe": {
+            "selected": "02 / 04",
+            "dialog": false
+          },
+          "bounds": {
+            "width": 390,
+            "document": 390,
+            "buttons": [
+              {
+                "width": 62.578125,
+                "height": 44,
+                "right": 85.96875
+              },
+              {
+                "width": 65.828125,
+                "height": 44,
+                "right": 157.796875
+              },
+              {
+                "width": 51.9375,
+                "height": 44,
+                "right": 215.734375
+              },
+              {
+                "width": 125.4375,
+                "height": 44,
+                "right": 366.609375
+              }
+            ]
+          }
+        },
+        {
+          "design": "editorial",
+          "swipe": {
+            "selected": "02 / 04",
+            "dialog": false
+          },
+          "bounds": {
+            "width": 390,
+            "document": 390,
+            "buttons": [
+              {
+                "width": 62.578125,
+                "height": 44,
+                "right": 85.96875
+              },
+              {
+                "width": 65.828125,
+                "height": 44,
+                "right": 157.796875
+              },
+              {
+                "width": 51.9375,
+                "height": 44,
+                "right": 215.734375
+              },
+              {
+                "width": 125.4375,
+                "height": 44,
+                "right": 366.609375
+              }
+            ]
+          }
+        },
+        {
+          "design": "serene",
+          "swipe": {
+            "selected": "02 / 04",
+            "dialog": false
+          },
+          "bounds": {
+            "width": 390,
+            "document": 390,
+            "buttons": [
+              {
+                "width": 62.578125,
+                "height": 44,
+                "right": 85.96875
+              },
+              {
+                "width": 65.828125,
+                "height": 44,
+                "right": 157.796875
+              },
+              {
+                "width": 51.9375,
+                "height": 44,
+                "right": 215.734375
+              },
+              {
+                "width": 125.4375,
+                "height": 44,
+                "right": 366.609375
+              }
+            ]
+          }
+        },
+        {
+          "design": "modern",
+          "swipe": {
+            "selected": "02 / 04",
+            "dialog": false
+          },
+          "bounds": {
+            "width": 390,
+            "document": 390,
+            "buttons": [
+              {
+                "width": 62.578125,
+                "height": 44,
+                "right": 85.96875
+              },
+              {
+                "width": 65.828125,
+                "height": 44,
+                "right": 157.796875
+              },
+              {
+                "width": 51.9375,
+                "height": 44,
+                "right": 215.734375
+              },
+              {
+                "width": 125.4375,
+                "height": 44,
+                "right": 366.609375
+              }
+            ]
+          }
+        }
+      ],
+      "description": "Optional guide and gallery reviewed in isolated renderer. Guide tests cover all themes at 390px, plus 320px, 768px and 1440px samples. Gallery swipes checked across all six themes at 390px."
+    }
+  },
+  "limitations": [
+    "Automated contrast checks cannot resolve every image or layered background; see rendered-checks.json for incomplete checks.",
+    "Visual, DOM and palette checks are not complete accessibility certification.",
+    "Base44 deployment was not tested."
+  ]
+}

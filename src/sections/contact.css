@@ -1,0 +1,584 @@
+.contact-section {
+  --contact-paper: #203e31;
+  --contact-ink: #f1f4e0;
+  --contact-soft: #d3dfbf;
+  --contact-line: #71865f;
+  background: var(--contact-paper);
+  color: var(--contact-ink);
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 12%;
+  align-items: center;
+}
+.site.art-site .contact-section h2 {
+  font-size: clamp(39px, 4.7vw, 73px);
+  line-height: 1.07;
+  letter-spacing: -0.06em;
+  margin: 24px 0 28px;
+}
+.contact-section h2 > span {
+  color: var(--contact-soft);
+}
+.site.art-site .art-experience .contact-section .contact-intro-copy {
+  font-size: 15px;
+  line-height: 1.85;
+  max-width: 520px;
+  color: var(--contact-soft);
+}
+.contact-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 23px;
+  margin-top: 30px;
+}
+.contact-text-link {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 12px;
+  min-height: 32px;
+}
+.contact-text-link > .ae-icon {
+  height: 15px;
+  width: 15px;
+}
+.contact-text-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.location-card-v6 {
+  border: 1px solid var(--contact-line);
+  min-width: 0;
+}
+.location-tabs {
+  display: flex;
+  border-bottom: 1px solid var(--contact-line);
+}
+.location-tabs > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex: 1;
+  min-height: 57px;
+  padding: 15px 12px;
+  font-size: 12px;
+  border-right: 1px solid var(--contact-line);
+  transition:
+    background 0.2s,
+    color 0.2s;
+}
+.location-tabs > button:last-child {
+  border: 0;
+}
+.location-tabs > button > span {
+  font-size: 10px;
+}
+.location-tabs > button[aria-selected='true'] {
+  background: var(--contact-soft);
+  color: #203e31;
+}
+.location-tabs > button:hover:not([aria-selected='true']) {
+  background: #ffffff10;
+}
+.location-panel {
+  padding: 32px;
+  min-height: 380px;
+}
+.location-name {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 20px;
+}
+.site.art-site .location-name h3 {
+  font-size: 32px;
+  line-height: 1.14;
+  letter-spacing: -0.045em;
+}
+.location-symbol > .ae-icon {
+  height: 31px;
+  width: 31px;
+  stroke-width: 1;
+}
+.location-panel address {
+  font-style: normal;
+  font-size: 13px;
+  line-height: 1.9;
+  margin: 27px 0 25px;
+}
+.location-hours {
+  margin: 0 0 25px;
+  min-height: 75px;
+}
+.location-hours > span {
+  font-size: 11px;
+  line-height: 1.6;
+  color: var(--contact-soft);
+}
+.site.art-site .art-experience .contact-section .location-hours p {
+  font-size: 13px;
+  line-height: 1.8;
+  margin-top: 4px;
+}
+.location-hours small {
+  font-size: 11px;
+  color: var(--contact-soft);
+}
+.location-phone {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border-block: 1px solid var(--contact-line);
+  padding: 19px 0;
+  font-size: 20px;
+  letter-spacing: -0.025em;
+}
+.location-phone > .ae-icon {
+  width: 20px;
+  height: 20px;
+}
+.location-phone:hover {
+  color: var(--contact-soft);
+}
+.location-tools {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 17px;
+  font-size: 11px;
+}
+.location-tools > a,
+.location-tools > button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 35px;
+}
+.location-tools .ae-icon {
+  height: 13px;
+  width: 13px;
+}
+.location-tools > a:hover,
+.location-tools > button:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.site.art-site .contact-section[data-design='clarity'] {
+  margin: 0 6% 70px;
+  border-radius: 28px;
+  padding: 65px 5%;
+  gap: 9%;
+}
+.site.art-site .contact-section[data-design='clarity'] h2 {
+  font-size: clamp(39px, 4.4vw, 68px);
+}
+.contact-section[data-design='clarity'] .location-card-v6 {
+  border-radius: 13px;
+  overflow: hidden;
+  background: #294936;
+}
+.contact-section[data-design='clarity'] .location-panel {
+  padding: 28px;
+}
+.contact-section[data-design='form'] {
+  --contact-paper: #f9faf3;
+  --contact-ink: #203e31;
+  --contact-soft: #526d40;
+  --contact-line: #afc49a;
+  border-top: 1px solid #bacbac;
+  gap: 10%;
+}
+.contact-section[data-design='form'] .location-card-v6 {
+  background: #e4edd5;
+}
+.contact-section[data-design='form'] .location-tabs > button[aria-selected='true'] {
+  background: #284a34;
+  color: #fff;
+}
+.contact-section[data-design='form'] .location-tabs > button:hover:not([aria-selected='true']) {
+  background: #d3e0c0;
+}
+.contact-section[data-design='form'] .contact-actions .art-book {
+  border-radius: 0;
+}
+.contact-section[data-design='perspective'] {
+  --contact-paper: #253e2f;
+  --contact-ink: #f4f4e0;
+  --contact-soft: #d9e5be;
+  --contact-line: #83986d;
+  grid-template-columns: 1.1fr 0.75fr;
+  gap: 13%;
+}
+.site.art-site .contact-section[data-design='perspective'] h2 {
+  font-size: clamp(48px, 5.6vw, 88px);
+  font-weight: 400;
+  letter-spacing: -0.065em;
+}
+.contact-section[data-design='perspective'] .location-card-v6 {
+  border-inline: 0;
+}
+.contact-section[data-design='perspective'] .location-panel {
+  padding-inline: 0;
+}
+.contact-section[data-design='perspective'] .location-tabs {
+  border-top: 1px solid var(--contact-line);
+}
+.contact-section[data-design='perspective'] .location-tabs > button {
+  border-right: 0;
+}
+.contact-section[data-design='perspective'] .location-tabs > button[aria-selected='true'] {
+  background: transparent;
+  color: #e9f0d2;
+  border-bottom: 3px solid #d1e0b2;
+}
+.contact-section[data-design='perspective'] .contact-text-link {
+  font-size: 12px;
+}
+.contact-section[data-design='editorial'] {
+  --contact-paper: #eeeee0;
+  --contact-ink: #203e31;
+  --contact-soft: #526c41;
+  --contact-line: #b0c09f;
+  border-top: 2px solid #294831;
+  grid-template-columns: 1.2fr 0.75fr;
+  gap: 14%;
+}
+.site.art-site .contact-section[data-design='editorial'] h2 {
+  font-size: clamp(43px, 5.2vw, 81px);
+  font-weight: 400;
+}
+.contact-section[data-design='editorial'] .location-card-v6 {
+  border: 0;
+  border-top: 1px solid var(--contact-line);
+}
+.contact-section[data-design='editorial'] .location-panel {
+  padding-inline: 0;
+}
+.contact-section[data-design='editorial'] .location-tabs > button {
+  background: none !important;
+  color: #203e31;
+  border-right: 0;
+  font-family: 'DM Sans', sans-serif;
+  min-height: 65px;
+  font-size: 15px;
+}
+.contact-section[data-design='editorial'] .location-tabs > button[aria-selected='true'] {
+  border-bottom: 2px solid #203e31;
+}
+.contact-section[data-design='editorial'] .contact-actions .art-book {
+  border-radius: 0;
+}
+.site.art-site .contact-section[data-design='serene'] {
+  --contact-paper: #e4ebd5;
+  --contact-ink: #28412d;
+  --contact-soft: #506b3f;
+  --contact-line: #9fb48a;
+  display: block;
+  margin: 0 5% 60px;
+  padding: 75px 7%;
+  border-radius: 180px 180px 20px 20px;
+  text-align: center;
+}
+.contact-section[data-design='serene'] .contact-invitation {
+  max-width: 730px;
+  margin: auto;
+}
+.site.art-site .contact-section[data-design='serene'] h2 {
+  font-weight: 400;
+  font-size: clamp(44px, 5.2vw, 80px);
+  line-height: 1.12;
+}
+.site.art-site .contact-section[data-design='serene'] .contact-intro-copy {
+  margin: auto;
+  max-width: 600px;
+  font-size: 14px;
+}
+.contact-section[data-design='serene'] .contact-actions {
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
+.contact-section[data-design='serene'] .location-card-v6 {
+  max-width: 650px;
+  margin: 50px auto 0;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #f9fbf0;
+  text-align: left;
+}
+.contact-section[data-design='serene'] .location-tabs > button[aria-selected='true'] {
+  background: #304c33;
+  color: #fff;
+}
+.contact-section[data-design='serene'] .location-panel {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 35px;
+  min-height: 0;
+}
+.contact-section[data-design='serene'] .location-name {
+  grid-column: 1/-1;
+}
+.contact-section[data-design='serene'] .location-hours {
+  margin: 27px 0 25px;
+}
+.contact-section[data-design='serene'] .location-phone,
+.contact-section[data-design='serene'] .location-tools {
+  grid-column: 1/-1;
+}
+.site.art-site .contact-section[data-design='modern'] {
+  --contact-paper: #dce7c8;
+  --contact-ink: #193726;
+  --contact-soft: #435e34;
+  --contact-line: #90a976;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  padding: 0;
+  border-block: 1px solid #a8bd92;
+}
+.contact-section[data-design='modern'] .contact-invitation {
+  padding: 80px 12%;
+  align-self: center;
+}
+.site.art-site .contact-section[data-design='modern'] h2 {
+  font-size: clamp(39px, 4.7vw, 72px);
+  font-weight: 600;
+}
+.contact-section[data-design='modern'] .art-book.light {
+  background: #264a31;
+  color: #fff;
+  border-radius: 0;
+}
+.contact-section[data-design='modern'] .location-card-v6 {
+  border: 0;
+  background: #173725;
+  color: #f1f5df;
+  height: 100%;
+  padding: 65px 12%;
+  --contact-soft: #d2e3b6;
+  --contact-line: #718e5d;
+}
+.contact-section[data-design='modern'] .location-panel {
+  padding: 30px 0 0;
+}
+.contact-section[data-design='modern'] .location-tabs {
+  border: 1px solid #718e5d;
+}
+.contact-section[data-design='modern'] .location-tabs > button[aria-selected='true'] {
+  background: #c8dbae;
+  color: #173725;
+}
+.contact-section[data-design='modern'] .contact-text-link {
+  font-size: 12px;
+}
+@media (max-width: 1100px) {
+  .contact-section {
+    gap: 8%;
+    grid-template-columns: 1fr 0.85fr;
+  }
+  .location-panel {
+    padding: 27px;
+  }
+  .site.art-site .location-name h3 {
+    font-size: 29px;
+  }
+  .location-panel address {
+    font-size: 12px;
+  }
+  .location-tabs > button {
+    font-size: 11px;
+    gap: 10px;
+    padding-inline: 10px;
+  }
+  .site.art-site .contact-section[data-design='clarity'] {
+    padding: 55px 5%;
+    gap: 7%;
+  }
+  .contact-section[data-design='clarity'] .location-panel {
+    padding: 23px;
+  }
+  .location-tools {
+    font-size: 11px;
+    gap: 15px;
+  }
+  .location-phone {
+    font-size: 18px;
+  }
+  .site.art-site .art-experience .contact-section .contact-intro-copy {
+    font-size: 14px;
+  }
+  .contact-section[data-design='modern'] .contact-invitation {
+    padding: 65px 10%;
+  }
+  .contact-section[data-design='modern'] .location-card-v6 {
+    padding: 55px 10%;
+  }
+  .contact-section[data-design='serene'] .contact-actions {
+    gap: 25px;
+  }
+}
+@media (max-width: 740px) {
+  .contact-section,
+  .contact-section[data-design='form'],
+  .contact-section[data-design='perspective'],
+  .contact-section[data-design='editorial'] {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .site.art-site .contact-section h2 {
+    font-size: 41px;
+    line-height: 1.1;
+    margin: 22px 0 25px;
+  }
+  .site.art-site .art-experience .contact-section .contact-intro-copy {
+    font-size: 14px;
+    line-height: 1.8;
+  }
+  .contact-actions {
+    margin-top: 27px;
+    gap: 20px;
+  }
+  .contact-text-link {
+    font-size: 12px;
+  }
+  .location-tabs > button {
+    font-size: 12px;
+    min-height: 54px;
+    gap: 15px;
+  }
+  .location-panel {
+    padding: 27px;
+    min-height: 380px;
+  }
+  .site.art-site .location-name h3 {
+    font-size: 30px;
+  }
+  .location-panel address {
+    font-size: 13px;
+    margin: 25px 0;
+  }
+  .location-hours > span {
+    font-size: 11px;
+  }
+  .site.art-site .art-experience .contact-section .location-hours p {
+    font-size: 13px;
+  }
+  .location-hours small {
+    font-size: 11px;
+  }
+  .location-phone {
+    font-size: 21px;
+    padding: 18px 0;
+  }
+  .location-tools {
+    font-size: 11px;
+    gap: 15px;
+  }
+  .site.art-site .contact-section[data-design='clarity'] {
+    margin: 0 5% 40px;
+    padding: 40px 7%;
+    border-radius: 20px;
+    gap: 35px;
+  }
+  .site.art-site .contact-section[data-design='clarity'] h2 {
+    font-size: 39px;
+  }
+  .contact-section[data-design='clarity'] .location-panel {
+    padding: 23px;
+  }
+  .contact-section[data-design='clarity'] .location-tabs > button {
+    font-size: 11px;
+    gap: 9px;
+  }
+  .site.art-site .contact-section[data-design='perspective'] h2 {
+    font-size: 46px;
+  }
+  .contact-section[data-design='perspective'] .location-panel {
+    min-height: 350px;
+  }
+  .site.art-site .contact-section[data-design='editorial'] h2 {
+    font-size: 44px;
+  }
+  .contact-section[data-design='editorial'] .location-tabs > button {
+    font-size: 14px;
+    min-height: 59px;
+  }
+  .site.art-site .contact-section[data-design='serene'] {
+    padding: 55px 7% 40px;
+    border-radius: 100px 100px 18px 18px;
+    margin-bottom: 40px;
+  }
+  .site.art-site .contact-section[data-design='serene'] h2 {
+    font-size: 40px;
+  }
+  .contact-section[data-design='serene'] .contact-actions {
+    flex-direction: column;
+    gap: 19px;
+  }
+  .contact-section[data-design='serene'] .location-card-v6 {
+    margin-top: 35px;
+  }
+  .contact-section[data-design='serene'] .location-panel {
+    display: block;
+    padding: 24px;
+  }
+  .contact-section[data-design='serene'] .location-tabs > button {
+    font-size: 11px;
+    gap: 10px;
+  }
+  .contact-section[data-design='serene'] .location-hours {
+    margin: 0 0 25px;
+  }
+  .site.art-site .contact-section[data-design='modern'] {
+    display: block;
+    padding: 0;
+  }
+  .contact-section[data-design='modern'] .contact-invitation {
+    padding: 55px 6%;
+  }
+  .site.art-site .contact-section[data-design='modern'] h2 {
+    font-size: 43px;
+  }
+  .contact-section[data-design='modern'] .location-card-v6 {
+    padding: 40px 6%;
+  }
+  .contact-section[data-design='modern'] .location-panel {
+    padding-top: 28px;
+    min-height: 0;
+  }
+  .contact-section[data-design='modern'] .location-hours {
+    min-height: 75px;
+  }
+}
+@media (max-width: 370px) {
+  .site.art-site .contact-section h2,
+  .site.art-site .contact-section[data-design='clarity'] h2 {
+    font-size: 34px;
+  }
+  .site.art-site .contact-section[data-design='serene'] h2 {
+    font-size: 35px;
+  }
+  .location-tools {
+    font-size: 11px;
+    gap: 10px;
+  }
+  .location-tabs > button {
+    gap: 9px;
+    font-size: 11px;
+  }
+  .location-panel {
+    padding: 23px;
+  }
+  .site.art-site .contact-section[data-design='modern'] h2 {
+    font-size: 39px;
+  }
+  .site.art-site .contact-section[data-design='perspective'] h2 {
+    font-size: 41px;
+  }
+}
