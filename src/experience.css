@@ -2473,3 +2473,179 @@
     font-size: 15px;
   }
 }
+
+/* Clarity's entrance is composed around two lines and one photographic stage. */
+.clarity-title-line {
+  display: block;
+}
+.clarity-v4 {
+  position: relative;
+  isolation: isolate;
+}
+.clarity-v4::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
+  width: min(960px, 100%);
+  height: 650px;
+  left: 50%;
+  top: 100px;
+  transform: translateX(-50%);
+  background: radial-gradient(ellipse, #d5e4bb80, transparent 65%);
+}
+.clarity-v4-stage {
+  position: relative;
+  isolation: isolate;
+}
+.clarity-v4-stage::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
+  inset: -24px 17% -15px;
+  border: 1px solid #a4b98a70;
+  border-radius: 200px 200px 36px 36px;
+}
+.clarity-image-main {
+  box-shadow: 0 22px 45px -30px #183c2855;
+}
+.clarity-proof-card {
+  border: 1px solid #b8cc9d70;
+}
+.clarity-image-main > img {
+  transform: translate(var(--portrait-x, 0px), var(--portrait-y, 0px)) scale(1.065);
+  transition: transform 700ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+.clarity-image-small > img {
+  transform: translate(calc(var(--portrait-x, 0px) * -0.5), calc(var(--portrait-y, 0px) * -0.5))
+    scale(1.055);
+  transition: transform 900ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+.clarity-image-caption {
+  min-height: 58px;
+  transition:
+    background 200ms,
+    box-shadow 200ms;
+}
+.clarity-image-caption:hover,
+.clarity-image-caption:focus-visible {
+  box-shadow: 0 4px 20px #203e3120;
+}
+.clarity-image-caption > span:last-child {
+  transition: transform 250ms;
+}
+.clarity-image-caption:hover > span:last-child {
+  transform: translate(3px, -3px);
+}
+.clarity .art-service-rail {
+  margin-top: 36px;
+}
+.clarity .art-service-rail a {
+  position: relative;
+}
+.clarity .art-service-rail a::after {
+  content: '';
+  position: absolute;
+  left: 24px;
+  right: 24px;
+  bottom: 0;
+  height: 2px;
+  background: #567642;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 300ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+.clarity .art-service-rail a:hover::after,
+.clarity .art-service-rail a:focus-visible::after {
+  transform: scaleX(1);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .clarity .underline-word path {
+    stroke-dasharray: 1;
+    animation: clarity-signature 1100ms 400ms cubic-bezier(0.16, 1, 0.3, 1) backwards;
+  }
+  .clarity-v4::before {
+    animation: clarity-light 1500ms ease-out;
+  }
+  .clarity-v4-stage::before {
+    animation: clarity-frame 1300ms 150ms cubic-bezier(0.16, 1, 0.3, 1) backwards;
+  }
+}
+@keyframes clarity-signature {
+  from {
+    stroke-dashoffset: 1;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes clarity-light {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes clarity-frame {
+  from {
+    opacity: 0;
+    transform: translateY(18px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@media (max-width: 740px) {
+  .clarity-v4-stage::before {
+    inset: -15px 5% -12px;
+    border-radius: 100px 100px 28px 28px;
+  }
+  .clarity .art-service-rail {
+    margin-top: 27px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .clarity-image-main > img,
+  .clarity-image-small > img {
+    transform: none;
+    transition: none;
+  }
+  .clarity-image-caption:hover > span:last-child {
+    transform: none;
+  }
+  .clarity .art-service-rail a::after {
+    transition: none;
+  }
+}
+
+/* A short lens-opening reveal, with the existing composition left intact. */
+.clarity-image-main {
+  background: #dce7cb;
+}
+.clarity-lens-ring {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #faffed;
+  border-radius: 50%;
+  box-shadow:
+    0 0 28px #eff8d570,
+    inset 0 0 18px #eff8d540;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+.clarity-image-caption {
+  z-index: 2;
+}
+@media (prefers-reduced-motion: reduce) {
+  .clarity-lens-ring {
+    display: none;
+  }
+}

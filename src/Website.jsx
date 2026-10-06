@@ -6,6 +6,7 @@ import Navigation from './navigation/Navigation.jsx';
 import { MotionLayer } from './Interactive.jsx';
 import { Icon } from './ui/Icons.jsx';
 import { designs, getDesign } from './designs.js';
+import './visual-rhythm.css';
 
 export function jumpToMain(event) {
   event.preventDefault();

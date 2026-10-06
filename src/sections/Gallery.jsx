@@ -5,9 +5,9 @@ import { Photo, SectionLabel, TextLink } from '../ui/Primitives.jsx';
 import { useModal } from '../ui/useModal.js';
 import './gallery.css';
 
-export default function Gallery({ design = 'clarity', number = 3 }) {
+export default function Gallery({ design = 'clarity', number = 3, initialMode = 'original' }) {
   const [selected, setSelected] = useState(0);
-  const [mode, setMode] = useState('original');
+  const [mode, setMode] = useState(initialMode);
   const [reveal, setReveal] = useState(50);
   const modal = useModal();
   const touchStart = useRef(null);

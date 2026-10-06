@@ -90,23 +90,24 @@ function Hero({ design }) {
             <span className="status-dot" /> CINCINNATI & DAYTON’S ESTABLISHED EYELID EXPERTS
           </p>
           <h1>
-            You deserve to
-            <br />
-            feel{' '}
-            <span className="underline-word">
-              confident
-              <svg viewBox="0 0 400 25" aria-hidden="true">
-                <path d="M3 15 Q185 -3 395 16" />
-              </svg>
+            <span className="clarity-title-line">You deserve to</span>{' '}
+            <span className="clarity-title-line">
+              feel{' '}
+              <span className="underline-word">
+                confident
+                <svg viewBox="0 0 400 25" aria-hidden="true">
+                  <path pathLength="1" d="M3 15 Q185 -3 395 16" />
+                </svg>
+              </span>
+              .
             </span>
-            .
           </h1>
           <div className="clarity-v4-actions">
             <Book />
             <PracticeFilm />
           </div>
         </div>
-        <div className="clarity-v4-stage">
+        <div className="clarity-v4-stage" {...depth}>
           <div className="clarity-image-small">
             <Photo name="blog-2-1.jpg" eager />
             <span>
@@ -116,6 +117,7 @@ function Hero({ design }) {
             </span>
           </div>
           <div className="clarity-image-main">
+            <span className="clarity-lens-ring" aria-hidden="true" />
             <Photo
               name="schedule.jpg"
               alt="Woman from the original AestheticEye homepage"
@@ -660,7 +662,7 @@ export default function ArtDirectedHome({ design }) {
         </>
       )}
       <ExploreGuide design={design} />
-      <Gallery design={design} />
+      <Gallery design={design} initialMode={heroDesign === 'clarity' ? 'compare' : 'original'} />
       <ReviewCarousel design={design} />
       <Affiliations />
       <Journey />

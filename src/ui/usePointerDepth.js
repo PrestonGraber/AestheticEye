@@ -4,7 +4,17 @@ import { useEffect, useRef } from 'react';
 export function usePointerDepth() {
   const ref = useRef(null);
   const frame = useRef(null);
-  useEffect(() => () => cancelAnimationFrame(frame.current), []);
+  useEffect(() => {
+    const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const changed = () => {
+      if (preference.matches) reset();
+    };
+    preference.addEventListener('change', changed);
+    return () => {
+      cancelAnimationFrame(frame.current);
+      preference.removeEventListener('change', changed);
+    };
+  }, []);
   function reset() {
     cancelAnimationFrame(frame.current);
     ref.current?.style.setProperty('--portrait-x', '0px');
