@@ -16,10 +16,10 @@ it('orders all eight directions and defaults Clarity to a favorite', () => {
 });
 it('saves notes and synchronizes quick picks with card favorites', () => {
   render(<Collection />);
-  fireEvent.change(screen.getByLabelText('04 — Clarity'), {
+  fireEvent.change(screen.getByLabelText('01 — Clarity'), {
     target: { value: 'Love the navigation.' },
   });
-  fireEvent.click(screen.getByRole('checkbox', { name: '07 Still' }));
+  fireEvent.click(screen.getByRole('checkbox', { name: '03 Still' }));
   expect(
     screen
       .getByRole('button', { name: 'Remove Still from favorites' })
@@ -28,20 +28,20 @@ it('saves notes and synchronizes quick picks with card favorites', () => {
   expect(JSON.parse(localStorage.getItem('aestheticeye-design-feedback-v1')).likes.clarity).toBe(
     'Love the navigation.',
   );
-  fireEvent.click(screen.getByRole('checkbox', { name: '04 Clarity' }));
-  fireEvent.click(screen.getByRole('checkbox', { name: '07 Still' }));
+  fireEvent.click(screen.getByRole('checkbox', { name: '01 Clarity' }));
+  fireEvent.click(screen.getByRole('checkbox', { name: '03 Still' }));
   expect(screen.getByRole('button', { name: /Submit feedback via email/ }).disabled).toBe(true);
 });
 it('includes selected designs and user text in the copyable email without claiming delivery', async () => {
   const writeText = vi.fn().mockResolvedValue();
   Object.defineProperty(navigator, 'clipboard', { configurable: true, value: { writeText } });
   render(<Collection />);
-  fireEvent.change(screen.getByLabelText('04 — Clarity'), {
+  fireEvent.change(screen.getByLabelText('01 — Clarity'), {
     target: { value: 'Spacing & colors' },
   });
   fireEvent.click(screen.getByRole('button', { name: 'Copy feedback' }));
   expect(await screen.findByText(/Feedback copied. Paste it into an email/)).toBeTruthy();
-  expect(writeText.mock.calls[0][0]).toContain('04 — Clarity\nWhat I like: Spacing & colors');
+  expect(writeText.mock.calls[0][0]).toContain('01 — Clarity\nWhat I like: Spacing & colors');
   expect(
     feedbackText(['still'], {
       name: 'Client',

@@ -1,7 +1,7 @@
 export const designs = [
   {
     id: 'still',
-    n: '07',
+    n: '03',
     name: 'Still',
     tone: 'light',
     tag: 'Quiet presence. Lasting confidence.',
@@ -29,7 +29,7 @@ export const designs = [
   },
   {
     id: 'clarity',
-    n: '04',
+    n: '01',
     name: 'Clarity',
     tone: 'light',
     tag: 'Clean, intuitive, considered.',
@@ -43,7 +43,7 @@ export const designs = [
   },
   {
     id: 'form',
-    n: '05',
+    n: '06',
     name: 'Form & Function',
     tone: 'light',
     tag: 'Precise, professional, personal.',
@@ -57,7 +57,7 @@ export const designs = [
   },
   {
     id: 'perspective',
-    n: '06',
+    n: '07',
     name: 'Perspective',
     tone: 'dark',
     tag: 'Expressive, immersive, assured.',
@@ -71,7 +71,7 @@ export const designs = [
   },
   {
     id: 'editorial',
-    n: '01',
+    n: '04',
     name: 'The Editorial',
     tone: 'light',
     tag: 'Quiet confidence. Clear intent.',
@@ -99,7 +99,7 @@ export const designs = [
   },
   {
     id: 'modern',
-    n: '03',
+    n: '05',
     name: 'The Modernist',
     tone: 'dark',
     tag: 'Bold structure. Distinct character.',
