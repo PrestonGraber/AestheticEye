@@ -1,0 +1,35 @@
+AestheticEye facelift: deployment and SEO notes
+
+The build now produces 270 complete HTML pages in dist at the original website paths.
+Run npm run build, then npm run test:seo. Deploy the entire dist directory, including
+nested index.html files, media, content JSON, sitemap.xml, robots.txt and 404.html.
+Do not deploy only the React source as a client-only shell: that loses pre-rendered HTML.
+
+What is preserved
+- Original source page paths, copy, photography, SEO titles and meta descriptions.
+- Original canonical targets, including four legacy alias paths.
+- Original noindex directives where present on source pages.
+- Booking, patient portal and other external practice services.
+
+Changes
+- Real paths work directly; old #/ preview links still work for review.
+- Original descriptions are retained; pages without descriptions receive a page-specific fallback.
+- Blog archives have distinct pagination and numbered titles.
+- Each built content page has one H1, a canonical link, social metadata and WebPage JSON-LD.
+- The XML sitemap excludes source noindex pages and non-canonical alias paths.
+- Design concept pages are noindex and excluded from the sitemap.
+
+Before launch on the practice domain
+1. Keep staging password protected. robots.txt and noindex are not access control.
+2. Host nested directory index.html files at their matching source URLs. Do not use
+   a catch-all HTTP 200 SPA fallback for unknown URLs. Serve 404.html with HTTP 404.
+3. Verify HTTPS and the preferred www domain redirect. Canonicals currently target
+   https://www.aestheticeyemd.com, matching the original practice website.
+4. Test real booking, phone, portal and payment links on the final domain.
+5. Verify production headers do not add noindex to public pages. Retain intentional
+   source noindex pages. Submit sitemap.xml and inspect representative URLs in Search Console.
+6. Check field Core Web Vitals and indexing after launch. Neither rankings nor crawl
+   timing can be guaranteed by the local build.
+
+No production deployment, DNS changes, or Search Console submissions have been made.
+The local development preview remains on port 5174. Port 5173 was not modified.

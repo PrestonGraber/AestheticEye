@@ -1,0 +1,3 @@
+import fs from 'node:fs';import {JSDOM} from 'jsdom';
+const response=await fetch('https://www.aestheticeyemd.com/');if(!response.ok)throw new Error(response.status);const doc=new JSDOM(await response.text()).window.document;
+for(const [selector,name] of [['.flc-logo-svg-primary svg','aestheticeye-logo-light.svg'],['.flc-logo-svg-secondary svg','aestheticeye-logo-color.svg']]){const svg=doc.querySelector(selector);if(!svg)throw new Error('Missing '+selector);if(svg.querySelector('script,foreignObject,image'))throw new Error('Unexpected logo element');fs.writeFileSync('public/assets/'+name,svg.outerHTML);console.log(name,svg.getAttribute('viewBox'),[...new Set([...svg.querySelectorAll('[fill]')].map(n=>n.getAttribute('fill')))]);}

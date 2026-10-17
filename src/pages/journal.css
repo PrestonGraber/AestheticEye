@@ -1,0 +1,20 @@
+.journal-page .content-hero { background: #f3f5ed; }
+.site.journal-page .content-hero h1 { max-width: 1050px; font-size: clamp(32px, 3.7vw, 52px); line-height: 1.16; }
+.journal-page .content-layout { gap: 64px; }
+.journal-reader { font-size: 17px; line-height: 1.85; }
+.journal-date { padding-bottom: 22px; margin-bottom: 28px; border-bottom: 1px solid #d7ddd3; font-size: 13px; color: #526747; }
+.journal-reader .journal-opening-photo { float: right; width: min(42%, 280px); height: auto; margin: 0 0 24px 30px; border-radius: 12px; }
+.site .journal-reader h2 { clear: both; padding-top: 12px; }
+.journal-reader .journal-practice-details { clear: both; border-top: 1px solid #d7ddd3; margin-top: 40px; padding: 24px 0; font-size: 14px; }
+.journal-reader .journal-practice-details > p { margin-bottom: 12px; }
+.journal-reader .journal-share { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; border-top: 1px solid #d7ddd3; padding-top: 20px; font-size: 13px; }
+.journal-reader .journal-share-link { display: inline-flex; align-items: center; min-height: 44px; padding: 8px 16px; border: 1px solid #9dac90; border-radius: 999px; text-decoration: none; }
+.journal-reader .journal-share-link:hover { background: #edf1e6; }
+.journal-reader .journal-share-link:focus-visible { outline: 2px solid #294f37; outline-offset: 4px; }
+@media (max-width: 740px) {
+  .journal-page .page-contents { position: static; }
+  .journal-reader .journal-opening-photo { float: none; width: min(100%, 350px); margin: 0 auto 26px; }
+  .journal-date { margin-bottom: 22px; padding-bottom: 16px; }
+  .site.journal-page .content-hero h1 { font-size: clamp(29px, 7vw, 36px); }
+}
+@media print { .journal-share { display: none !important; } }

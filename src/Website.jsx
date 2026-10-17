@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './foundation.css';
 import ArtDirectedHome from './Experience.jsx';
+import AccessibilityControls from './ui/AccessibilityControls.jsx';
 import Footer from './Footer.jsx';
 import Navigation from './navigation/Navigation.jsx';
 import { MotionLayer } from './Interactive.jsx';
@@ -17,7 +18,7 @@ export function jumpToMain(event) {
 function ReviewToolbar({ design }) {
   return (
     <div className="preview-bar">
-      <a href="#/">
+      <a href="#/designs">
         <Icon name="back" />
         All designs
       </a>
@@ -75,9 +76,7 @@ export default function Website({ design: designId = 'clarity', reviewTools = fa
       />
       <ArtDirectedHome key={`page-${design.id}`} design={design.id} />
       <Footer />
-      <a className="back-top" href="#main" onClick={jumpToMain} aria-label="Back to top">
-        <Icon name="arrow" />
-      </a>
+      <AccessibilityControls />
     </div>
   );
 }

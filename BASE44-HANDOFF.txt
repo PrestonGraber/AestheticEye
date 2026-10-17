@@ -1,0 +1,59 @@
+BASE44 HANDOFF — AESTHETICEYE / CLARITY
+
+Scope: preserve the approved front-end design and all original practice content.
+Do not replace Clarity with a newly generated template. The main site is Clarity;
+other concepts are review-only and should stay out of public navigation/indexing.
+
+Source structure
+- React 19 + Vite + Tailwind 4. Most visual styling is regular CSS.
+- src/Website.jsx: Clarity homepage (design="clarity", reviewTools=false).
+- src/pages/ContentPage.jsx: original internal pages and interactions.
+- src/pages/page-index.json: page metadata and original paths.
+- public/content: sanitized original page HTML, loaded per page.
+- public/assets, public/media, public/fonts: local artwork, photos, film and fonts.
+- src/navigation: desktop hover menus and separate mobile inline accordion.
+- src/ui/AccessibilityControls.jsx: saved reading controls. Text sizing must NOT
+  change the header's layout or force navigation onto an extra row.
+
+Design constraints
+Keep the exact original SVG logo, forest-green/ivory palette, original photography,
+Clarity hero composition, native keyboard behavior and reduced-motion support.
+Keep gallery before/after sliders and complete original-photo option.
+Keep readable treatment sections, sticky section navigation and mobile section picker.
+Do not add fake testimonials, outcomes, medical claims, or decorative overload.
+
+Routing and SEO
+Preserve all original page paths, canonical aliases and metadata. Hash routes exist
+for legacy design previews; public links use ordinary paths. The local npm build
+pre-renders 270 pages. Confirm Base44 serves equivalent HTML/metadata at each public
+URL; importing React source alone does not automatically preserve this build pipeline.
+public/redirects.json and public/_redirects contain 214 legacy path/asset redirects.
+These need equivalent rules on the chosen hosting platform. Unknown paths need a real
+404 status. Retain the sitemap and exclude concept previews from indexing.
+
+Integrations requiring completion in Base44
+- Existing LeadConnector form IDs and embed-sizing script are retained.
+- Consultation currently uses the practice Contact form, not the original Unbounce
+  /fsg endpoint. Restore the exact campaign flow only with the original account/config.
+- Cherry uses the original aestheticeyemd merchant configuration in a locally hosted
+  embed wrapper. Its official service remains external; do not copy financial logic.
+- Klara booking, EMA portal/payments, maps, YouTube and Canva remain external services.
+- Verify final-domain form confirmations, provider domain restrictions and inbox/CRM
+  delivery later. No real submissions were authorized or sent during this work.
+- Original source includes GTM-NKFPBCDZ and Meta pixel 784704111138596. These IDs are
+  inventory evidence only: tracking is not installed or verified in the replacement.
+  Configure consent, tags and conversions through the client's authorized accounts.
+  Do not send form field values to analytics.
+
+Checks before handoff/release
+npm test
+npm run build
+npm run test:seo
+node scripts/check-hosting.mjs (local static-host option, not a Base44 requirement)
+Review INTEGRATION-MIGRATION.txt and integration-verification.json for known differences.
+No production deployment, DNS change, form submission, financing request, or payment
+has been performed. User explicitly declined test submissions.
+
+Confirmed scope 2026-10-17: frontend only. Base44 hosting, authentication, protected dashboard data, form delivery and tracking will be connected later. Do not block frontend refinement on backend setup. The employee sign-in design is visible but disabled when no auth service is configured.
+
+Employee dashboard design review: local /employee/ -> Preview dashboard design. Development-only preview never changes authentication. Components src/employee/EmployeeDashboard.jsx and EmployeeAccess.jsx; enquiries/quiz leads are honest connection-pending states. Wire these to approved Base44 data and permissions. Public resources search and local links already work.

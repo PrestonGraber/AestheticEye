@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,follow"><link rel="stylesheet" href="/integrations/cherry-fonts.css"><title>AestheticEye payment options with Cherry</title><style>html,body{margin:0;padding:0;background:#fff;font-family:Arial,sans-serif}*{box-sizing:border-box}#fallback{padding:24px;color:#203e31}#fallback a{color:inherit}#all{min-width:0}</style></head><body>
+<div id="all"></div><p id="fallback">Loading payment options with Cherry. If they don’t appear, please <a href="tel:9379079009">call AestheticEye at (937) 907-9009</a>.</p>
+<script>
+// Official merchant configuration from the original AestheticEye payment page.
+window._hw=window._hw||function(){(window._hw.q=window._hw.q||[]).push(arguments)};
+_hw('init',{debug:false,variables:{slug:'aestheticeyemd',name:'AestheticEye'},styles:{primaryColor:'#698a80',secondaryColor:'#182F29',fontFamily:'Montserrat'}},['all','hero','howitworks','testimony','faq','calculator']);
+let frame;
+function report(){cancelAnimationFrame(frame);frame=requestAnimationFrame(()=>{const widget=document.getElementById('all');const ready=widget.innerText.trim().length>100;if(ready)document.getElementById('fallback').hidden=true;const field=document.getElementById('floating-currency-field');if(field&&!field.getAttribute('aria-label'))field.setAttribute('aria-label','Payment amount');parent.postMessage({type:'aestheticeye-cherry-size',height:Math.ceil(document.body.getBoundingClientRect().height),ready},location.origin);});}
+new ResizeObserver(report).observe(document.body);new MutationObserver(report).observe(document.getElementById('all'),{subtree:true,childList:true});window.addEventListener('load',report);
+</script><script id="_hw" async src="https://files.withcherry.com/widgets/widget.js"></script>
+</body></html>

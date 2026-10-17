@@ -1,0 +1,5 @@
+import fs from 'node:fs';
+const dependencies=JSON.parse(fs.readFileSync('migration-dependencies.json'));
+const providers=JSON.parse(fs.readFileSync('../work/provider-form-audit.json'));
+const mobile=JSON.parse(fs.readFileSync('../work/forms-render-audit.json'));
+fs.writeFileSync('integration-verification.json',JSON.stringify({pagesAudited:270,oldHostLinks:dependencies.issues,providerForms:providers.map(({text,...r})=>r),mobilePages:mobile.map(({checks,...r})=>r),submissionsTested:false,consultationChange:'Replaced obsolete Unbounce same-host /fsg endpoint with the existing AestheticEye Contact LeadConnector form. Original Unbounce fields and campaign automation are not reproduced.',externalServicesMustRemainActive:['LeadConnector forms and CRM','Klara booking','Cherry financing','EMA portal and payments','YouTube','Google Maps','Canva'],remainingLaunchVerification:['Authorized test submissions and confirmation of inbox/CRM delivery','Verify form redirects and any domain allowlists on production','Retain third-party accounts and business email/DNS services when retiring hosting']},null,2));

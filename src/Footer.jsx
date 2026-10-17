@@ -74,6 +74,7 @@ export default function Footer() {
           <a href={`${SITE_URL}/accessibility-policy/`}>Accessibility Policy</a>
           <a href={`${SITE_URL}/privacy-policy/`}>Privacy Policy</a>
           <a href={`${SITE_URL}/sitemap/`}>Sitemap</a>
+          <a href="/employee/">Employee access</a>
         </div>
       </div>
     </footer>

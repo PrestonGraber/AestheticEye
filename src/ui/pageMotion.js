@@ -5,14 +5,21 @@ export function installPageMotion(root, preference) {
   const seen = new WeakSet();
   const clarity = root.classList.contains('clarity');
   function play(element, frames, timing) {
-    if (!element || preference.matches) return;
+    if (!element || preference.matches || document.documentElement.dataset.readingMotion === 'true')
+      return;
     seen.add(element);
     const animation = element.animate(frames, { fill: 'backwards', ...timing });
     running.add(animation);
     animation.onfinish = () => running.delete(animation);
   }
   function enter(element, index = 0, hero = false) {
-    if (!element || preference.matches || seen.has(element)) return;
+    if (
+      !element ||
+      preference.matches ||
+      document.documentElement.dataset.readingMotion === 'true' ||
+      seen.has(element)
+    )
+      return;
     seen.add(element);
     const animation = element.animate(
       [
@@ -99,7 +106,12 @@ export function installPageMotion(root, preference) {
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
-        if (!entry.isIntersecting || preference.matches) return;
+        if (
+          !entry.isIntersecting ||
+          preference.matches ||
+          document.documentElement.dataset.readingMotion === 'true'
+        )
+          return;
         const section = entry.target;
         const children = [
           ...section.querySelectorAll(
@@ -116,7 +128,7 @@ export function installPageMotion(root, preference) {
   );
   function configure() {
     observer.disconnect();
-    if (preference.matches) {
+    if (preference.matches || document.documentElement.dataset.readingMotion === 'true') {
       running.forEach((animation) => animation.cancel());
       running.clear();
     } else sections.forEach((section) => observer.observe(section));

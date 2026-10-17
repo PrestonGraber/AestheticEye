@@ -1,0 +1,179 @@
+.accessibility-launcher {
+  position: fixed;
+  bottom: max(22px, env(safe-area-inset-bottom));
+  right: 22px;
+  z-index: 60;
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #6d836b;
+  border-radius: 50%;
+  color: #294b35;
+  background: #fcfdf9;
+  box-shadow: 0 3px 14px #203e3114;
+  cursor: pointer;
+}
+.accessibility-launcher:hover {
+  background: #294b35;
+  color: white;
+}
+.accessibility-launcher:focus-visible,
+.accessibility-dialog :focus-visible {
+  outline: 2px solid #294b35;
+  outline-offset: 4px;
+}
+.accessibility-dialog {
+  position: fixed;
+  inset: auto 22px 82px auto;
+  margin: 0;
+  width: min(390px, calc(100vw - 32px));
+  max-height: calc(100dvh - 110px);
+  overflow: auto;
+  padding: 24px;
+  border: 1px solid #b8c6ae;
+  border-radius: 16px;
+  background: #fcfdf9;
+  color: #203e31;
+  box-shadow: 0 16px 60px #203e3126;
+  font:
+    400 15px/1.6 Inter,
+    sans-serif;
+}
+.accessibility-dialog::backdrop {
+  background: #152c233d;
+}
+.reading-panel-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.accessibility-dialog h2 {
+  font-size: 21px;
+  line-height: 1.25;
+  font-weight: 500;
+  margin: 0;
+}
+.reading-panel-heading button {
+  min-width: 44px;
+  min-height: 44px;
+  font-size: 28px;
+  border-radius: 50%;
+}
+.accessibility-dialog p {
+  margin: 14px 0 20px;
+  font-size: 14px;
+}
+.accessibility-dialog fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0 0 18px;
+}
+.accessibility-dialog legend {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.reading-size-options {
+  display: flex;
+  gap: 8px;
+}
+.reading-size-options button {
+  flex: 1;
+  min-height: 44px;
+  border: 1px solid #819777;
+  border-radius: 6px;
+  font-size: 13px;
+}
+.reading-size-options button[aria-pressed='true'] {
+  background: #294b35;
+  color: white;
+}
+.reading-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-height: 56px;
+  border-top: 1px solid #d4ddcb;
+  cursor: pointer;
+}
+.reading-option input {
+  width: 22px;
+  height: 22px;
+  accent-color: #294b35;
+}
+.accessibility-dialog .reading-hint {
+  font-size: 12px;
+}
+.reading-reset {
+  display: block;
+  width: 100%;
+  min-height: 44px;
+  border: 1px solid #819777;
+  border-radius: 30px;
+}
+.reading-policy {
+  display: block;
+  margin-top: 16px;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+html[data-reading-size='1'] {
+  --reading-text: 19px;
+}
+html[data-reading-size='2'] {
+  --reading-text: 22px;
+}
+html:not([data-reading-size='0'])[data-reading-size]
+  .site
+  :is(main p, main li, .content-body, main td, main dd) {
+  font-size: var(--reading-text) !important;
+  line-height: 1.75 !important;
+}
+html[data-reading-links='true'] .site a:not(:has(img, svg)) {
+  text-decoration: underline !important;
+  text-underline-offset: 4px;
+}
+html[data-reading-contrast='true'] .site :is(p, h1, h2, h3, h4, li, td, summary, legend) {
+  color: #132d21 !important;
+}
+html[data-reading-contrast='true']
+  .site
+  :is(main, section, article, footer, .content-hero, .page-contents) {
+  background-color: #fff !important;
+  background-image: none !important;
+}
+html[data-reading-contrast='true'] .site :is(a, button) {
+  border-color: #294b35;
+}
+html[data-reading-motion='true'] *,
+html[data-reading-motion='true'] *::before,
+html[data-reading-motion='true'] *::after {
+  animation: none !important;
+  transition: none !important;
+  scroll-behavior: auto !important;
+}
+@media (max-width: 600px) {
+  .accessibility-launcher {
+    right: 16px;
+    bottom: max(16px, env(safe-area-inset-bottom));
+  }
+  .accessibility-dialog {
+    right: 16px;
+    bottom: 78px;
+    padding: 20px;
+  }
+}
+/* Keep text legible even on dark panels and photo captions in contrast mode. */
+html[data-reading-contrast='true']
+  .site
+  :is(p, h1, h2, h3, h4, li, td, summary, legend, figcaption, span, a, button, label) {
+  color: #132d21 !important;
+  background-color: #fff !important;
+  text-shadow: none !important;
+}
+html[data-reading-contrast='true'] .site :is(a, button):focus-visible {
+  outline: 3px solid #132d21 !important;
+}

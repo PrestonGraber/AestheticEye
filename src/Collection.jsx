@@ -101,7 +101,7 @@ export default function Collection() {
   return (
     <div className="design-collection">
       <header className="collection-header">
-        <a className="collection-brand" href="#/" aria-label="AestheticEye design collection">
+        <a className="collection-brand" href="#/" aria-label="AestheticEye home">
           <BrandMark />
         </a>
         <span className="collection-edition">DESIGN EXPLORATIONS</span>

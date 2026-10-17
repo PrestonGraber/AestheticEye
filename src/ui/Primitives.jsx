@@ -56,6 +56,8 @@ export function SectionLabel({ number, children, right }) {
 }
 export function reducedMotion() {
   return (
-    typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    typeof window !== 'undefined' &&
+    (window.matchMedia('(prefers-reduced-motion: reduce)').matches ||
+      document.documentElement.dataset.readingMotion === 'true')
   );
 }

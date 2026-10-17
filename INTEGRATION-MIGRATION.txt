@@ -1,0 +1,24 @@
+Integration audit — October 14, 2026
+
+Audited all 270 source pages and the imported interactive content.
+Restored original inline action links removed by the import, Cloudflare-obfuscated
+email links as mailto links, LeadConnector iframe IDs and configuration, the official
+form sizing script, and the consultation page's Canva embed. Maps, YouTube embeds,
+phone links, booking links, and the patient portal remain connected to their providers.
+Payment Plans now uses the official Cherry widget configured for aestheticeyemd.
+
+Consultation page: the original form posted to the old host's /fsg Unbounce endpoint.
+The replacement embeds the practice's existing Contact form in LeadConnector. This
+has different fields and uses that form's existing delivery/automation configuration.
+It does not recreate the original Unbounce campaign workflow.
+
+Verified all six distinct LeadConnector forms render fields without sending data.
+Verified seven local form pages at mobile width without horizontal overflow.
+All imported content links now avoid the old website host. Locally copied assets
+and documents remain under public/assets, public/media, and public/fonts.
+
+Before retiring hosting: authorize and perform real test submissions, confirm receipt
+in the practice's CRM/inbox, and verify redirects/domain settings on the final domain.
+Keep LeadConnector, Klara, Cherry, EMA, Canva, YouTube and Maps services available.
+Do not cancel business email or DNS services as part of removing the old web hosting.
+No forms, referrals, financing applications, or payments were submitted during this audit.

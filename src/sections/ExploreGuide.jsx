@@ -1,16 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react';
-import original from '../original.json';
+import { guideAreas as areas } from './exploreGuideModel.js';
 import { BOOKING_URL } from '../navigation/model.js';
 import { useModal } from '../ui/useModal.js';
 import { Icon } from '../ui/Icons.jsx';
 import './explore-guide.css';
-
-const areas = [
-  { name: 'Cosmetic treatments', links: original.nav[1].links },
-  { name: 'Reconstructive care', links: original.nav[2].links },
-  { name: 'Non-surgical treatments', links: original.nav[4].links },
-  { name: 'I’m just exploring', links: original.nav[0].links.slice(0, 5) },
-];
 
 export default function ExploreGuide({ design }) {
   const [open, setOpen] = useState(false);
@@ -19,11 +12,17 @@ export default function ExploreGuide({ design }) {
   const [topic, setTopic] = useState('');
   const heading = useRef(null);
   const modal = useModal(() => setOpen(false));
-  const links = area === '' ? [] : areas[Number(area)].links;
+  const links = area === '' ? [] : areas[Number(area)].topics;
   const chosen = links[Number(topic)];
   useEffect(() => {
     if (open) heading.current?.focus();
   }, [step, open]);
+  useEffect(() => {
+    if (new URLSearchParams(window.location.search).get('guide') === '1') {
+      setOpen(true);
+      modal.show();
+    }
+  }, [modal.show]);
   function start() {
     setStep(0);
     setArea('');
@@ -41,6 +40,7 @@ export default function ExploreGuide({ design }) {
         <div>
           <p>NOT SURE WHERE TO BEGIN?</p>
           <h2>Find your starting point.</h2>
+          <span className="explore-guide-description">Two quick questions. Helpful information, at your pace.</span>
         </div>
         <button type="button" onClick={start}>
           Explore with a short guide <Icon name="arrow" />
@@ -94,33 +94,22 @@ export default function ExploreGuide({ design }) {
                           setTopic('');
                         }}
                       />
-                      <span>{item.name}</span>
+                      <span><strong>{item.name}</strong>{' '}<small>{item.detail}</small></span>
                     </label>
                   ))}
                 </fieldset>
               ) : (
-                <div className="explore-guide-topic">
-                  <label htmlFor="explore-topic">Choose a topic</label>
-                  <select
-                    id="explore-topic"
-                    required
-                    value={topic}
-                    onChange={(event) => setTopic(event.target.value)}
-                  >
-                    <option value="" disabled>
-                      Select a topic
-                    </option>
-                    {links.map((link, index) => (
-                      <option key={`${link.href}-${index}`} value={index}>
-                        {link.label}
-                      </option>
-                    ))}
-                  </select>
-                  <p>
-                    Pick what interests you. This helps you find information, not determine which
-                    treatment is suitable.
-                  </p>
-                </div>
+                <fieldset>
+                  <legend className="sr-only">Choose a topic</legend>
+                  {links.map((link, index) => (
+                    <label className="explore-guide-option" key={link.href}>
+                      <input type="radio" name="explore-topic" value={index} required
+                        checked={topic === String(index)}
+                        onChange={(event) => setTopic(event.target.value)} />
+                      <span>{link.label}</span>
+                    </label>
+                  ))}
+                </fieldset>
               )}
               <div className="explore-guide-actions">
                 {step === 1 && (
@@ -145,20 +134,24 @@ export default function ExploreGuide({ design }) {
                 your own pace.
               </p>
               <a className="explore-guide-result-link" href={chosen.href}>
-                {chosen.label}
+                {chosen.title}
                 <Icon name="arrow" />
               </a>
-              <p>For personal advice, talk with the AestheticEye team.</p>
+              <div className="explore-guide-next">
+                <h3>When you’re ready to talk</h3>
+                <p>A consultation is the next step for personal advice. The team can discuss your questions and whether a treatment is appropriate for you.</p>
+              </div>
               <a className="explore-guide-book" href={BOOKING_URL}>
-                Book An Appointment <Icon name="arrow" />
+                Request a consultation <Icon name="arrow" />
               </a>
+              <a className="explore-guide-visit" href="/your-first-visit/">What to expect at your first visit</a>
               <button className="explore-guide-restart" type="button" onClick={() => setStep(0)}>
                 Change my answers
               </button>
             </div>
           )}
           <p className="explore-guide-note">
-            A browsing guide, not a medical assessment. Your answers aren’t saved or sent.
+            This guide helps you explore information. It does not assess suitability or diagnose a condition. No email required; your answers aren’t saved or sent.
           </p>
         </div>
       </dialog>

@@ -1,0 +1,1642 @@
+{
+  "pagesChecked": 283,
+  "localFiles": 323,
+  "remoteAssets": [
+    "https://files.withcherry.com/widgets/widget.js"
+  ],
+  "unexpectedRemoteAssets": [],
+  "missingLocalAssets": [],
+  "externalServices": [
+    "https://api.leadconnectorhq.com/widget/survey/pwWuwlxYSgzpYMP1d3hK",
+    "https://api.leadconnectorhq.com/widget/form/7xBtAFmlnlqJbmQgTob3",
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1537.5514755473807!2d-84.22729146110235!3d39.57983006017719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88408b4f29861529%3A0x5b1365c915494e84!2sAestheticEye%20Oculoplastic%20Surgeons!5e0!3m2!1sen!2sus!4v1758902332553!5m2!1sen!2sus",
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3088.409005839937!2d-84.34779!3d39.278974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x884057f980be5dd3%3A0x65a6f118083e2bd2!2sAestheticEye%20Ocuoplastic%20Surgeons!5e0!3m2!1sen!2sus!4v1782906697117!5m2!1sen!2sus",
+    "https://api.leadconnectorhq.com/widget/form/zrbsgRHnE2gIYj6TzOuF",
+    "https://www.youtube.com/embed/c-oDtT3VF5k?rel=0",
+    "https://www.youtube.com/embed/mVjOGwZBTY4?rel=0",
+    "https://api.leadconnectorhq.com/widget/form/yZkor0Arjxd6Z9s8q1Tm",
+    "https://www.google.com/maps/d/embed?mid=1mxM4FdOGDZRA3maYmUknctrJqcFUz8U&ehbc=2E312F&noprof=1",
+    "https://www.canva.com/design/DAG1DXtZsE4/SK87K1BAw1Syj9SwbcoO3w/watch?embed",
+    "/integrations/cherry.html",
+    "https://api.leadconnectorhq.com/widget/form/RWBMSI3ChZLnTZMrR1AN",
+    "https://api.leadconnectorhq.com/widget/form/WLrLriQxdtusMfmMwoqG",
+    "https://files.withcherry.com/widgets/widget.js"
+  ],
+  "assets": [
+    {
+      "path": "assets/1.webp",
+      "bytes": 9300,
+      "sha256": "f8dafbe97470329808590597fa2c03fb2f2198d179e8cfe41d6f2b80df02b242"
+    },
+    {
+      "path": "assets/1193219OS.jpg",
+      "bytes": 233238,
+      "sha256": "05fb04c5778cc4b841d64204ab4135bf175016af8649cabfa06e9e92a31821ed"
+    },
+    {
+      "path": "assets/1521114.jpg",
+      "bytes": 320031,
+      "sha256": "eb48abfaf1b6d629869e0d9ca615a71e1188a69ea832d877df300061c4549aaa"
+    },
+    {
+      "path": "assets/1524824.jpg",
+      "bytes": 199981,
+      "sha256": "e1d1780ffca129e58243897808729d97784c82fcb3076a32f7a5f659637bc144"
+    },
+    {
+      "path": "assets/2.webp",
+      "bytes": 9686,
+      "sha256": "fefbf4fdc69e0573ef6ab9b710746279fcdc45f06cee79fa8809e65cb14257de"
+    },
+    {
+      "path": "assets/2025-CC-TD-license-confirmed-1-198x300.webp",
+      "bytes": 9462,
+      "sha256": "14b10ae80d2056b1e78f35c1f085133b71f56d33c1aad701b639f042de096d05"
+    },
+    {
+      "path": "assets/3-3.png",
+      "bytes": 5832,
+      "sha256": "1ecd22455a7f458f8ab7e11f79c737e30201d9b97376d7ca9f680b947d70ae1b"
+    },
+    {
+      "path": "assets/3.webp",
+      "bytes": 6592,
+      "sha256": "bf750d37ad3f84f217a600358ad03850f66768b5b26eeff20c699d567d9b49d0"
+    },
+    {
+      "path": "assets/392657.jpg",
+      "bytes": 240359,
+      "sha256": "5fb19ca3b7014d7e37d973a1e2840036c7e12f5f663fb1d71eb180f33253be48"
+    },
+    {
+      "path": "assets/aao_logo_2x-1.png",
+      "bytes": 5579,
+      "sha256": "d0bb2421495e29b7abf4460ce1e22fc86f04225ad27df9aabff8a21ec320a787"
+    },
+    {
+      "path": "assets/aestheticeye-logo-color.svg",
+      "bytes": 11417,
+      "sha256": "7f7397e4161d0a445cb44ad87939a60a199470273ac9393a452b230f52dbd9a6"
+    },
+    {
+      "path": "assets/aestheticeye-logo-light.svg",
+      "bytes": 15254,
+      "sha256": "c0988d1c3201a2591df9a6cea5aaf95e55762689a9c95bfd47b7287ad48c5a18"
+    },
+    {
+      "path": "assets/asoprs_2022_logo-1.png",
+      "bytes": 3761,
+      "sha256": "6574e88caeeb2ba48ca016375f9db589ceee1b3fcbf5dae43937b7f24b3841cf"
+    },
+    {
+      "path": "assets/blog-2-1.jpg",
+      "bytes": 49287,
+      "sha256": "5de74d02d6ca44f25aefd0bfebf3299a41039bdc4119afc4d6e6738ad91c036d"
+    },
+    {
+      "path": "assets/CTA.jpg",
+      "bytes": 92931,
+      "sha256": "e3731a37c4b55761c9e5d4cc36c246ca9236b4705c9367ee2441d9b2316cf27b"
+    },
+    {
+      "path": "assets/favicon-original.jpg",
+      "bytes": 7260,
+      "sha256": "a600bd260f39bcbf328a29a4645c3a634aa493b587c45796ce0a5f20f6a847ca"
+    },
+    {
+      "path": "assets/Frame-61.jpg",
+      "bytes": 11045,
+      "sha256": "28d8a278f001cfecac17a5f15be21ec49239de5a5df31c88d3c9bed4905fa15c"
+    },
+    {
+      "path": "assets/Frame-63.jpg",
+      "bytes": 12092,
+      "sha256": "f091acbd0064796346016e2cb3a9ef22707dabf701ddaf20e1c94a01af3c1c99"
+    },
+    {
+      "path": "assets/Frame-64.jpg",
+      "bytes": 11550,
+      "sha256": "0339c61a61679aa14dde7199dd16d6099b5ca13b41952ec891d24594dac29f2c"
+    },
+    {
+      "path": "assets/Frame-65.jpg",
+      "bytes": 11082,
+      "sha256": "5403a9e568c11da76caf422c44733e7107f02949f10ee2271c179161fd5ef861"
+    },
+    {
+      "path": "assets/header-image.jpg",
+      "bytes": 84972,
+      "sha256": "506eb35e4b6bffe87ad5900e1a2f5b55994a2824586fd1560775fb993a02c797"
+    },
+    {
+      "path": "assets/JAN24_Cover-1.png",
+      "bytes": 11790,
+      "sha256": "c1736ec88c17be02d329dd7d4d7e5fa2fdf669b5e60ab21db9f84fe5a2f2b00f"
+    },
+    {
+      "path": "assets/Jon-Pargament-Ginger-Henson-license-confirmed.jpg",
+      "bytes": 64736,
+      "sha256": "2da27a264cdb4fabebbbc53734beb5f63996a7833cab3fb55fbc8af12edd05b6"
+    },
+    {
+      "path": "assets/logo-asc-1.png",
+      "bytes": 2260,
+      "sha256": "11e7b775b83bb2488bb535641b0af8ab88da1e942e3cb06f3e8455f3e8dd3b15"
+    },
+    {
+      "path": "assets/logo-grey.png",
+      "bytes": 1492,
+      "sha256": "a8d04e09555e9e9ec5f4b341e03fb5930779da7604ea3f3406e5c65fde56c956"
+    },
+    {
+      "path": "assets/logo-uc-1.png",
+      "bytes": 1694,
+      "sha256": "5f6d3f6a8de9d8fcf4cca8086309cfd3544b83c3e147e607714430e8a61f4f8b"
+    },
+    {
+      "path": "assets/logo.png",
+      "bytes": 672,
+      "sha256": "30bde1c3330ff6bd0bc086ea97b758c4f3d6451352f006d574084f67324a7e74"
+    },
+    {
+      "path": "assets/name-color.png",
+      "bytes": 22794,
+      "sha256": "ee1482da38ad94449fd43b294f45878abfbe2498173da78c0ecd3e6d17147922"
+    },
+    {
+      "path": "assets/name.svg",
+      "bytes": 4841,
+      "sha256": "597a9d67444cd2f88f3a34bd9cecebd5cda6ad3b94880029ca7b53f68bff70b2"
+    },
+    {
+      "path": "assets/REAL-ESTATE-1.mp4",
+      "bytes": 9309422,
+      "sha256": "23d3191dc38997477ffa97cba0f2bdf0a287e3d6f30956ca1231af057c104364"
+    },
+    {
+      "path": "assets/schedule.jpg",
+      "bytes": 60423,
+      "sha256": "4f4640b4f85d1d12f2c5fc3d3a3831aaf43553d66ac07a1f843d8f42f2d2ff9a"
+    },
+    {
+      "path": "assets/Services.jpg",
+      "bytes": 107976,
+      "sha256": "edba2aeb3d56ac6d1a6d8cabb358a174ce6f25d3dd2b41e38756d7dc83a55c4b"
+    },
+    {
+      "path": "assets/Sofwave-Logo-White.license-confirmed-300x98.png",
+      "bytes": 4320,
+      "sha256": "0893e519e32e4e118f811ace6e1ed33dc55e9d115f5e49c37f2ed722760fe43b"
+    },
+    {
+      "path": "assets/Text-Section-1.jpg",
+      "bytes": 77309,
+      "sha256": "f3dd5441350d4b13c688701363bb017ac02bf6a8e4ffad13304dbdced9d34b49"
+    },
+    {
+      "path": "assets/Top-Docs-Logo-2021-2025-1-300x230.jpg",
+      "bytes": 11770,
+      "sha256": "c972010e4f0c3b125f60cd36940e8138e0183a8ff7f510d7d41c883483c13243"
+    },
+    {
+      "path": "media/00a7be016326-00784-ba1.jpg",
+      "bytes": 129598,
+      "sha256": "30a9461ae88d2956a4d341cf37b580514520bb81830a742f2fe8eb8de9cef343"
+    },
+    {
+      "path": "media/01245f5cd4e4-1563236.jpg",
+      "bytes": 310739,
+      "sha256": "4a55d7069fce84fab389b5014232c4e2940ba2fc88c6d12fd9d990d045d36d07"
+    },
+    {
+      "path": "media/021d69bb4c62-UpperBleph-Browplasty-license-confirmed.jpg",
+      "bytes": 172052,
+      "sha256": "d3998b952269a89133a565ae2d8c1cff259f805e2eccabfe82ce93ed0e859a57"
+    },
+    {
+      "path": "media/0254e37cdaf7-AEOS_3DMIRACLWEB-2-license-confirmed.jpg",
+      "bytes": 475825,
+      "sha256": "26f96d246c3b199caab13717d61040dfb41fd5db5ab89e784b9f557b3bc5cd3d"
+    },
+    {
+      "path": "media/03155d96a3e5-1443477e-aao-3x_109c02o000000000000028.png",
+      "bytes": 7399,
+      "sha256": "8add36718e07a5c5ac66eae830514b240768657af5390fddf4bb66d7a0471280"
+    },
+    {
+      "path": "media/03c436021c11-365A4305.jpg",
+      "bytes": 229313,
+      "sha256": "7f98f0b2a85297259432b8dd3aeee4ea271fd646355bcb7a3167884319330d5a"
+    },
+    {
+      "path": "media/0463de5fc2d3-7035817e-aeos-uppereyelid-ba4_10ku0ku000000000000028.jpg",
+      "bytes": 114629,
+      "sha256": "8b957d991d277c41b92a017be64c3f24f0b636279ba82c3184f22d9fafdf87e0"
+    },
+    {
+      "path": "media/0548be6ca40e-brunette-with-beautiful-thick-eyebrows.jpg",
+      "bytes": 17687,
+      "sha256": "2029f6115d888b3fd26ba8ccda4b3367380fc4d4076484891237007249a3741c"
+    },
+    {
+      "path": "media/079201fce721-1521114.jpg",
+      "bytes": 320031,
+      "sha256": "eb48abfaf1b6d629869e0d9ca615a71e1188a69ea832d877df300061c4549aaa"
+    },
+    {
+      "path": "media/08fb0a50c3e2-PatientBA_8-license-confirmed.jpg",
+      "bytes": 140250,
+      "sha256": "d4df58db7768ab8881601053e4ed903238161b4591d321713a0bd19114b28fcd"
+    },
+    {
+      "path": "media/09dbcbf5ea36-709598.jpg",
+      "bytes": 197300,
+      "sha256": "5495b1ddd68a967a8beeb21b7a25248fd425bfb1169b470eb06b6773ed549e1c"
+    },
+    {
+      "path": "media/0c1942d3752c-68efb252-dr-pargament-2x_10b40b4000000000000028.png",
+      "bytes": 48937,
+      "sha256": "f0aca562feb56bed7df1579482dff9d948e19c2bcfb23cdd43a2b10b69807bbd"
+    },
+    {
+      "path": "media/0c5b29990afd-Kim-Photo-license-confirmed.jpg",
+      "bytes": 85540,
+      "sha256": "d38d6d9c1e3b93abc15a568bda6f27b0044f62cc2e90e06104818da0bd49f275"
+    },
+    {
+      "path": "media/0e1aa9b98797-8ac3e151-2026-castle-connolly-top-doctors-vertical-logo-rgb_104s06e03k05e00m00k028.png",
+      "bytes": 5641,
+      "sha256": "5caae2732321a32f5a027fa25ac33b3fb6c4be3c45b2f53a2d649c965ddd968e"
+    },
+    {
+      "path": "media/0eb30347031d-shutterstock-2263208843-large-350x225.jpg",
+      "bytes": 9685,
+      "sha256": "9fbaf861629ff206ad6f922b1e8fcebcd78478207a0e7b2419188a7dfa2388d0"
+    },
+    {
+      "path": "media/0efa955e0939-LowerBleph-license-confirmed.jpg",
+      "bytes": 349705,
+      "sha256": "9e5f7a95937560fa629998810f952389b13979e13ed73e71f60f480908f8812d"
+    },
+    {
+      "path": "media/0fe73f489c75-365A4253.jpg",
+      "bytes": 481497,
+      "sha256": "6f89ad7be3688e3ad890551a24811b035fce56a71c2d1544ee875e9394e9ccb2"
+    },
+    {
+      "path": "media/10c1aa0030d5-fe9db4dc-aeos-uppereyelid-ba5_10ku0ku000000000000028.jpg",
+      "bytes": 96938,
+      "sha256": "a9dae8da78555e28dfdbd71e0f88b248e9e65715fabb05a3cb6d5fab4acc49f7"
+    },
+    {
+      "path": "media/11119cf82741-a0947a34-aeos-logo-1c-wht_10hy03u03o03u000000028.png",
+      "bytes": 1645,
+      "sha256": "dfa7178f5d60d93b7678af55f87cd6feb0a905aa244ca3410b5ca4f6eb8d2ba0"
+    },
+    {
+      "path": "media/121cd4704bae-Best-of-Before-After-for-web.pptx_pages-to-jpg-0010.jpg",
+      "bytes": 33712,
+      "sha256": "1fbf96624fff5c84fd205c76cebbe8d27581603d6a8f2768cd88256f6fd7dc79"
+    },
+    {
+      "path": "media/14cabdc5e60e-PatientBA_1-license-confirmed.jpg",
+      "bytes": 117310,
+      "sha256": "46fc7f570f9bb1932676da290ca3351a00597fa155672be37327b639e9c67f1b"
+    },
+    {
+      "path": "media/161356559419-Best-of-Before-After-for-web.pptx_pages-to-jpg-0002.jpg",
+      "bytes": 247495,
+      "sha256": "990c00f5cb64913c79d05c17848a34168734573c6bd14da4a17fe2c20f90d851"
+    },
+    {
+      "path": "media/16a30c048d74-6b5fcb7d-treatment-upper-eyelids_1000000000000000000028.png",
+      "bytes": 72437,
+      "sha256": "3b369bf493f91264b907988e5d27701869f6bc074c5265d350ce8628dceb99a9"
+    },
+    {
+      "path": "media/16cf8afa3153-blog-post-image-license-confirmed.jpg",
+      "bytes": 15757,
+      "sha256": "a36930559eaccc18eb23aba1779a41ba34f21aaf3ed4949a03b21e03e221e37f"
+    },
+    {
+      "path": "media/182a407ce36a-UpperBleph_LowerBlephDr-license-confirmed.H.jpg",
+      "bytes": 296216,
+      "sha256": "4208bb207e32d8c124a33aded1627ef85d9bff6baba5d9b11dcc4bbc05120764"
+    },
+    {
+      "path": "media/187bac4cc08a-UpperBleph_LowerBleph-license-confirmed.jpg",
+      "bytes": 102983,
+      "sha256": "0aaa47c3a816ead6decd231ad2541f265b56a5657a5dd9b2510af7f1bcb22221"
+    },
+    {
+      "path": "media/1d07e7fb289b-830097.jpg",
+      "bytes": 201614,
+      "sha256": "0b2cd0896fc532485200200f51e9fe28aea1789bc9afb7056be82296bb1b2cd2"
+    },
+    {
+      "path": "media/1d48aa97d9eb-UpperBleph-Brow-Lift-license-confirmed.jpg",
+      "bytes": 121287,
+      "sha256": "f0c9648292e75f669ee67657beece0304117e85a42f16479941bb31d299b493f"
+    },
+    {
+      "path": "media/1d871f76babb-1595610.jpg",
+      "bytes": 260808,
+      "sha256": "06fa0d0a5d573881d4156873150944e20b73d558a9588053fca721d319152ba0"
+    },
+    {
+      "path": "media/1e49d8be4d04-079cae08-treatment-brow-lifts_1000000000000000000028.png",
+      "bytes": 87402,
+      "sha256": "fd0e311b5291b505a18dc9c1415b8b9d829a0bdc51272b9e772356f9bcd6a69e"
+    },
+    {
+      "path": "media/1eb7609b19dd-1322497.jpg",
+      "bytes": 286580,
+      "sha256": "2e9c330474783cdf0862547125fcb67d95284e4681c9436f9ad8ce1346eedf59"
+    },
+    {
+      "path": "media/1f2e67d4dec8-35e05d17-woman-home-lifestyle_1000000000000000000028.jpg",
+      "bytes": 172672,
+      "sha256": "1d894ab5c9133b247e20586b8f673f9f7aaf00f10ebe8be39e08c47c35b41e05"
+    },
+    {
+      "path": "media/1fde2c20e6a6-f547f38a-top-docs-logo-2026-color_107e05o07c05o000000028.jpg",
+      "bytes": 8107,
+      "sha256": "7722fb70d7e6ae5aea7c7ef113fd40d8c221f42b5d7bcba745b22e06dc69b273"
+    },
+    {
+      "path": "media/20b8135bf55b-PatientBA_6-license-confirmed.jpg",
+      "bytes": 142700,
+      "sha256": "03cf4ce416004c9e68e21868cc213bb8fa92a89623895a8ab7977b18d490a1c1"
+    },
+    {
+      "path": "media/228d183c1c4d-UltraClear-Logo-license-confirmed.png",
+      "bytes": 53533,
+      "sha256": "e9f31e94e90e048b05ab73395f496d98512003524b53faf8e1594c5ecda7f6d8"
+    },
+    {
+      "path": "media/230129d5ff8f-2a139a1d-abo-logo_108c038000000000000028.png",
+      "bytes": 14304,
+      "sha256": "9d2f30fae12897aaf58ecbb0162628769e0a6f8915aa6204d4b235031bf78f05"
+    },
+    {
+      "path": "media/261f57f6713d-shutterstock-2482459541-large-350x225.jpg",
+      "bytes": 19069,
+      "sha256": "0b8a71ea74f4e7f2af81987907b0145c59581bc8c95e0c7caf0eb9dc63ca80f7"
+    },
+    {
+      "path": "media/286b0cd7d7d4-Non-Surgical-Eyelid-Facial-Enhancement-shutterstock-2461130225-large-350x225.jpg",
+      "bytes": 11898,
+      "sha256": "825ca01471c9eaddb70e3d38dac5b8b9a0de580a60f1d7653414bcbfbfee21dd"
+    },
+    {
+      "path": "media/2af5da99349e-shutterstock-1363683866-large-350x225.jpg",
+      "bytes": 11478,
+      "sha256": "a677ac71d71744d12153a8e3ba7b032a81e6d1d7da27c1097016ea0852d3c6a0"
+    },
+    {
+      "path": "media/2b0cd75944b3-close-up-Of-Woman-Eye.jpg",
+      "bytes": 23649,
+      "sha256": "dc1fbd765666b6365ef86701dcd80a92f0081757f7958b4077cd730de4cc095b"
+    },
+    {
+      "path": "media/2c0fac58f813-UpperBleph_PtosisRepair_Browplasty-2-license-confirmed.jpg",
+      "bytes": 134135,
+      "sha256": "2fe6540e301c7938a6a7dcba5f1043614ada1ac6b808b004bb953487ad1ed50f"
+    },
+    {
+      "path": "media/2dad9ebfd2cb-shutterstock_2057467670-1-350x225.jpg",
+      "bytes": 15548,
+      "sha256": "8dd626d39f858c0193b992304ea6e73ea1996947dfd68e8f4ae2d9ff454a893f"
+    },
+    {
+      "path": "media/303f65c0d2d7-1555193.jpg",
+      "bytes": 238340,
+      "sha256": "ee89b26b3a18836f9087c956291d52658c88e052283ede406825db83aa3b6d61"
+    },
+    {
+      "path": "media/323aa178aaac-78995482-treatment-lower-eyelids_1000000000000000000028.png",
+      "bytes": 56220,
+      "sha256": "2f5341e7f0be834d696ba0dc0017fd939e6e618e93457f153b9514a545b22689"
+    },
+    {
+      "path": "media/34040a75c1a3-shutterstock_2480933783-350x225.jpg",
+      "bytes": 13147,
+      "sha256": "d09fb81d711b1d496316effb20c5af60deab357b0b6c8b9bd07a9a46a76b5603"
+    },
+    {
+      "path": "media/3404b8457202-Browplasty-license-confirmed.jpg",
+      "bytes": 147240,
+      "sha256": "0c61794801c56d95f653abc862c120e0cc70be95b9a516468074165a1f3385db"
+    },
+    {
+      "path": "media/3421e292c23d-UpperBleph_LowerBleph_Browplasty-license-confirmed.jpg",
+      "bytes": 153007,
+      "sha256": "04cb0682dbb69dbfd18a8633c23f318d795bb678ce8994b6284e4b3edfe7f5ba"
+    },
+    {
+      "path": "media/3431f1cc7008-aba98a1a-asoprs-2022-logo_10a803c000000000000028.png",
+      "bytes": 10762,
+      "sha256": "7fe28bea30ed3fb9172e2fd6b20de90849888351ec05c5412c30e2fb1beb6543"
+    },
+    {
+      "path": "media/361f869d6253-Siera-Photo-license-confirmed.jpg",
+      "bytes": 61422,
+      "sha256": "3fd541538e922fb5d8178538917ba7b94356ccf73bd4cf7c4d001dafdf61eb1d"
+    },
+    {
+      "path": "media/36c35a8c0847-UpperBleph_LowerBlephDr.H2-license-confirmed.jpg",
+      "bytes": 228543,
+      "sha256": "0cc041540e71ed89911e2d4276f78c657e6c7739cff912e6c346662b9f1908fc"
+    },
+    {
+      "path": "media/36d45c9847b9-1540233.jpg",
+      "bytes": 233861,
+      "sha256": "b861ba6bfd5bd6ec5a22d2f3858d2b3cadcf1aaa2bc014431a8040b2e1376fa9"
+    },
+    {
+      "path": "media/376b10eb1cbe-f6a96859-ba-upper-2_1000000000000000000028.jpg",
+      "bytes": 85216,
+      "sha256": "ceaf5f55cd4cbfcc1466374c08051793c5b97779797871ae0a6b145c62a473ba"
+    },
+    {
+      "path": "media/38156f7deec5-UpperBleph_BrowLift-license-confirmed.jpg",
+      "bytes": 363672,
+      "sha256": "b1acacfb32cfd9079dd37e5ae0142a7203fa9b8e3e2527360ae8ee26cc55f916"
+    },
+    {
+      "path": "media/39077eddaa44-392657.jpg",
+      "bytes": 240359,
+      "sha256": "5fb19ca3b7014d7e37d973a1e2840036c7e12f5f663fb1d71eb180f33253be48"
+    },
+    {
+      "path": "media/3abf347948dc-2a139a1d-abo-logo_1000000000000000000028.png",
+      "bytes": 14405,
+      "sha256": "3ed2bd040683fde13b51ba808bdc02fdafd16f0ef60935dedb5260d956003ec1"
+    },
+    {
+      "path": "media/3b7ffbf80241-1239998.jpg",
+      "bytes": 198399,
+      "sha256": "9fedc96753cd46b573e45f903359bc72e998effe1be3d0bfdfc9e2816f4e9aaa"
+    },
+    {
+      "path": "media/3d2c17c034da-678989.jpg",
+      "bytes": 293473,
+      "sha256": "9ddc30067ee8bc5fa664863eccad1a718a9b521a494d2bc338438e6f279e4505"
+    },
+    {
+      "path": "media/3d9b53302bb1-LowerBleph-license-confirmed.jpg",
+      "bytes": 131183,
+      "sha256": "8e6e5ca2ada3aec214df2666e8d5d3dc52de6f3f3daeb38c0609d28634017fcf"
+    },
+    {
+      "path": "media/3e29616e4f89-Upper_LowerBleph-license-confirmed.jpg",
+      "bytes": 211264,
+      "sha256": "e91ed9677fee4fb2a18277dcb48fbf98b072b7062c0e9cac4bc50dca9c75918d"
+    },
+    {
+      "path": "media/3e5615b80520-Best-of-Before-After-for-web.pptx_pages-to-jpg-0003.jpg",
+      "bytes": 275963,
+      "sha256": "dc2608c880024ccec8925398735206c2011fb8c0e992143b2d0cd4633247b692"
+    },
+    {
+      "path": "media/3f65fc83d370-73c1e6ea-woman-home-lifestyle-drk_10000000cy0rc0q502a028.jpg",
+      "bytes": 27438,
+      "sha256": "884ce096fba08719b8ca51271563de3f3f5b075ca4a8480fa85500730e74671a"
+    },
+    {
+      "path": "media/401548267a97-1027046.jpg",
+      "bytes": 279870,
+      "sha256": "bc83e1823bde19bfb5f0916272cf3db518ea2c2c7ed1056647faa966c88c5ecb"
+    },
+    {
+      "path": "media/416cb0ecb744-shutterstock_2509671849-350x225.jpg",
+      "bytes": 8423,
+      "sha256": "ad43c317b3ac1b1bfb54fc88b753c5db148e10a8268bb9403d24d04d271825ca"
+    },
+    {
+      "path": "media/445f7bd17e3e-816017.jpg",
+      "bytes": 290625,
+      "sha256": "c8d8a56053d5d725c5244306cc65cf3d4cbd7a25576647237eb9068cfc730798"
+    },
+    {
+      "path": "media/44ba1c76b5e0-shutterstock-2314773193-large-350x225.jpg",
+      "bytes": 12841,
+      "sha256": "f0efd4400b36917a630cc9031029430b03bab2ac9a4445f2f85fd6d0a71e8016"
+    },
+    {
+      "path": "media/46c1f266e888-Best-of-Before-After-for-web.pptx_pages-to-jpg-0009.jpg",
+      "bytes": 288218,
+      "sha256": "7df3e94b53b032947a1553b4ae23cedb42e0b60217daf4b594005bdc0bc7bf89"
+    },
+    {
+      "path": "media/476403633029-UpperBleph_PtosisRepair_Browplasty-license-confirmed.jpg",
+      "bytes": 109353,
+      "sha256": "394eaba58b8b461f384a2d5292106e0e42744176b30aec45fd2037a0db4f5a42"
+    },
+    {
+      "path": "media/477c43990187-1166-ba.jpg",
+      "bytes": 40408,
+      "sha256": "e3bef18ad861c6896a4e455232fc6cdf59430cc243228e39a6d9672ab37ef314"
+    },
+    {
+      "path": "media/48b8a713a16e-56fd01bd-ba-lower-2_1000000000000000000028.jpg",
+      "bytes": 86356,
+      "sha256": "4d3d7197efacf75749bfa8062ff7d78c813d90a596d792a9e61850bc8898e0af"
+    },
+    {
+      "path": "media/49ec76044b81-shutterstock-2216627163-large-350x225.jpg",
+      "bytes": 15050,
+      "sha256": "ea81e8bf891c8b76e314223b243ef0a47dad9b57f4203e482154158cc9a9c9ea"
+    },
+    {
+      "path": "media/4ada787782d5-UpperBleph_BrowDr-license-confirmed.P.jpg",
+      "bytes": 312147,
+      "sha256": "a407251fcf4ff7462220544a05ae6aa1b9366c84c3eba16bc2b8e6a73f6ecf91"
+    },
+    {
+      "path": "media/4ce2f0f5e6c1-1443477e-aao-3x_10bk03c000000000000028.png",
+      "bytes": 8740,
+      "sha256": "741435fcdf6d94ec89103b51b85a3e83b37652da98d1e4ce6701bf1e288d42cf"
+    },
+    {
+      "path": "media/4eab0506cbb2-UpperBlephBrowplasty-license-confirmed.jpg",
+      "bytes": 155141,
+      "sha256": "0ae5dd3cba918d0515a73e40046107b5bf141a8c365287674849eac3c1add838"
+    },
+    {
+      "path": "media/50e8339de72a-Best-of-Before-After-for-web.pptx_pages-to-jpg-0016.jpg",
+      "bytes": 239592,
+      "sha256": "269a1108aa26e31e8ef30b63bafe69832ac78d1813a207bca8e43a967769c3b5"
+    },
+    {
+      "path": "media/52fe27bdef4d-860531.jpg",
+      "bytes": 279009,
+      "sha256": "93119101812222045bef16b9c7564136d989052fcc25e6c426be4c0bce47b384"
+    },
+    {
+      "path": "media/53fc66da1fc5-1174969.jpg",
+      "bytes": 187342,
+      "sha256": "5a6da1756d5860ba8928d8817ae869dd363793dc24aa1bff0f8ff0aa86f560f7"
+    },
+    {
+      "path": "media/54cc13c9c144-287807.jpg",
+      "bytes": 280906,
+      "sha256": "5a2a1adccd034c6415af66e5ddf21e3c34031950b480e01296e03904b3ba0bd4"
+    },
+    {
+      "path": "media/55355a46d868-Kelcie-Graber-license-confirmed.jpg",
+      "bytes": 48850,
+      "sha256": "9f73bb985b49b50ada71bc0183d04e45f9021cd96ca171e43401694f7308d16c"
+    },
+    {
+      "path": "media/56b2b6b6c89e-1333673.jpg",
+      "bytes": 225190,
+      "sha256": "08f4fc3ed82b8aa82db3c8c3121f3b4ba72a04cb62a09577603611409e8540f9"
+    },
+    {
+      "path": "media/581b731a1240-1548154.jpg",
+      "bytes": 325457,
+      "sha256": "837881a62d0e77e0c647b43f78ad6b0573c7d901d63eb49d538f543979bdf037"
+    },
+    {
+      "path": "media/5842a0a941c4-shutterstock_2257639981-350x225.jpg",
+      "bytes": 11661,
+      "sha256": "5df1048fc0604a366d14eea809c15aca7d8f77bc6089eaf288e85568a6ceb70b"
+    },
+    {
+      "path": "media/59e0bdd0e95e-833891.jpg",
+      "bytes": 209016,
+      "sha256": "adfd8948d87ce7c14ce8b8b2f386d791f77dfe4e36f68d7780c35b00fdee83ac"
+    },
+    {
+      "path": "media/5a476dbc937b-ba79fbe1-bestofdayton-2026_103y05g000000000000028.png",
+      "bytes": 7507,
+      "sha256": "b71a894273a2224c7a7ef459756c1fd2b0938afe201bad17ece508c9f0472918"
+    },
+    {
+      "path": "media/5a479d4f20a0-1642511.jpg",
+      "bytes": 213548,
+      "sha256": "b7bb52e0a71781f3977e72c21e2df24e6e0ffeb3bbd3905e50167942008d0818"
+    },
+    {
+      "path": "media/5b4879d45c83-aba98a1a-asoprs-2022-logo_108602o000000000000028.png",
+      "bytes": 7247,
+      "sha256": "8ed5429fb6b7bc532c2d8597ef4822aee0abb786ef036e1b5ef41254728ecf5a"
+    },
+    {
+      "path": "media/5c316440d3c9-1378562.jpg",
+      "bytes": 223834,
+      "sha256": "2a57a702d796dc5cbebc754a76e83613c501fe5b661fa13ea26ae6034ac49a1b"
+    },
+    {
+      "path": "media/5f50ea75ce85-2e2406eb-visioninsurance-icon_103g03c000000000000028.png",
+      "bytes": 1567,
+      "sha256": "b5f227d184e0b49dbf9c81392282dbd0076cdfd5f2256ab31025f8ea6c63af52"
+    },
+    {
+      "path": "media/5f60c4aeb10f-Sofwave-faviconlogo_Print-CMYK_Black.license-confirmed.png",
+      "bytes": 7736,
+      "sha256": "2cc28a7ad21c6f9752b6c20340cb995ac3ede652d3f61abed3f13d47567d58dd"
+    },
+    {
+      "path": "media/60f042322080-shutterstock-2363446675-large-350x225.jpg",
+      "bytes": 12142,
+      "sha256": "4f4283a52bebd865f4139749fd07ac326bf43d5e7349463e906e74df9c8f008f"
+    },
+    {
+      "path": "media/61c92d675b2d-Jon-Pargament-Ginger-Henson-HS-12_4_2400256-license-confirmed.jpg",
+      "bytes": 138610,
+      "sha256": "519801c2583ed0b4b5166e9c154fe70929149a81103907bb5a6848f05c18cf8f"
+    },
+    {
+      "path": "media/635752099eb9-Upper_LowerLidBlephPetBrow-2-license-confirmed.jpg",
+      "bytes": 188661,
+      "sha256": "3a7c0d3aa78ed3c21b32cecfa86c332ef076c82c4726b794122d8c741a28d2df"
+    },
+    {
+      "path": "media/6465d71c7596-blonde-haired-woman-with-beautiful-green-eyes.jpg",
+      "bytes": 19795,
+      "sha256": "df63ce908db0540816d6ba90dbc6cab9414d0424870a849966ebaa5a47049dd7"
+    },
+    {
+      "path": "media/647464c938ad-Best-of-Before-After-for-web.pptx_pages-to-jpg-0005.jpg",
+      "bytes": 273738,
+      "sha256": "12742a6a0cd40c9cec4b38964a70ba01f8d937e91ab22b7c60bd83b5bf644f76"
+    },
+    {
+      "path": "media/651b6abb8cdf-1497-ba1.jpg",
+      "bytes": 84591,
+      "sha256": "cedec3ee01c10aa7fa5b979ff01c78ea9f9245c21a041f83a2661bf3603dbadb"
+    },
+    {
+      "path": "media/654c6f25a79e-650533.jpg",
+      "bytes": 283315,
+      "sha256": "79635eb91dcf758f3b43d096babc7419a5a6e396409beb1aee31ec0b01cd52d6"
+    },
+    {
+      "path": "media/65b981f5e8d1-Best-of-Before-After-for-web.pptx_pages-to-jpg-0019.jpg",
+      "bytes": 27884,
+      "sha256": "283a83e4651e968669d780aae9506b219b0bfb73e104039b2b068ccc0328ce5c"
+    },
+    {
+      "path": "media/68ce37092a93-2025-CC-TD-license-confirmed-1-198x300.webp",
+      "bytes": 9462,
+      "sha256": "14b10ae80d2056b1e78f35c1f085133b71f56d33c1aad701b639f042de096d05"
+    },
+    {
+      "path": "media/692da46656a7-UpperBlephDr.Henson-license-confirmed.jpg",
+      "bytes": 85397,
+      "sha256": "6c5ff0c51b786f7015f5fc2037d4a34b790d08f152e91664a1591bae40cd65df"
+    },
+    {
+      "path": "media/6bb3f27818f8-8ac3e151-2026-castle-connolly-top-doctors-vertical-logo-rgb_105606y03u05u00o00m028.png",
+      "bytes": 6007,
+      "sha256": "0649a434a9098e28a1a656a64c94ef9e123e36279b7284e13654784ec868b0a2"
+    },
+    {
+      "path": "media/6c1b1f9beb49-2229a060-ba-lower-1_1000000000000000000028.jpg",
+      "bytes": 66477,
+      "sha256": "bac4b732e69f79b3a7ac9ec1af2aeec7840991c846c753dcad0785e5af9b94ff"
+    },
+    {
+      "path": "media/6c4f86eced54-UpperBleph-license-confirmed.jpg",
+      "bytes": 173088,
+      "sha256": "77a331419be65eb530d17a9fbb62d2e240bcedfa8b7c093c6520c4e5fcabe68a"
+    },
+    {
+      "path": "media/6c56b16240f2-Best-of-Before-After-for-web.pptx_pages-to-jpg-0008.jpg",
+      "bytes": 290168,
+      "sha256": "9a10435803c9bfeb55703cff33dabe34356da8a57c853129b449ff9b35650f7f"
+    },
+    {
+      "path": "media/6d64a5f9385a-Best-of-Before-After-for-web.pptx_pages-to-jpg-0018.jpg",
+      "bytes": 27594,
+      "sha256": "b1f9cf380568f70cb59d516c565c5b4c9190d3d41497a7834cc2099359caddbf"
+    },
+    {
+      "path": "media/6da570579715-AEOS_3DMIRACLWEB-license-confirmed.jpg",
+      "bytes": 107626,
+      "sha256": "f0be848c61a9d404fa230ed60789bf4854ab70b2feb8e6ddbab92c743b53a1ee"
+    },
+    {
+      "path": "media/6dab5db44932-PatientBA_2-license-confirmed.jpg",
+      "bytes": 153963,
+      "sha256": "f58734e137c372328b0af90faeef92a1e216a21af10a61f9e14fefd3b1c3298f"
+    },
+    {
+      "path": "media/6e0b3214f0b0-1003091.jpg",
+      "bytes": 214253,
+      "sha256": "69cada917a9f86dd0ef3ddd4d47995131c18bc45baa258d0bfc92109b3d2b75e"
+    },
+    {
+      "path": "media/6e468d90d69a-1623515.jpg",
+      "bytes": 197441,
+      "sha256": "bbac03719932ca3473cf8e22ab68966bb7a7cea34b38b9a127fc794b407d071c"
+    },
+    {
+      "path": "media/70fefca996d1-Upper_LowerLidBlephPetBrow-license-confirmed.jpg",
+      "bytes": 169897,
+      "sha256": "7308154052183cd5ffd0106a7cbea582d165c1152dd8772f2f5607122be00e99"
+    },
+    {
+      "path": "media/7155744faa63-1179713.jpg",
+      "bytes": 199040,
+      "sha256": "2d6c53e3324311f5e71c1a96e44da4a1ac830838ec8c3eba9e9fe41829e17cde"
+    },
+    {
+      "path": "media/7194253317d0-1563068.jpg",
+      "bytes": 224002,
+      "sha256": "e01c811e03e78260ccf0e4c0b593744302b2ce71532077e4b655a02a623c088a"
+    },
+    {
+      "path": "media/7209a3fa8d83-PatientBA_5-license-confirmed.jpg",
+      "bytes": 165295,
+      "sha256": "c8b6e9ff55489a81f4e55de71585a5006840e0460937179608892bb90352f7f0"
+    },
+    {
+      "path": "media/72b69e6bca81-427281.jpg",
+      "bytes": 206159,
+      "sha256": "822f93c5b752e50f64eaf881a9e5f5fc66db4abc277d8bfacac88164d6ff043f"
+    },
+    {
+      "path": "media/73b0d9a57ef9-bcc8eb2f-aeos-doctors_1000000000000000000028.jpg",
+      "bytes": 193945,
+      "sha256": "0da6f725d7c9cbb728d727c502e95240f777f646846a4525f270580f96cf0fb4"
+    },
+    {
+      "path": "media/748feaa83566-shutterstock_2476096679-350x225.jpg",
+      "bytes": 22922,
+      "sha256": "249a236a6503fb37368bffa8af5ecb7284d09cd97bf2631c39d41d0d6bbadbd5"
+    },
+    {
+      "path": "media/78878083ef6b-PatientBA_1b-license-confirmed.jpg",
+      "bytes": 111347,
+      "sha256": "25745b5ecb5521fd1b40d6bb1265640fdc69cfb2d2566b03315867c624662d19"
+    },
+    {
+      "path": "media/79a23de21d1a-Upper_LowerBlephBrowplasty-license-confirmed.jpg",
+      "bytes": 128897,
+      "sha256": "0777b8975652f05ad6b494c53ee05ec117dccfccfa004562bf46dbe437edb4d7"
+    },
+    {
+      "path": "media/7a0d0210170f-997298.jpg",
+      "bytes": 262781,
+      "sha256": "42713823b5c0663784b33e0a7a9727b16dd433b1541143debced352c2a4f4a25"
+    },
+    {
+      "path": "media/7ae0f98aaa83-Best-of-Before-After-for-web.pptx_pages-to-jpg-0004.jpg",
+      "bytes": 234131,
+      "sha256": "9680e1b392a72442868ea18fbfe49b7e80d0ccc5a382c73d84cdec170ce93bf6"
+    },
+    {
+      "path": "media/7b5a303c52b6-Browplasty-license-confirmed.jpg",
+      "bytes": 501409,
+      "sha256": "ed98b399287d895bbb01faa3637165eadeee2cbaaffa7a24fab37d3141acfc61"
+    },
+    {
+      "path": "media/7c92508716ff-939714.jpg",
+      "bytes": 307748,
+      "sha256": "9442896ea981efa81ce7b4519d743656da8ffa0ba41193b502683f8aa75b515b"
+    },
+    {
+      "path": "media/7db9a8395caf-shutterstock-2140876083-medium.jpg",
+      "bytes": 217112,
+      "sha256": "7040c0c0e5b10460fce7c641a4fd3be844d1d7bce54f858716c0a3cf0b08ebbe"
+    },
+    {
+      "path": "media/8132c9f7da48-755026.jpg",
+      "bytes": 266621,
+      "sha256": "fd882adeb997608b609c7035c4654efaf0db7462c5476f03c603a3e981400370"
+    },
+    {
+      "path": "media/82469efc43f6-69feade0-aeos-uppereyelid-ba3_10ku0ku000000000000028.jpg",
+      "bytes": 117238,
+      "sha256": "9f9919b90b347ee1c06fe688471c8154fa33792a7c2c97899a56a12cc02dd0e1"
+    },
+    {
+      "path": "media/84f8e796eb00-1526899.jpg",
+      "bytes": 255954,
+      "sha256": "02805aee0dec4fde8b4a63fbb1712579f4c7d37eeaa8077a63e7c6884d82175f"
+    },
+    {
+      "path": "media/85836eaedacc-Best-of-Before-After-for-web.pptx_pages-to-jpg-0001.jpg",
+      "bytes": 30698,
+      "sha256": "66d3697ef76cf7cc37539f6dfa55dc788f7f7e07b3f0260e41df65c2198840e8"
+    },
+    {
+      "path": "media/865158c78cca-sarah-morris.jpg",
+      "bytes": 244926,
+      "sha256": "8fe337667e63006153774b082aaf138516fb02653ff9527d840859e982d606e2"
+    },
+    {
+      "path": "media/86a7c6ea2b09-268ddb65-woman-bright-eyes-pattern_10000001hc0rq000000028.jpg",
+      "bytes": 113344,
+      "sha256": "4eac27016987601f84f025fb90b5f6b0af9c54289b6a016ae317f058bc785264"
+    },
+    {
+      "path": "media/876f1d17e219-2026_CASTLE-CONNOLLY_TOP-DOCTORS_VERTICAL-LOGO_RGB-license-confirmed-201x300.jpg",
+      "bytes": 13436,
+      "sha256": "66fdc10c34909c5743ca45329fdbf3e2bab18adc4b90c8b7607030761bfc9ba1"
+    },
+    {
+      "path": "media/885897d62ad5-841823.jpg",
+      "bytes": 271989,
+      "sha256": "05e00ac74051177c334b19cc535d7c23fdc5c80af3b5460042f2eaf080d1642e"
+    },
+    {
+      "path": "media/889961306992-UpperBleph-license-confirmed.jpg",
+      "bytes": 472629,
+      "sha256": "bb6ddffbe41b43ebd7a0dbc8b9947d0f625389877f6f7c8a6184477335046ceb"
+    },
+    {
+      "path": "media/894df36fddc9-Best-of-Before-After-for-web.pptx_pages-to-jpg-0007.jpg",
+      "bytes": 257813,
+      "sha256": "b0802e052d6d2ca46b9a1e89b62e961095c0fb36e5e0e710becfa9822a2ac24f"
+    },
+    {
+      "path": "media/896c8415fec0-default-photo.jpg",
+      "bytes": 5635,
+      "sha256": "ba03b9bb4fa47880814bf147b7e130f01957e5668d4a4d8b0623c6f3e07d571f"
+    },
+    {
+      "path": "media/89f8d6cb9e8c-365A4882.jpg",
+      "bytes": 226633,
+      "sha256": "3b5290b296ffb960e5b9b667e750602827ea88986a72ae5db9029f2c3ee877b6"
+    },
+    {
+      "path": "media/8a709465bcea-1541932.jpg",
+      "bytes": 251312,
+      "sha256": "12924ea04c0500f9fd09249c2c664c7c185e6977e5e4fa40f72c3c72ffb964c3"
+    },
+    {
+      "path": "media/8bbbc8e5dc45-766005.jpg",
+      "bytes": 276873,
+      "sha256": "2f1b26289963add6cdf9edf767d83c4577709df2f632648bb9d5e0bcf133956b"
+    },
+    {
+      "path": "media/8bef6c35579f-1034708.jpg",
+      "bytes": 333642,
+      "sha256": "5785180550384fadb0cbf341e906eb2b197f8d00772b2a21921a67ed2a3e0ec6"
+    },
+    {
+      "path": "media/8c71fd81824a-44299.jpg",
+      "bytes": 301145,
+      "sha256": "05cfad0f58fc1925be15721c5b751a2e3d76bff2c85465aeeb2affa817a521b5"
+    },
+    {
+      "path": "media/8ce30d2657c5-1603540.jpg",
+      "bytes": 247583,
+      "sha256": "c07113a4fa4e1bcf6feb36539ef1958cc65878a7b6bb83ddd520276b50962002"
+    },
+    {
+      "path": "media/8e17c690a3d5-77788646-aeos-logo-cmyk_10go03k000000000000028.png",
+      "bytes": 7886,
+      "sha256": "77a664f7cb9d8b1c4a3bdee121b1a4cc3c6de89a91b8a3cd7dd1a5eb4a2bcdd4"
+    },
+    {
+      "path": "media/8e2dc9e8e8a9-d73f5f2f-dr-henson-2x_10b40b4000000000000028.png",
+      "bytes": 52832,
+      "sha256": "6873c790ac5fd5b28949836c25750b354d92c9dff678ce38aafc97d25003db55"
+    },
+    {
+      "path": "media/8e33d3cdc485-PatientBA_4-license-confirmed.jpg",
+      "bytes": 134750,
+      "sha256": "de48db57d0de5366eca4772f3eff388e5d00ad5be17cfbd438ab63d4c5c947d8"
+    },
+    {
+      "path": "media/8f0b2c783035-da3317fa-ba-brow-1_1000000000000000000028.jpg",
+      "bytes": 80370,
+      "sha256": "be6bf69995fb1a7ab0bb3fdd04ae9fdf190d039f4627de0507ac65b429296494"
+    },
+    {
+      "path": "media/8fcc1ad6569c-shutterstock_2509671849-350x225.jpg",
+      "bytes": 8423,
+      "sha256": "ad43c317b3ac1b1bfb54fc88b753c5db148e10a8268bb9403d24d04d271825ca"
+    },
+    {
+      "path": "media/8ffa9e556926-650357.jpg",
+      "bytes": 185997,
+      "sha256": "2ba42ab3f661e77a66206c8008168b46bba902e4a62043275f49f5a4c04d814a"
+    },
+    {
+      "path": "media/92524c33fb37-Best-of-Before-After-for-web.pptx_pages-to-jpg-0014.jpg",
+      "bytes": 27692,
+      "sha256": "139ada95f89fb777576d8bea690bb6bf8afd266c1eced0ea6161559598f5c36d"
+    },
+    {
+      "path": "media/92df7a43812a-PatientBA_3-license-confirmed.jpg",
+      "bytes": 197509,
+      "sha256": "e15050367c5cb5d01ee9e71491d0ad911b410bd0bfbd2f433cb94fed94c8f31d"
+    },
+    {
+      "path": "media/936a63062e71-Ginger-Henson-license-confirmed-1.jpg",
+      "bytes": 109736,
+      "sha256": "436c213521ff75961cfd1ae1b6a68bd58e85bea2a1ca97a482343575c0721a62"
+    },
+    {
+      "path": "media/949d9febe3b4-1520012.jpg",
+      "bytes": 328588,
+      "sha256": "c22ea97501207128d5804c3d07b85f99b999245a16b33ac26d9408631262dc05"
+    },
+    {
+      "path": "media/950965737551-c82c0adc-ba-upper-1_1000000000000000000028.jpg",
+      "bytes": 77884,
+      "sha256": "f9eba5fd9f948a77f2eb0bcd886eddc3a9a430bbfa2c38252d1dcac30ecc8d00"
+    },
+    {
+      "path": "media/95464261d300-9b091613-ba-lower-3_1000000000000000000028.jpg",
+      "bytes": 79934,
+      "sha256": "c931c2851e90286f381aaf53a8b369ba78cad077342bbe96ad1b30d45febdd5c"
+    },
+    {
+      "path": "media/95bbff679d8d-UpperBleph-license-confirmed.jpg",
+      "bytes": 155532,
+      "sha256": "e98088a6d60ded943f1a02ff753ad9091536a95d23a9160dba477d30a039f249"
+    },
+    {
+      "path": "media/9738c0970c92-821435.jpg",
+      "bytes": 291063,
+      "sha256": "3b55b04934ac375d656c9f8c1182733835a5093a6a1c3a05123f211bc11cc712"
+    },
+    {
+      "path": "media/9813cbd6627e-AEOSUpperBlephBrow-license-confirmed.jpg",
+      "bytes": 582181,
+      "sha256": "fbc9ef303a6badfa58ee93ebb8c36b6767d58d5be35b5b09a480d16e4a078e73"
+    },
+    {
+      "path": "media/98edd9d5f621-437660.jpg",
+      "bytes": 180530,
+      "sha256": "64604c6cfb288619ba5c1ad065ec7e403bba3a2c8f2e4480eb7192e5318e220b"
+    },
+    {
+      "path": "media/98f830917818-1178369.jpg",
+      "bytes": 208694,
+      "sha256": "be8247d11712d56328f4561e46c8273ee0ad4a1be0ae530b78fff015f4775ff5"
+    },
+    {
+      "path": "media/999737e91206-1585090.jpg",
+      "bytes": 289079,
+      "sha256": "e47f838eeb18b87a994515e076023dd100cf0f25b10015704036401c6fe057a4"
+    },
+    {
+      "path": "media/99f5a2c107c5-1397-beforeafter.jpg",
+      "bytes": 156248,
+      "sha256": "13ed74dc262223dc156836e751ecaef9d0163ff583db0d57d54f7f612d8487e0"
+    },
+    {
+      "path": "media/9c14c580d70a-1210823.jpg",
+      "bytes": 285556,
+      "sha256": "b0b7b16ee46dd8c1a35e22b0dc027a52b91c0775a4d1b56c413b4c45c3e7a652"
+    },
+    {
+      "path": "media/9d71d4ad9ba4-2cad9ec9-beautifuleyes-2x_1000000000000000000028.png",
+      "bytes": 258390,
+      "sha256": "6acce9a5bddef0509ea02596d383f50608594b6e2bbad2de80793a339e0d832f"
+    },
+    {
+      "path": "media/9df8a8f7f09f-Raven-Headshot-license-confirmed.jpg",
+      "bytes": 62139,
+      "sha256": "03a00f71c3edef4bc820be784834d3155def082c2df54e9d41d7a8fd5c7a06fb"
+    },
+    {
+      "path": "media/9f43caaaa029-337681.jpg",
+      "bytes": 197152,
+      "sha256": "e0167c288234ab5fa0518b176ef58333d03342a4f61c474b0989576b46c3ee9f"
+    },
+    {
+      "path": "media/9f70f1f0f97e-846709.jpg",
+      "bytes": 226878,
+      "sha256": "4694bac87a966b74b5eef192da7f3d650dc9d716fda3a63faf4cbe01b864ba02"
+    },
+    {
+      "path": "media/a08a44a08fad-shutterstock-2438377749-medium.jpg",
+      "bytes": 233747,
+      "sha256": "8c5effed9395aaf01393c280679f7aa113e4adc4449561b625af6b443040c64a"
+    },
+    {
+      "path": "media/a226cd2ffc0c-1602594.jpg",
+      "bytes": 291488,
+      "sha256": "b29349c44a67c079f346ebc888ebc0f59943a1672da1119c7795f1af0f3777d8"
+    },
+    {
+      "path": "media/a337b6c9efc6-952271.jpg",
+      "bytes": 271822,
+      "sha256": "aa2088b116602f564141c92adb3dd13c3aea7605a0281ff6a59839dd1bc270ee"
+    },
+    {
+      "path": "media/a54c1029828a-shutterstock_2381348471-350x225.jpg",
+      "bytes": 10961,
+      "sha256": "d01af21e98c076d7af0d19578062e957f93131c61e2c446ffaaa2d72a556187e"
+    },
+    {
+      "path": "media/a693b3ec2234-signs-need-eyelid-syrgery-shutterstock_2456660837-350x225.jpg",
+      "bytes": 11517,
+      "sha256": "adb55a43d528867bb16b3798a16f474b3c14a2e3fc4e6ef0ea63cf6b351da068"
+    },
+    {
+      "path": "media/a8a6eec5bc5a-1346357.jpg",
+      "bytes": 286228,
+      "sha256": "90bdbcd3326b38eea10bee74789edd5fff4669c39fa53eef23c0c71fdbf25863"
+    },
+    {
+      "path": "media/a8c14a0a24d1-Best-of-Before-After-for-web.pptx_pages-to-jpg-0011.jpg",
+      "bytes": 25736,
+      "sha256": "e7f66fe34e0584baca2609dc746dcb67b910a3b0aaf806684f08f820feb2c193"
+    },
+    {
+      "path": "media/a8df1de51b19-Marivic-photo-license-confirmed.jpg",
+      "bytes": 72083,
+      "sha256": "df9f40c0d07289270766f163e2eb04d06305c758724e397c3df572aeceafae6c"
+    },
+    {
+      "path": "media/aae3b1901342-1837-license-confirmed.jpg",
+      "bytes": 268015,
+      "sha256": "6c66f24ae26bf73542bc3292a3d917793989e148ad32bd293fdb4cb5f3bf104e"
+    },
+    {
+      "path": "media/aaf72f9665ad-9fd19336-ba-brow-2_1000000000000000000028.jpg",
+      "bytes": 67784,
+      "sha256": "c5fff0bca9c7bce1e263f25737986f0d705c227fdfc1f708d8f4f89131f616e8"
+    },
+    {
+      "path": "media/ab9bf3683fac-UpperBleph_BrowLift_1-license-confirmed.jpg",
+      "bytes": 474512,
+      "sha256": "3cc60fc3e7cfb53097c62ea9419be08a9fa3de33da7bb2e0b86b1f09fbbe7122"
+    },
+    {
+      "path": "media/abbb23dbf40a-UpperEyelidBlephDr.Parg-license-confirmed.jpg",
+      "bytes": 156503,
+      "sha256": "d32d51ca0bd3c3420418be499620406b55494d514906498bd50df50fbd3fdea9"
+    },
+    {
+      "path": "media/ad434a6648b3-968793.jpg",
+      "bytes": 205248,
+      "sha256": "6824aee8a2900f0b43953d5feab74027c8c21f3b0346df8fbc5ad50761445e54"
+    },
+    {
+      "path": "media/ae1dae18312f-680274.jpg",
+      "bytes": 245847,
+      "sha256": "7dfbcb14aac32cad59a96b785dc75b16590643fc09ceafb47870de75d78dc872"
+    },
+    {
+      "path": "media/aec3d10d699c-1332185.jpg",
+      "bytes": 302649,
+      "sha256": "4548b13e8c0f23aeee08548ad4e9dd3c249af676ed83c4003c8c740185ae43f9"
+    },
+    {
+      "path": "media/aedaa58a7cb9-1060133.jpg",
+      "bytes": 278964,
+      "sha256": "c3c70b56e556c41e652907c138badac701a3befc4b7715fc7f1642494642842e"
+    },
+    {
+      "path": "media/af20708342aa-1156717.jpg",
+      "bytes": 284888,
+      "sha256": "0422d8b038fd39ee5e7252ff84ac46999bfb162eb72a212b0685eab6daad67a8"
+    },
+    {
+      "path": "media/af88e501bf17-175545.jpg",
+      "bytes": 211197,
+      "sha256": "0f1884c31d1bd992c1eb634bcac58cf13aa54b53f5bebb0516eb778fc691bcc2"
+    },
+    {
+      "path": "media/afe6bd36c7c9-UpperBleph_1-license-confirmed.jpg",
+      "bytes": 155442,
+      "sha256": "43fbd34c76706a95fff44d5913b3eecec05e6827ea6ebd97c8e342c8bd0ce667"
+    },
+    {
+      "path": "media/aff40cb270c5-PatientBA_7b-license-confirmed.jpg",
+      "bytes": 169721,
+      "sha256": "245ff7d13c5fb821a9eee50c47ed00ca252699adf16e35cc9fc12208605e4ec2"
+    },
+    {
+      "path": "media/b21d2060d88d-Best-of-Before-After-for-web.pptx_pages-to-jpg-0017.jpg",
+      "bytes": 25508,
+      "sha256": "327700c84161f67afe08cc91446591d3493d60e3b39593a666ea8fe795457e7f"
+    },
+    {
+      "path": "media/b2b19ef0d787-Renee-license-confirmed.jpg",
+      "bytes": 42538,
+      "sha256": "fbba74b271a8c391797def1e326908d30f0ea74bfa91cd069f0227965d531405"
+    },
+    {
+      "path": "media/b315a3b1e91e-Best-of-Before-After-for-web.pptx_pages-to-jpg-0006.jpg",
+      "bytes": 361068,
+      "sha256": "11ba5e3fb8f049c01317336a5d8cd4053a4422ccf9fff59b5259751ea8497623"
+    },
+    {
+      "path": "media/b3178160f356-1590242.jpg",
+      "bytes": 297540,
+      "sha256": "8f54665b51a196c022ba29e1a288f4bf3dffe9de6f0cc64fe83f5d78406db02a"
+    },
+    {
+      "path": "media/b5bdd73e5786-UpperBleph_LowerBleph-license-confirmed.jpg",
+      "bytes": 427440,
+      "sha256": "2e39da4e1a9a7f4b4e27b21251cd4566c2c2844a21d68e1b507aa4c63b101d16"
+    },
+    {
+      "path": "media/b5ff921d8c95-UpperBleph-Lower-Bleph-license-confirmed.jpg",
+      "bytes": 129432,
+      "sha256": "09e078e585767e86bba08ac57dcc1eeff6f8cca1b829e1400a5f26d50d42ce5a"
+    },
+    {
+      "path": "media/b81c03597596-961070.jpg",
+      "bytes": 281208,
+      "sha256": "2653c004d9e4164cc5b1822952e2178763959c0292668c2e6b287e50ea3bdc26"
+    },
+    {
+      "path": "media/ba268a099fc3-1138-license-confirmed.jpg",
+      "bytes": 259440,
+      "sha256": "acaea744a1555a39a3c2566a3258d8209637e868f56b7d20f22d3bc5e0a7f954"
+    },
+    {
+      "path": "media/bad79dc999de-646473.jpg",
+      "bytes": 247277,
+      "sha256": "28f49c9c8a134d51adb73d8dd15ae6c5e6280115cd112687a9a82f2cf31c0223"
+    },
+    {
+      "path": "media/baf682ff9c36-PatientBA_7-license-confirmed.jpg",
+      "bytes": 170407,
+      "sha256": "d3930d0421b5a71fdfecf2fee7668d17e120b99714fa1a33d167164239d3195c"
+    },
+    {
+      "path": "media/bb80781aa682-1655871.jpg",
+      "bytes": 187250,
+      "sha256": "f93c9260c0bd3c165a4f893c3a78995fe16968a9653fd5e083971b5a8c588178"
+    },
+    {
+      "path": "media/bbff1ea07c4d-1651029.jpg",
+      "bytes": 210352,
+      "sha256": "8175fabad1449152aa84bd4726946b66bd9597d34278493c7fe0542386c02907"
+    },
+    {
+      "path": "media/bc42df3accec-1193219OS.jpg",
+      "bytes": 233238,
+      "sha256": "05fb04c5778cc4b841d64204ab4135bf175016af8649cabfa06e9e92a31821ed"
+    },
+    {
+      "path": "media/bdface811c6a-05d3fe0c-blephsavings-2x_10qs050000000000000028.png",
+      "bytes": 16151,
+      "sha256": "d8070689fa14b577f9e83000a9f7bb4ab61fb0b6ee84ec8c6fa93f9d97309bdf"
+    },
+    {
+      "path": "media/bf61ad2cad39-Best-of-Before-After-for-web.pptx_pages-to-jpg-0013.jpg",
+      "bytes": 26578,
+      "sha256": "0f9a129b9e58142d729008804cbd8b43eb36bd95f29b7d9c97d9315ac0da758f"
+    },
+    {
+      "path": "media/bff4684961ea-a17fb62f-qoutes-icon_105004a000000000000028.png",
+      "bytes": 1983,
+      "sha256": "4c74d6657f81bc3a41481e1df8e28e173629f3a5eb5af45518d7b77e7916e858"
+    },
+    {
+      "path": "media/bff9892aa9e7-87951ba6-bullet-point_101e01e000000000000028.png",
+      "bytes": 653,
+      "sha256": "bf57de232ecd832102997da9577383323b3b81f738b1ee6735b20ae66fb9f62a"
+    },
+    {
+      "path": "media/c3db5c5674b3-Best-of-Before-After-for-web.pptx_pages-to-jpg-0015.jpg",
+      "bytes": 24626,
+      "sha256": "57646b5094859c1c49f15b0387fe84cc020d7bbfcbee1ab6a2a87c06d748d432"
+    },
+    {
+      "path": "media/c46f218fb885-1625901.jpg",
+      "bytes": 292312,
+      "sha256": "ac52fa7d8260f2c945316d410af7df15839715ffe0226bd705ba311f90903e1c"
+    },
+    {
+      "path": "media/c6b536fb14de-122250.jpg",
+      "bytes": 320669,
+      "sha256": "9487b437e6396cd161a548ed3b78eeeaf09b6f90e68d2aede9a585c625c0cd6a"
+    },
+    {
+      "path": "media/c76419ebb356-AEOS-UpperBleph-license-confirmed.jpg",
+      "bytes": 145422,
+      "sha256": "ca1f6cf9da4723216c440cbb4c1e2cb3c27df224350faa222e2fb9cba4695692"
+    },
+    {
+      "path": "media/c774bc5cc7e9-shutterstock-538897672-large-350x225.jpg",
+      "bytes": 11201,
+      "sha256": "b897db4ac5c31c85674cf1d9927018fdf619849ff723aa11bfb55c1633a2b962"
+    },
+    {
+      "path": "media/c878fd911c63-76fe7cbc-play-icon_102802s000000000000028.png",
+      "bytes": 661,
+      "sha256": "cf5f49fc9548d199cae586acd80759a1dbc1f02bc02b6cb9cded6da52165ce43"
+    },
+    {
+      "path": "media/ca7144d0c857-1d3bc9c6-call-icon_101c01c000000000000028.png",
+      "bytes": 509,
+      "sha256": "b97a7882ff0f87790d94a352ef3766d4568d55f5c780493744d96091d1fda50a"
+    },
+    {
+      "path": "media/cb6e2208fdce-1620516.jpg",
+      "bytes": 287262,
+      "sha256": "8fc77091e671ab4104dc52f116f98c2e0a2d7f853e083632635103138dde1709"
+    },
+    {
+      "path": "media/cb9283260a50-UpperBleph_EndoscopicBrow-license-confirmed.jpg",
+      "bytes": 144615,
+      "sha256": "59b9b4b0d8ad8e5c14802592f49e7ba8b9a220d3c5cd5f32c649309cbee70933"
+    },
+    {
+      "path": "media/ccc31bb27eed-shutterstock-1514517212-large-350x225.jpg",
+      "bytes": 11706,
+      "sha256": "45f65385f181d3694ee722dc8f785db46f880a5051ca46934197fdabbf9153dd"
+    },
+    {
+      "path": "media/cd63f6ba2f9f-UpperBleph_BrowDrP-license-confirmed.jpg",
+      "bytes": 334288,
+      "sha256": "8bf991a50aff928c3bdc78c155f613343748778156936ef42bf36ead0f470eaf"
+    },
+    {
+      "path": "media/cd90ee15e292-1524824.jpg",
+      "bytes": 199981,
+      "sha256": "e1d1780ffca129e58243897808729d97784c82fcb3076a32f7a5f659637bc144"
+    },
+    {
+      "path": "media/d00b77eaa340-744cd28e-aeos-uppereyelid-ba1_10ku0ku000000000000028.jpg",
+      "bytes": 111641,
+      "sha256": "0c621d2c377f4ffb6fb488ffa6c4f364d9b8bdeba84f41a768beca3da0f19dd3"
+    },
+    {
+      "path": "media/d010920379cb-Tyler-Byers-license-confirmed.jpg",
+      "bytes": 114336,
+      "sha256": "68c492c7bf8ae249bdab3272b3ee758a40ae274f73910ea71a05d35a8ba95659"
+    },
+    {
+      "path": "media/d08fd29f522e-761733.jpg",
+      "bytes": 357637,
+      "sha256": "c8d10f03bac4cbacd25ee182e567d76346ed8e6d27db3a3d0f03abe8a52b937f"
+    },
+    {
+      "path": "media/d184f7c0b0f9-AdobeStock-435909889-medium.jpg",
+      "bytes": 191307,
+      "sha256": "a9d912a0e37821d3a7f76b5d56f0a800cfbc4a49e4afd6c2b129f1be5937307e"
+    },
+    {
+      "path": "media/d211613c12b6-1556817.jpg",
+      "bytes": 276421,
+      "sha256": "3ce0558ce205388c1c86ee179bf1cdeee75e370bb1689ffcb5765ea0574be724"
+    },
+    {
+      "path": "media/d505bde0ca11-1645-license-confirmed.jpg",
+      "bytes": 194228,
+      "sha256": "2299252ed57bd6ece3815b23f56b63635c43e67f837cca27049890f29db98f21"
+    },
+    {
+      "path": "media/d62883c9a87a-AEOS_NewService_HydrafacialAcneTreatment-license-confirmed.jpg",
+      "bytes": 49740,
+      "sha256": "6af3682869f01f0ddcdd7fcd78367cade041532cad04d2d39cf2520715836a5a"
+    },
+    {
+      "path": "media/d72aa5586015-1632442.jpg",
+      "bytes": 280032,
+      "sha256": "0bb82fa9100dde5a1bdda122f53e5eb4ddbe4e3a18e6201d231faa9015888eb7"
+    },
+    {
+      "path": "media/d788b5466fc0-1543013.jpg",
+      "bytes": 358068,
+      "sha256": "0dddf4602c41afda95f5262ec581f597750d8445621f4b3a57614816e3eb90a8"
+    },
+    {
+      "path": "media/db8753a37c1a-UpperLidBlephDr.Parg-license-confirmed.jpg",
+      "bytes": 165405,
+      "sha256": "e67409428417565935cc88059d29ed74b6314baab0113231651471effa06fbcd"
+    },
+    {
+      "path": "media/dc15d3647a59-bilateral-upper-lid-blepharoplasty-bilateral-ptosis-before-and-after-924-license-confirmed.jpg",
+      "bytes": 160081,
+      "sha256": "10915b629187ba6006712b3679105b436259efdb62577eadddc70022975dd438"
+    },
+    {
+      "path": "media/dc4ee24fc9be-0802101f-acs-logo_1000000000000000000028.png",
+      "bytes": 3180,
+      "sha256": "ed18ddbd94ca68b0d8bf167bb0252dc55a1d1fc973bba7ae4ad9574978f9eebd"
+    },
+    {
+      "path": "media/dc706aa92390-1578995.jpg",
+      "bytes": 266512,
+      "sha256": "dc06c3602122699aa85c358eaa13fe365339875893ab02eec4274d8e8ac77550"
+    },
+    {
+      "path": "media/dcbfdad9ecd8-AEOS_NewService_DermaplaneHydrateRedLight-license-confirmed.jpg",
+      "bytes": 49779,
+      "sha256": "5da20e6315f3ada0d065ea8a0f0f7112bc757814ca3b6a9456d9df9e2e9829f6"
+    },
+    {
+      "path": "media/e36b5b4ebbad-1124-license-confirmed.jpg",
+      "bytes": 248030,
+      "sha256": "9d28eebd12378e79562b134343a48b24c7600bc92137248f707d8dbbd2fc6eb4"
+    },
+    {
+      "path": "media/e47fbce0bdfa-111e50c5-ba-brow-3_1000000000000000000028.jpg",
+      "bytes": 84757,
+      "sha256": "7d8bdd50b1cecbc803356fc614186705c49e1888301cb67ab6389d46ab7a99f7"
+    },
+    {
+      "path": "media/e490487926f4-1577-ba.jpg",
+      "bytes": 62151,
+      "sha256": "ed9dbda6c6e6475e79e68bd2bec454dc58f79ed437056728fee127200fcdd69d"
+    },
+    {
+      "path": "media/e4ade0881981-shutterstock_1991709047-1-350x225.jpg",
+      "bytes": 10431,
+      "sha256": "3b8a7665184f5590079f1d4a61894c5183fc90ec16348a3d1ec7673495caa218"
+    },
+    {
+      "path": "media/e54c07061c51-UpperBlephBrowplasty-license-confirmed.jpg",
+      "bytes": 154901,
+      "sha256": "f87f1ff6555b105adaac20a28ad2fee083deebabb9da3a28e5bb5f6edba61978"
+    },
+    {
+      "path": "media/e5623f0e0133-977d3b76-aeos-uppereyelid-ba6_10ku0ku000000000000028.jpg",
+      "bytes": 100512,
+      "sha256": "45d9f4443788def41df9bb7d96f10885e5255da1a44859e1488947b64e3c7fa7"
+    },
+    {
+      "path": "media/e60795f125ae-1518962.jpg",
+      "bytes": 211204,
+      "sha256": "3a6b16dd716890cc37d6a15658b09f5dc3bb32591a27176dbdf57b49b0a55cae"
+    },
+    {
+      "path": "media/e658ad8d1cce-268ddb65-woman-bright-eyes-pattern_10r00f60hs0f600q000028.jpg",
+      "bytes": 26620,
+      "sha256": "e824c581dc7e2a222eb076c4e2c9b8fdb3a878691de8014f498f933784fe8e21"
+    },
+    {
+      "path": "media/e7211a07eb6e-3cef64df-schedule-icon_101e01g000000000000028.png",
+      "bytes": 580,
+      "sha256": "a9c7c416a4248ef6cc4b998183fa32aca980b25563b93a3180aa8acbe336f87c"
+    },
+    {
+      "path": "media/e742669e52ee-1155871.jpg",
+      "bytes": 269903,
+      "sha256": "296184c956c0519a553d9715d4e5232cfe444bc3b0a34eece51a0d6aa13dbe8a"
+    },
+    {
+      "path": "media/e77754e5251e-Best-of-Before-After-for-web.pptx_pages-to-jpg-0012.jpg",
+      "bytes": 29634,
+      "sha256": "fcd3f2b134fb72a9397738589c32cec2409ff8b0e116785af513cb58afd69ab8"
+    },
+    {
+      "path": "media/ea754a5583ed-ecd22791-aeos-waitingroom_11hc0u01hc0ns000034028.jpg",
+      "bytes": 350787,
+      "sha256": "2a6e5779902ce7084cc189280925cbf1613a9aaa98df10b164b144148ba9e32b"
+    },
+    {
+      "path": "media/eb89eaf438e2-455297.jpg",
+      "bytes": 156761,
+      "sha256": "4dfed7223f73060e453792d21ff40459897908a8d29f27b9f79126e58df3e232"
+    },
+    {
+      "path": "media/ebc6805a02ea-808191.jpg",
+      "bytes": 252280,
+      "sha256": "607b46a5bc7a6c4e278d8c0f2c6450bb0ad82c4b10fa8d4668398d18bed3947f"
+    },
+    {
+      "path": "media/ef166685206e-shutterstock-2087904052-medium.jpg",
+      "bytes": 233618,
+      "sha256": "1f2f53867998fc64755807a26fb69ea1212110480264261b1cae2a090f8fcaa1"
+    },
+    {
+      "path": "media/ef1ce92a13d6-795102.jpg",
+      "bytes": 319649,
+      "sha256": "c0dd1d30154c3a7d3bf2e80793cc077a5d74f03c233e25f247d636b709572616"
+    },
+    {
+      "path": "media/f28a2f1bebbf-f547f38a-top-docs-logo-2026-color_106u05a06s05a000000028.jpg",
+      "bytes": 7126,
+      "sha256": "269ba2b647120d014df21e05c1183c5dc31cf517e67b172dbe36fa700e758889"
+    },
+    {
+      "path": "media/f34c9e06915a-904b797b-aeos-uppereyelid-ba2_10ku0ku000000000000028.jpg",
+      "bytes": 107730,
+      "sha256": "f394651e5cae01dc1c953a3bedc4c21990f9c704e420d52099400a283b1b061e"
+    },
+    {
+      "path": "media/f49c626ce5e7-shutterstock-2430790499-large-350x225.jpg",
+      "bytes": 15266,
+      "sha256": "b2528380228c63783e4979676945eab332cb0058e0101161854c310d6c5b837a"
+    },
+    {
+      "path": "media/f4fe4fc4ee2e-824881.jpg",
+      "bytes": 258222,
+      "sha256": "efd74cb103499010d8058d1924e967efb3cd98819b1d7c7cca373c00513f9e17"
+    },
+    {
+      "path": "media/f5252780213e-UpperBleph_BrowLift_PtosisRepair-license-confirmed.jpg",
+      "bytes": 103257,
+      "sha256": "c10e8155be60a45502f98ef0b11e5143a9d88cf953f5ec05eed5be20edc9204d"
+    },
+    {
+      "path": "media/f53472f61da9-304777.jpg",
+      "bytes": 259376,
+      "sha256": "c497652e6298a431015ef3a8a587de452841bd1f94dd8498db82fce2c1b421c8"
+    },
+    {
+      "path": "media/f554412b940c-shutterstock_2190574647-350x225.jpg",
+      "bytes": 14148,
+      "sha256": "7f42daaae7caadfb662f3b2ad118d0aa0bd98f10a9ee1d62fa2763c879efd71f"
+    },
+    {
+      "path": "media/f658f82dc439-41501.jpg",
+      "bytes": 280267,
+      "sha256": "72446f8eea4eb9f914f20f49e8a2707c284ee94271e0b6e84ea39c9c9d298e73"
+    },
+    {
+      "path": "media/f6bfc411834e-Upper_LowerBlephBrowplasty-2-license-confirmed.jpg",
+      "bytes": 150571,
+      "sha256": "a2fc0ed16a4f17f0831a742f15f50db9b59e72f5d4b029739a6f4abddec5235f"
+    },
+    {
+      "path": "media/f6bfd8f44c88-a17fb62f-qoutes-icon_105004c05004a000000028.png",
+      "bytes": 1975,
+      "sha256": "65027dbf21f94bb3539f718ea0b3682321aea86e9b9f5cac7b87b363ad6a9bcc"
+    },
+    {
+      "path": "media/f9d5bd85d110-1076568.jpg",
+      "bytes": 317501,
+      "sha256": "a9fc6b00e332603ac334760dfd7d6e55373c433be79e0d66d32d95ffc1307521"
+    },
+    {
+      "path": "media/fb73e43a5829-393545e5-ba-upper-3_1000000000000000000028.jpg",
+      "bytes": 77072,
+      "sha256": "43c064c6c49d2fe7849f9fff64a365db7a0b2feeccb48811bde3cc4e78ee00b2"
+    },
+    {
+      "path": "media/fbca5e7cf6bb-446597.jpg",
+      "bytes": 322022,
+      "sha256": "f365875c49981e532463dcb1f66c621ee5099a4adbb1cdbd73ea6d6e2982c392"
+    },
+    {
+      "path": "media/fbe2dc8249e0-UpperBleph_PtosisRepair-license-confirmed.jpg",
+      "bytes": 161206,
+      "sha256": "6a8a0fc4f424bc497a1adeb4a5f63faeaeceee0a4fbbd67771945ed20a6c66e3"
+    },
+    {
+      "path": "media/fdbca8f1f6cf-420335.jpg",
+      "bytes": 279699,
+      "sha256": "8cde36c001801bc6b6887df6e7add97e83217f4fa1e8031e14d7840a80659332"
+    },
+    {
+      "path": "media/fdc847927b3b-1583924.jpg",
+      "bytes": 262497,
+      "sha256": "15701fec47a237cbf769775aab563b154c3e799046a5ac2afe3fe6089a116d01"
+    },
+    {
+      "path": "media/feb4f1031317-1574209w-CO2.jpg",
+      "bytes": 273142,
+      "sha256": "3646fffe7553bb9e3eeec9623acd54816f2bc8c6ed15c2bdee115070b595e049"
+    },
+    {
+      "path": "fonts/cherry-montserrat-1.ttf",
+      "bytes": 180068,
+      "sha256": "84f3d3275dfb159dd311c61828fd754a82ec31c377120518e2cd3e7d34394e96"
+    },
+    {
+      "path": "fonts/cherry-montserrat-2.ttf",
+      "bytes": 180036,
+      "sha256": "637639da93fdd9178e52662cce4bd5a59a544eb60677bb6ef9f89bc472607e5d"
+    },
+    {
+      "path": "fonts/cherry-montserrat-3.ttf",
+      "bytes": 180584,
+      "sha256": "c535bb158e8cfc3c27654f73aa68a87732899e7d9b10d8496b68605a56d947a7"
+    },
+    {
+      "path": "fonts/cherry-montserrat-4.ttf",
+      "bytes": 181028,
+      "sha256": "247f052d2f5b84a5bbe7831c3b08a71ca391ff54f1dfb9be88a3d3da569e3a38"
+    },
+    {
+      "path": "fonts/jizBRFtNs2ka5fXjeivQ4LroWlx-2zI.ttf",
+      "bytes": 62284,
+      "sha256": "a99e3db50076202713812ed541feeb23ffeebb61db1fa6b1cf48fe590d37ef18"
+    },
+    {
+      "path": "fonts/jizHRFtNs2ka5fXjeivQ4LroWlx-6zATiw.ttf",
+      "bytes": 64208,
+      "sha256": "fecf4861d5202405b8bd45c683858b6870642a026784fe0dbf88ff55dedee8a0"
+    },
+    {
+      "path": "fonts/LICENSE-dmsans.txt",
+      "bytes": 4482,
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+    },
+    {
+      "path": "fonts/LICENSE-instrumentserif.txt",
+      "bytes": 4405,
+      "sha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521"
+    },
+    {
+      "path": "fonts/LICENSE-inter.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    },
+    {
+      "path": "fonts/LICENSE-manrope.txt",
+      "bytes": 4387,
+      "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+    },
+    {
+      "path": "fonts/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAfJthTg.ttf",
+      "bytes": 48280,
+      "sha256": "b79a2ea7a38f33fd96a282fadb9ce97626bb0724a44d21075859f0e50239993a"
+    },
+    {
+      "path": "fonts/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAkJxhTg.ttf",
+      "bytes": 48308,
+      "sha256": "376427b5322148d8de1e03f263bcca4935a2d60ba71d9f94f4947ab664c711ae"
+    },
+    {
+      "path": "fonts/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxhTg.ttf",
+      "bytes": 48280,
+      "sha256": "b0ae3e89a7d3ef2b1838bb4b1ceb0b17cc3435af061eee809d76aa623ff116e9"
+    },
+    {
+      "path": "fonts/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwARZthTg.ttf",
+      "bytes": 48200,
+      "sha256": "2a8e7f713ee79fbccdef3cef5c787aff47580299f7da60144961e7db2ec08211"
+    },
+    {
+      "path": "fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc.woff2",
+      "bytes": 18748,
+      "sha256": "71d5ee93cc1e9f1d520a3a8b66456de18c7879d8df09d57fcd2eaff75fef0075"
+    },
+    {
+      "path": "fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc.woff2",
+      "bytes": 18996,
+      "sha256": "1be3448e292fbf05ffe176fe1e43f135013d50b1e7d324ad1a558f623d3bb6f6"
+    },
+    {
+      "path": "fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "bytes": 48256,
+      "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62"
+    },
+    {
+      "path": "fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7SUc.woff2",
+      "bytes": 85068,
+      "sha256": "34b9c504cab7a73e37b746343a449132e56cf7b5481af2cb81dc74dcff25c956"
+    },
+    {
+      "path": "fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc.woff2",
+      "bytes": 25960,
+      "sha256": "ca157063339ac4ad418f214f3abfed119b0798ab4d377386ce5c9e5a7a435ebd"
+    },
+    {
+      "path": "fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7SUc.woff2",
+      "bytes": 10252,
+      "sha256": "5c66f9e07e90c6d4ac4922cc68d60de26c17b1858e677fb5e603fce3952b3ff2"
+    },
+    {
+      "path": "fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7SUc.woff2",
+      "bytes": 11232,
+      "sha256": "6e9e020a25f9b56d418f2c085b1d3c09725a4da23fe693a5b463064606732190"
+    },
+    {
+      "path": "fonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZg.ttf",
+      "bytes": 326468,
+      "sha256": "b37284b5701b6b168dfc770aa1a4ac492106422fd3ba76bc7641e37434e8019c"
+    },
+    {
+      "path": "fonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf",
+      "bytes": 326048,
+      "sha256": "e7a1aaf7eda9f2fad4131725fa556265ec75ca7b2d756260173a040363e8d4f7"
+    },
+    {
+      "path": "fonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZg.ttf",
+      "bytes": 325304,
+      "sha256": "8c883f63b2c4157d997319f2c8bc6995ed4357ef371940d31ca159004a4aae63"
+    },
+    {
+      "path": "fonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf",
+      "bytes": 324820,
+      "sha256": "1b08e7fc267a5c7e1d614100f604b83e7e8a0be241f0f288faa2b3ac93a683ba"
+    },
+    {
+      "path": "fonts/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4aE-_F.ttf",
+      "bytes": 94928,
+      "sha256": "b9584e099e0e7f1e1e914c3037aabb9010c50346a3ce8df5eeeeecc0563044d8"
+    },
+    {
+      "path": "fonts/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4jE-_F.ttf",
+      "bytes": 95096,
+      "sha256": "6bad1a774228464cc88b8b0271555b266f7a3c64a7bedf15e165fdab4f6ac0ce"
+    },
+    {
+      "path": "fonts/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk59E-_F.ttf",
+      "bytes": 95688,
+      "sha256": "b8f802f05b322a7345805f5b89f8bb976604cc719a91530918d5ce3c47160950"
+    },
+    {
+      "path": "fonts/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk79FO_F.ttf",
+      "bytes": 94972,
+      "sha256": "a13d9b41b0a471ce58f0e46d377fa3cc76615e4632c3b15eb397caadf7a13f0a"
+    },
+    {
+      "path": "fonts/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk7PFO_F.ttf",
+      "bytes": 95060,
+      "sha256": "f433e5d333be1128d8ec8a28b8aadd0314d10e14e4105406076666bc830fc15d"
+    }
+  ]
+}

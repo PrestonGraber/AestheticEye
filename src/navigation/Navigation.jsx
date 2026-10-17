@@ -1,5 +1,6 @@
 import React, { useCallback, useEffect, useId, useLayoutEffect, useRef, useState } from 'react';
 import { Icon } from '../ui/Icons.jsx';
+import MobileMenu from './MobileMenu.jsx';
 import BrandMark from '../ui/BrandMark.jsx';
 import { BOOKING_URL, adjacentIndex, getNavigationLinks, navigationGroups } from './model.js';
 import { menuLayouts } from './MenuLayouts.jsx';
@@ -8,7 +9,7 @@ const asset = (file) => `${import.meta.env.BASE_URL}assets/${file}`;
 export const HOVER_OPEN_DELAY = 90;
 export const HOVER_CLOSE_DELAY = 240;
 
-export default function Navigation({ design = 'clarity', contrast, setContrast }) {
+export default function Navigation({ design = 'clarity', contrast, setContrast, homeHref }) {
   const [open, setOpen] = useState(null);
   const [active, setActive] = useState(0);
   const [query, setQuery] = useState('');
@@ -127,14 +128,17 @@ export default function Navigation({ design = 'clarity', contrast, setContrast }
     };
   }, [close, clearTimers]);
 
+  const compactNavigation = () => window.matchMedia('(max-width: 960px)').matches;
+
   function enterTrigger(event, index) {
+    if (compactNavigation()) return;
     if (event.pointerType !== 'mouse' || !window.matchMedia('(hover: hover)').matches) return;
     clearTimers();
     opening.current = setTimeout(() => reveal(index), HOVER_OPEN_DELAY);
   }
 
   function leaveHeader(event) {
-    if (event.pointerType !== 'mouse') return;
+    if (event.pointerType !== 'mouse' || compactNavigation()) return;
     clearTimeout(opening.current);
     closing.current = setTimeout(() => {
       // Do not dismiss a panel that a keyboard user is still working inside.
@@ -145,13 +149,14 @@ export default function Navigation({ design = 'clarity', contrast, setContrast }
   function activate(event, index) {
     clearTimers();
     const mouse =
+      !compactNavigation() &&
       event.detail > 0 &&
       lastPointerType.current === 'mouse' &&
       window.matchMedia('(hover: hover)').matches;
     if (mouse)
       reveal(index); // A click following hover must not flash the menu closed.
     else if (open === index) close();
-    else reveal(index, event.detail === 0 || window.matchMedia('(max-width: 960px)').matches);
+    else reveal(index, event.detail === 0 || compactNavigation());
   }
 
   function triggerKeys(event, index) {
@@ -168,6 +173,7 @@ export default function Navigation({ design = 'clarity', contrast, setContrast }
   }
 
   function goHome(event) {
+    if (homeHref) return;
     event.preventDefault();
     close();
     setMobile(false);
@@ -206,7 +212,12 @@ export default function Navigation({ design = 'clarity', contrast, setContrast }
       }}
     >
       <div className="ae-header-inner">
-        <a className="ae-brand" href="#main" onClick={goHome} aria-label="AestheticEye home">
+        <a
+          className="ae-brand"
+          href={homeHref || '#main'}
+          onClick={goHome}
+          aria-label="AestheticEye home"
+        >
           <BrandMark />
         </a>
         <button
@@ -214,7 +225,7 @@ export default function Navigation({ design = 'clarity', contrast, setContrast }
           type="button"
           className="ae-mobile-toggle"
           aria-expanded={mobile}
-          aria-controls={navId}
+          aria-controls={`${navId}-mobile`}
           onClick={() => {
             setMobile(!mobile);
             close();
@@ -261,6 +272,15 @@ export default function Navigation({ design = 'clarity', contrast, setContrast }
           <Icon name="arrow" />
         </a>
       </div>
+      {mobile && (
+        <MobileMenu
+          id={`${navId}-mobile`}
+          onNavigate={() => {
+            setMobile(false);
+            close();
+          }}
+        />
+      )}
       {group && (
         <div
           ref={panel}

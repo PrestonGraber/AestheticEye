@@ -1,0 +1,10 @@
+{
+  "pages": 270,
+  "redirects": 214,
+  "checks": [
+    "Real HTTP 404 for unknown paths",
+    "Canonical trailing slash redirects preserve query parameters",
+    "Video byte ranges work",
+    "No fake successful form endpoint"
+  ]
+}

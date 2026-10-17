@@ -1,0 +1,49 @@
+Employee access — frontend integration boundary
+
+Current implementation is NOT a production authentication backend. /employee/
+is a public sign-in screen, not a private data store. No private staff or patient
+data is bundled in the application. Without a configured API, staff sign-in is
+unavailable. The finished sign-in form is visible with disabled inputs and submission; no access is granted.
+
+During local development only, Preview dashboard design opens an explicitly
+labelled UI preview with no staff/patient data and no session change. This entry
+and preview branch are guarded by import.meta.env.DEV and removed in production.
+The dashboard provides Overview, Enquiries, Quiz leads and searchable Website
+resources views. Enquiries/quiz leads use connection-pending empty states.
+
+Base44 will provide hosting and backend authentication later. Current scope is frontend only. Base44 must implement, or replace this adapter with its supported
+authentication provider:
+
+GET /api/employee/session
+  JSON Content-Type, Cache-Control: no-store.
+  Unconfigured: {"configured":false}
+  Signed out: {"configured":true,"authenticated":false,
+    "passwordLogin":true,"csrfToken":"server-generated-token"}
+  Signed in: {"configured":true,"authenticated":true,
+    "csrfToken":"server-generated-token",
+    "user":{"name":"Staff name","role":"employee"}}
+  Only employee/admin role values are accepted by this frontend adapter.
+
+POST /api/employee/login
+  JSON body {email,password}; X-CSRF-Token header. Return 2xx only on a completed
+  sign-in. The frontend then rechecks the session; POST success alone never
+  opens the workspace. Use a maintained auth provider and do not store raw
+  passwords. Provider-specific MFA/SSO requires an adapter/UI update.
+
+POST /api/employee/logout
+  Invalidate the session server-side. The client clears the workspace immediately
+  and rechecks the session. Failed logout is clearly reported, not called success.
+
+Server requirements: HTTPS, Secure/HttpOnly/SameSite session cookies, session
+rotation and expiration, CSRF validation, login throttling, account provisioning,
+role checks on EVERY protected API, password recovery and appropriate MFA.
+Client role checks are presentation only; they do not secure a backend.
+
+Workspace currently links to public resources/gallery/contact information.
+No bookings, enquiries, patient records, analytics, or content-editing tools are
+implemented. Define approved staff workflows before adding protected endpoints.
+Do not use browser storage as an authentication mechanism.
+
+The production HTML route is noindex/nofollow and excluded from the sitemap.
+This prevents indexing; it does not replace authentication.
+

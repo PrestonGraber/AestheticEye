@@ -1,0 +1,44 @@
+AESTHETICEYE PRODUCTION READINESS — 2026-10-17
+
+Status: local implementation and verification in progress; not approved for production launch.
+Local preview: http://127.0.0.1:5174/
+
+Completed this pass
+- Marketing specialist: plain-language two-question guide, 16 verified local destinations,
+  direct campaign entry /?guide=1, consultation/first-visit next steps. No answers transmitted.
+- Designer: treatment reader previews, reading metadata, less intrusive mobile navigation,
+  searchable resource hubs; original clinical content retained.
+- Web developer: footer Employee access entry, /employee/ shell, provider-independent
+  login/session/sign-out UI, default-denied access and backend contract.
+- Manager: independent launch-gap audit and release acceptance checklist.
+
+Fresh evidence
+- test-results.json: 151 passing tests.
+- seo-verification.json and check-static-seo: 270 public pages; employee route noindex,
+  nofollow and excluded from sitemap.
+- asset-verification.json: 323 local files, no missing local assets or unexpected remote assets.
+  Cherry's official runtime widget is an explicit external service, not a copied asset.
+- hosting-verification.json: 270 routes, 214 redirects, real 404s, byte ranges, no fake POST success.
+- ../work/release-visual-checks.json: 12 desktop/mobile checks (1440, 390, 320), no detected
+  horizontal overflow or automated WCAG A/AA violations. This is not a full compliance certification.
+
+Unresolved launch gates
+1. User choice of Base44 versus standalone backend and exact staff dashboard responsibilities.
+2. Real employee provider/session/API integration, account provisioning, permissions, MFA and
+   password recovery. Current UI intentionally denies access with an unavailable backend.
+   See src/employee/INTEGRATION.txt. Public-resource workspace is not a CRM or patient system.
+3. Approved form workflow: old Unbounce campaign is replaced by contact embed today.
+   Delivery/confirmation tests remain unperformed because user explicitly declined real submissions.
+4. Final production host/domain validation, equivalent prerendering, redirects, HTTPS and 404s.
+5. Consent-aware analytics, campaign events and conversion verification. Quiz is a browsing
+   guide, not a diagnostic assessment or a lead-capture backend.
+
+No production deploy, DNS changes, real test enquiries, financing applications or payments sent.
+The user subsequently limited this work to frontend completion. These deployment gates remain for Base44; they are not complete.
+
+
+Additional completed pass: dedicated journal and team layouts; full-archive blog search; all 11 biographies preserved. All 269 internal routes checked at mobile width390 with no detected overflow, load errors or broken visible images. All258 downloaded media images decoded successfully. See full-site-verification.json and ../work/all-page-audit.json.
+
+Scope clarification 2026-10-17: user confirmed frontend-only work; Base44 backend/hosting connections deferred. Remaining backend release gates apply to later deployment, not to the current frontend work. Employee sign-in form is now reviewable with disabled fields when unconfigured.
+
+Frontend handoff verified: employee dashboard overview, enquiries, quiz leads and searchable resources. DEV-only preview is visibly labeled and excluded from production output. All151tests pass. All269internal pages also pass320px enlarged-reading checks. Backend integrations and real-data workflows remain deferred to Base44 by explicit user instruction.

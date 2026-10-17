@@ -86,28 +86,19 @@ describe('practice film', () => {
 });
 
 describe('small-screen navigation', () => {
-  it('moves into a selected section and returns to the five-item directory', async () => {
-    window.matchMedia.mockImplementation((query) => ({
-      ...defaultMedia(query),
-      matches: query === '(max-width: 960px)',
-    }));
+  it('expands a mobile section in place and closes with Escape', () => {
+    window.matchMedia.mockImplementation((query) => ({...defaultMedia(query),matches: query === '(max-width: 960px)'}));
     render(<Navigation setContrast={() => {}} />);
     fireEvent.click(screen.getByRole('button', { name: 'Menu', exact: true }));
-    const treatments = screen.getByRole('button', { name: 'Treatments', exact: true });
-    fireEvent.pointerDown(treatments, { pointerType: 'touch' });
-    fireEvent.click(treatments, { detail: 1 });
-    expect(document.activeElement.closest('.nav-links')).not.toBeNull();
-    fireEvent.click(screen.getByRole('button', { name: 'All sections' }));
-    await act(async () => new Promise((resolve) => setTimeout(resolve, 5)));
-    expect(screen.queryByRole('region')).toBeNull();
-    expect(document.activeElement).toBe(treatments);
-    expect(
-      screen.getByRole('button', { name: 'Close', exact: true }).getAttribute('aria-expanded'),
-    ).toBe('true');
+    const treatments = document.querySelector('.mobile-simple-menu .mobile-menu-group:nth-of-type(2) > button');
+    fireEvent.click(treatments);
+    expect(treatments.getAttribute('aria-expanded')).toBe('true');
+    expect(document.querySelector('.mobile-simple-menu').textContent).toContain('Cosmetic');
+    expect(screen.queryByRole('button', {name:'All sections'})).toBeNull();
+    fireEvent.click(treatments);
+    expect(treatments.getAttribute('aria-expanded')).toBe('false');
     fireEvent.keyDown(treatments, { key: 'Escape' });
-    expect(
-      screen.getByRole('button', { name: 'Menu', exact: true }).getAttribute('aria-expanded'),
-    ).toBe('false');
+    expect(screen.getByRole('button', { name: 'Menu', exact: true }).getAttribute('aria-expanded')).toBe('false');
   });
   it('does not dismiss a newly selected group on a null focus target', () => {
     render(<Navigation setContrast={() => {}} />);

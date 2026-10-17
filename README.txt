@@ -116,3 +116,11 @@ https://www.aestheticeyemd.com/ — captured October 4, 2026.
 Source spelling and clinical descriptions are preserved. Navigation grouping,
 interface labels, decorative elements and art direction are new. No backend,
 patient data collection, analytics or tracking was added.
+
+FULL CLARITY SITE
+Run npm run dev from this folder. The AestheticEye preview uses port 5174 (strict); port 5173 belongs to another project.
+Homepage: http://127.0.0.1:5174/#/
+Design archive: http://127.0.0.1:5174/#/designs
+The full site contains the Clarity homepage and 269 additional source routes. Source content is loaded per page from public/content; original media is stored in public/media. Source inventory: src/pages/source-manifest.json. Latest checks: full-site-verification.json.
+Third-party booking, portal, financing, and forms retain their existing provider destinations. No form submissions or payments were made during testing.
+

@@ -1,0 +1,39 @@
+{
+  "verifiedDate": "2026-10-17",
+  "productionReady": false,
+  "tests": {
+    "total": 151,
+    "passed": 151,
+    "failed": 0
+  },
+  "publicPages": 270,
+  "mobile": {
+    "width": 390,
+    "pages": 269,
+    "failures": []
+  },
+  "media": {
+    "media": 258,
+    "broken": []
+  },
+  "remainingReleaseGates": [
+    "Select authentication/hosting platform and staff workflows",
+    "Implement real staff authentication and permissions",
+    "Verify permitted form delivery and campaign workflow",
+    "Configure and verify consent-aware conversion tracking",
+    "Validate final-domain hosting, redirects and HTTPS"
+  ],
+  "scope": "Frontend only, per user clarification. Base44 backend/hosting later.",
+  "frontendReadyForHandoff": true,
+  "smallScreen": {
+    "width": 320,
+    "readingSize": "enlarged",
+    "pages": 269,
+    "failures": []
+  },
+  "dashboard": {
+    "checks": 12,
+    "failures": [],
+    "previewExcludedFromProduction": true
+  }
+}

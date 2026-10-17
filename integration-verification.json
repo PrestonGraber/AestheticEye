@@ -1,0 +1,95 @@
+{
+  "pagesAudited": 270,
+  "oldHostLinks": [],
+  "providerForms": [
+    {
+      "url": "https://api.leadconnectorhq.com/widget/form/zrbsgRHnE2gIYj6TzOuF",
+      "inputs": 9,
+      "buttons": 1,
+      "overflow": false
+    },
+    {
+      "url": "https://api.leadconnectorhq.com/widget/form/7xBtAFmlnlqJbmQgTob3",
+      "inputs": 5,
+      "buttons": 1,
+      "overflow": false
+    },
+    {
+      "url": "https://api.leadconnectorhq.com/widget/survey/pwWuwlxYSgzpYMP1d3hK",
+      "inputs": 40,
+      "buttons": 0,
+      "overflow": false
+    },
+    {
+      "url": "https://api.leadconnectorhq.com/widget/form/RWBMSI3ChZLnTZMrR1AN",
+      "inputs": 14,
+      "buttons": 1,
+      "overflow": false
+    },
+    {
+      "url": "https://api.leadconnectorhq.com/widget/form/yZkor0Arjxd6Z9s8q1Tm",
+      "inputs": 5,
+      "buttons": 1,
+      "overflow": false
+    },
+    {
+      "url": "https://api.leadconnectorhq.com/widget/form/WLrLriQxdtusMfmMwoqG",
+      "inputs": 6,
+      "buttons": 1,
+      "overflow": false
+    }
+  ],
+  "mobilePages": [
+    {
+      "route": "contact",
+      "overflow": false,
+      "iframeHeight": 1312
+    },
+    {
+      "route": "bundle-save",
+      "overflow": false,
+      "iframeHeight": 777
+    },
+    {
+      "route": "blepahroplasty-quiz",
+      "overflow": false,
+      "iframeHeight": 1100
+    },
+    {
+      "route": "referring-providers",
+      "overflow": false,
+      "iframeHeight": 1779
+    },
+    {
+      "route": "new-services-specials",
+      "overflow": false,
+      "iframeHeight": 1100
+    },
+    {
+      "route": "specials",
+      "overflow": false,
+      "iframeHeight": 883
+    },
+    {
+      "route": "oculoplastics-consultation",
+      "overflow": false,
+      "iframeHeight": 1312
+    }
+  ],
+  "submissionsTested": false,
+  "consultationChange": "Replaced obsolete Unbounce same-host /fsg endpoint with the existing AestheticEye Contact LeadConnector form. Original Unbounce fields and campaign automation are not reproduced.",
+  "externalServicesMustRemainActive": [
+    "LeadConnector forms and CRM",
+    "Klara booking",
+    "Cherry financing",
+    "EMA portal and payments",
+    "YouTube",
+    "Google Maps",
+    "Canva"
+  ],
+  "remainingLaunchVerification": [
+    "Authorized test submissions and confirmation of inbox/CRM delivery",
+    "Verify form redirects and any domain allowlists on production",
+    "Retain third-party accounts and business email/DNS services when retiring hosting"
+  ]
+}

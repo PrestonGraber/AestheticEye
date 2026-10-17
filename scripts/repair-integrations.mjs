@@ -1,0 +1,7 @@
+import fs from 'node:fs';
+const p='scripts/import-pages.mjs';let s=fs.readFileSync(p,'utf8');s=s.replace(',.btn-container','');
+s=s.replace("if(tag === 'form') { const a=doc.createElement('a');a.href=record.url;a.dataset.sourceService='true';a.textContent='Open the secure form';node.replaceWith(a); }",`if(tag === 'form') { const frame=doc.createElement('iframe');frame.src='https://api.leadconnectorhq.com/widget/form/zrbsgRHnE2gIYj6TzOuF';frame.title='Contact AestheticEye to request a consultation';frame.id='inline-zrbsgRHnE2gIYj6TzOuF';frame.className='source-survey';frame.setAttribute('data-form-id','zrbsgRHnE2gIYj6TzOuF');frame.setAttribute('data-layout-iframe-id',frame.id);frame.setAttribute('data-height','942');node.replaceWith(frame); }`);
+s=s.replace('www\\.youtube-nocookie\\.com|www\\.google','www\\.youtube-nocookie\\.com|www\\.canva\\.com|www\\.google');
+s=s.replace("      for(const a of [...node.attributes]) node.removeAttribute(a.name);", "      const embedAttributes=[...node.attributes].filter(a=>a.name==='id'||a.name.startsWith('data-')).map(a=>[a.name,a.value]);\n      for(const a of [...node.attributes]) node.removeAttribute(a.name);\n      if(src.includes('leadconnectorhq'))for(const [key,value] of embedAttributes)node.setAttribute(key,value);");
+s=s.replace("src.includes('maps')?'Practice location map':'AestheticEye video'", "src.includes('maps')?'Practice location map':src.includes('leadconnectorhq')?'Contact AestheticEye':'AestheticEye video'");
+fs.writeFileSync(p,s);

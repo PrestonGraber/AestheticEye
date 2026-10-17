@@ -23,7 +23,8 @@ export function usePointerDepth() {
   function move(event) {
     if (
       event.pointerType !== 'mouse' ||
-      window.matchMedia('(prefers-reduced-motion: reduce)').matches
+      window.matchMedia('(prefers-reduced-motion: reduce)').matches ||
+      document.documentElement.dataset.readingMotion === 'true'
     )
       return;
     const rect = event.currentTarget.getBoundingClientRect();

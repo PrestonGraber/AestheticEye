@@ -1,12 +1,15 @@
 {
   "name": "aestheticeye-design-collection",
   "version": "1.0.0",
-  "description": "Six art-directed AestheticEye homepage concepts in React, Vite and Tailwind",
+  "description": "AestheticEye practice website — Clarity",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && node scripts/prerender.mjs",
     "preview": "vite preview",
-    "test": "vitest run"
+    "test": "vitest run",
+    "test:seo": "node scripts/check-static-seo.mjs",
+    "start": "node scripts/serve-site.mjs",
+    "test:assets": "node scripts/check-assets.mjs"
   },
   "keywords": [],
   "author": "",
